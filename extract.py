@@ -1,4 +1,6 @@
 import pandas as pd
+import sqlite3
+
 
 def from_xslx_to_csv(filename, sheet, csvfilename = 'csvfile.csv'):
     data_xls = pd.read_excel(filename, sheet, dtype=str, index_col=None)
@@ -11,15 +13,29 @@ def get_sheet_names(filename):
     return xls.sheet_names
 
 def from_csv_to_dataframe(filename):
-    print(filename)
     data = pd.read_csv (filename)   
     return pd.DataFrame(data)
 
+def connect_dataframe_to_database(dfs, conn):
+    i = 0
+    for df in dfs:
+        df.to_sql(name='tablename' + str(i), con = conn)
+        i+=1
+
 if __name__=="__main__":
     dataframes = []
+    conn = sqlite3.connect('sample.db')
     sheet_names = get_sheet_names('data.xlsx')
+
     for sheet in sheet_names:
         csv = from_xslx_to_csv('data.xlsx', sheet,sheet+'.csv')
         dataframes.append(from_csv_to_dataframe(csv))
+
+    #connect_dataframe_to_database(dataframes,conn)
+    cursor = conn.execute("SELECT year FROM tablename0 WHERE nation=='Wales'")
+    for row in cursor:
+        print(row)
+    conn.commit()
+    conn.close()
 
     

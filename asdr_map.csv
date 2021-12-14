@@ -1,0 +1,73 @@
+nuts118cd,region,age_group,gender,male
+UKF,East Midlands,all_age,male,314.02639498031886
+UKH,East of England,all_age,male,285.3221780230236
+UKI,London,all_age,male,280.9069878294461
+UKC,North East,all_age,male,329.1796177059161
+UKD,North West,all_age,male,341.4446624578051
+UKJ,South East,all_age,male,272.5722346687402
+UKK,South West,all_age,male,292.7857159152033
+UKG,West Midlands,all_age,male,319.34567527706076
+UKE,Yorkshire and the Humber,all_age,male,335.13756908720205
+UKL,Wales,all_age,male,337.6181712520528
+UKM,Scotland,all_age,male,390.32846013464956
+UKN,Northern Ireland,all_age,male,309.428232042471
+UKF,East Midlands,under_75,male,101.61314795195534
+UKH,East of England,under_75,male,90.30451988286215
+UKI,London,under_75,male,97.9561870166709
+UKC,North East,under_75,male,115.1177284275876
+UKD,North West,under_75,male,120.42910108650095
+UKJ,South East,under_75,male,82.00440437818656
+UKK,South West,under_75,male,87.5672590198804
+UKG,West Midlands,under_75,male,109.98912548030815
+UKE,Yorkshire and the Humber,under_75,male,111.88941750508246
+UKL,Wales,under_75,male,119.83620154021509
+UKM,Scotland,under_75,male,127.56483634907498
+UKN,Northern Ireland,under_75,male,97.79896010877263
+UKF,East Midlands,all_age,female,213.32747299725182
+UKH,East of England,all_age,female,190.7895956010271
+UKI,London,all_age,female,187.99521146294694
+UKC,North East,all_age,female,220.1312837149542
+UKD,North West,all_age,female,231.71305373729024
+UKJ,South East,all_age,female,188.2465287098449
+UKK,South West,all_age,female,198.51043368662226
+UKG,West Midlands,all_age,female,217.17349304169792
+UKE,Yorkshire and the Humber,all_age,female,221.89615353176583
+UKL,Wales,all_age,female,225.64968312799056
+UKM,Scotland,all_age,female,277.03752422038684
+UKN,Northern Ireland,all_age,female,206.32020707101867
+UKF,East Midlands,under_75,female,46.24475568231755
+UKH,East of England,under_75,female,38.595486108153544
+UKI,London,under_75,female,41.89134038006731
+UKC,North East,under_75,female,52.44802205900077
+UKD,North West,under_75,female,55.89741372923651
+UKJ,South East,under_75,female,35.39611068342209
+UKK,South West,under_75,female,37.37694993680923
+UKG,West Midlands,under_75,female,48.67018842862043
+UKE,Yorkshire and the Humber,under_75,female,51.92098450988277
+UKL,Wales,under_75,female,52.74087710570109
+UKM,Scotland,under_75,female,60.8151229186959
+UKN,Northern Ireland,under_75,female,45.44270386188137
+UKF,East Midlands,all_age,all,235.04573652668356
+UKH,East of England,all_age,all,233.9791126307312
+UKI,London,all_age,all,230.8707501784806
+UKC,North East,all_age,all,269.4955277146341
+UKD,North West,all_age,all,282.2701166821718
+UKJ,South East,all_age,all,227.0623683527863
+UKK,South West,all_age,all,241.0065064346671
+UKG,West Midlands,all_age,all,264.2596834571414
+UKE,Yorkshire and the Humber,all_age,all,272.6762061891957
+UKL,Wales,all_age,all,277.6093414017795
+UKM,Scotland,all_age,all,328.2132671854506
+UKN,Northern Ireland,all_age,all,252.12746318562498
+UKF,East Midlands,under_75,all,66.80779161103241
+UKH,East of England,under_75,all,63.70593843468609
+UKI,London,under_75,all,68.82706481077567
+UKC,North East,under_75,all,82.8392200721323
+UKD,North West,under_75,all,87.46536803105181
+UKJ,South East,under_75,all,58.014483756624344
+UKK,South West,under_75,all,61.70459489078314
+UKG,West Midlands,under_75,all,78.67248931745007
+UKE,Yorkshire and the Humber,under_75,all,81.24214219059527
+UKL,Wales,under_75,all,85.36229508231254
+UKM,Scotland,under_75,all,92.95875920711549
+UKN,Northern Ireland,under_75,all,70.87816715164564

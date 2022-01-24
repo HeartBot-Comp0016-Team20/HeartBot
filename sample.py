@@ -1,26 +1,25 @@
-# Import "chatbot" from
-# chatterbot package.
 from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
 
-# Inorder to train our bot, we have
-# to import a trainer package
-# "ChatterBotCorpusTrainer"
-from chatterbot.trainers import ChatterBotCorpusTrainer
+data=[]
+with open('FAQs.txt') as f:
+	lines = f.readlines()
+	for line in lines:
+		data.append(line.strip('\n'))
+bot=ChatBot(
+	'Heartbot',
+	storage_adapter = 'chatterbot.storage.SQLStorageAdapter',
+	database_uri = 'sqlite:///database.sqlite3',
+	logic_adapters = [
+		'chatterbot.logic.BestMatch',
+		'chatterbot.logic.TimeLogicAdapter'],
+	
+)
+
+trainer = ListTrainer(bot)
+
+trainer.train(data)
+response = bot.get_response('How many people have heart failure in Wales?')
+print("Bot Response:",response)
 
 
-# Give a name to the chatbot “corona bot”
-# and assign a trainer component.
-chatbot=ChatBot('corona bot')
-
-# Create a new trainer for the chatbot
-trainer = ChatterBotCorpusTrainer(chatbot)
-
-# Now let us train our bot with multiple corpus
-trainer.train("chatterbot.corpus.english.greetings",
-			"chatterbot.corpus.english.conversations" )
-
-response = chatbot.get_response('What is your Number')
-print(response)
-
-response = chatbot.get_response('Who are you?')
-print(response)

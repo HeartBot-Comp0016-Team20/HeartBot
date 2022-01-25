@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 
 data=[]
-with open('FAQs.txt') as f:
+with open('FAQs copy.txt') as f:
 	lines = f.readlines()
 	for line in lines:
 		data.append(line.strip('\n'))
@@ -17,9 +17,18 @@ bot=ChatBot(
 )
 
 trainer = ListTrainer(bot)
-
 trainer.train(data)
-response = bot.get_response('How many people have heart failure in Wales?')
-print("Bot Response:",response)
+
+# Test Questions:
+#1) How many people have heart failure in Wales?
+#2) How many people are affected by Heart and Circulatory Diseases in the UK?
+
+print("Welcome to HeartBot FAQ! \n")
+question = input("Please enter your question: ")
+while question not in ["bye","exit"]:
+	response = bot.get_response(question)
+	print("Bot Response:",response,"\n")
+	question = input("Please enter your question: ")
+print("Thank you for using HeartBot FAQ \n")
 
 

@@ -4,7 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-chatterbot = "*"
+xlrd = "*"
+pandas = "*"
+chatterbot = "==1.0.4"
+chatterbot-corpus = "*"
 
 [dev-packages]
 

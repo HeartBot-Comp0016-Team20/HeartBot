@@ -1,8 +1,9 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
+from sample2 import startChat
 
 data=[]
-with open('FAQs copy.txt') as f:
+with open('FAQs.txt') as f:
 	lines = f.readlines()
 	for line in lines:
 		data.append(line.strip('\n'))
@@ -10,9 +11,18 @@ bot=ChatBot(
 	'Heartbot',
 	storage_adapter = 'chatterbot.storage.SQLStorageAdapter',
 	database_uri = 'sqlite:///database.sqlite3',
-	logic_adapters = [
-		'chatterbot.logic.BestMatch',
-		'chatterbot.logic.TimeLogicAdapter'],
+	logic_adapters=[
+        {
+            "import_path": "chatterbot.logic.BestMatch",
+            "statement_comparison_function": "chatterbot.comparisons.jaccard_similarity",
+            "response_selection_method": "chatterbot.response_selection.get_first_response"
+        },
+        {
+            'import_path': 'chatterbot.logic.LowConfidenceAdapter',
+            'threshold': 0.65,
+            'default_response': "I didn't understand that question; do you need help with Math, Excel, Music or Graphic?"
+        }
+    ],
 	
 )
 

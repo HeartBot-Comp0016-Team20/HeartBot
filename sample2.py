@@ -104,4 +104,5 @@ def startChat():
     chat.converse()
 
 if __name__ == "__main__":
+    print(reflections)
     startChat()

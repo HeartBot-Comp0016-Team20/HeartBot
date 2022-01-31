@@ -50,37 +50,40 @@ class Chat:
                     resp = resp[:-2] + "?"
                 return resp
 
+    # Hold a conversation with a chatbot
+    def converse(self, quit="quit"):
+        user_input = ""
+        while user_input != quit:
+            user_input = quit
+            try:
+                user_input = input(">")
+            except EOFError:
+                print(user_input)
+            if user_input:
+                while user_input[-1] in "!.":
+                    user_input = user_input[:-1]
+                try:
+                    user_input = findClosestQuestion(user_input)
+                    print(self.respond(user_input))
+                except ZeroDivisionError:
+                    print(self.respond("NA"))
+
     # # Hold a conversation with a chatbot
     # def converse(self, quit="quit"):
+    #     data=[]
+    #     with open('testQ.txt') as f:
+    #         lines = f.readlines()
+    #         for line in lines:
+    #             data.append(line.strip('\n'))
+
     #     user_input = ""
-    #     while user_input != quit:
-    #         user_input = quit
-    #         try:
-    #             user_input = input(">")
-    #         except EOFError:
-    #             print(user_input)
+    #     for i in range(0,len(data)):
+    #         user_input = data[i]
     #         if user_input:
     #             while user_input[-1] in "!.":
     #                 user_input = user_input[:-1]
     #             user_input = findClosestQuestion(user_input)
     #             print(self.respond(user_input))
-
-    # Hold a conversation with a chatbot
-    def converse(self, quit="quit"):
-        data=[]
-        with open('testQ.txt') as f:
-            lines = f.readlines()
-            for line in lines:
-                data.append(line.strip('\n'))
-
-        user_input = ""
-        for i in range(0,len(data)):
-            user_input = data[i]
-            if user_input:
-                while user_input[-1] in "!.":
-                    user_input = user_input[:-1]
-                user_input = findClosestQuestion(user_input)
-                print(self.respond(user_input))
   
 def findClosestQuestion(userQ):
     data = []
@@ -116,7 +119,7 @@ def findClosestQuestion(userQ):
         cosineSimValsList.append(cosine)
     maxSim = max(cosineSimValsList)
     if maxSim < 0.55:
-        return("I dont understand")
+        return(userQ)
     else:
         index = cosineSimValsList.index(maxSim)
         return(data[index])
@@ -211,7 +214,10 @@ pairs = [
         r"What local authority is worst affected by heart and circulatory diseases in the UK?",
         ["West Dunbartonshire in Scotland has the highest rate of age standardised deaths from Heart and Circulatory Diseases in the UK."]
     ],
-
+    [
+        r"NA",
+        ["i dont understand the question"]
+    ],
     [
         r"quit",
         ["Bye take care. See you soon :) ","It was nice talking to you. See you soon :)","Thank you for using HeartBot FAQ"]

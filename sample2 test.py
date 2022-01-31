@@ -64,9 +64,12 @@ class Chat:
                     user_input = user_input[:-1]
                 try:
                     user_input = findClosestQuestion(user_input)
-                    print(self.respond(user_input))
+                    if (self.respond(user_input)!= None):
+                        print(self.respond(user_input))
+                    else:
+                        print("I dont understand")
                 except ZeroDivisionError:
-                    print(self.respond("NA"))
+                    print("I dont understand")
 
     # # Hold a conversation with a chatbot
     # def converse(self, quit="quit"):

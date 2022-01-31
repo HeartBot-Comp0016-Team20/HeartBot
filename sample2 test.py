@@ -22,7 +22,7 @@ class Chat:
         return self._regex.sub(lambda mo: self._reflections[mo.string[mo.start() : mo.end()]], str.lower())
 
     def _wildcards(self, response, match):
-        pos = response.find("%")
+        pos = -1
         while pos >= 0:
             num = int(response[pos + 1 : pos + 2])
             response = (

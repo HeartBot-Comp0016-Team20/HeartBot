@@ -71,23 +71,7 @@ class Chat:
                 except ZeroDivisionError:
                     print("I dont understand")
 
-    # # Hold a conversation with a chatbot
-    # def converse(self, quit="quit"):
-    #     data=[]
-    #     with open('testQ.txt') as f:
-    #         lines = f.readlines()
-    #         for line in lines:
-    #             data.append(line.strip('\n'))
 
-    #     user_input = ""
-    #     for i in range(0,len(data)):
-    #         user_input = data[i]
-    #         if user_input:
-    #             while user_input[-1] in "!.":
-    #                 user_input = user_input[:-1]
-    #             user_input = findClosestQuestion(user_input)
-    #             print(self.respond(user_input))
-  
 def findClosestQuestion(userQ):
     data = []
     with open('FAQs_q.txt') as f:

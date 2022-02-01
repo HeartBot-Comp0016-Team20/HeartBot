@@ -1,6 +1,3 @@
-#https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
-#https://www.geeksforgeeks.org/python-measure-similarity-between-two-sentences-using-cosine-similarity/
-#https://www.nltk.org/_modules/nltk/chat/util.html#Chat
 import nltk
 from nltk.chat.util import reflections
 from nltk.corpus import stopwords
@@ -50,6 +47,21 @@ class Chat:
                     resp = resp[:-2] + "?"
                 return resp
 
+
+    def check_input(self, user_input):
+        matcher = BestMatch()
+        if user_input:
+            while user_input[-1] in "!.":
+                user_input = user_input[:-1]
+            try:
+                user_input = matcher.findClosestQuestion(user_input)
+                if (self.respond(user_input)!= None):
+                    print(self.respond(user_input))
+                else:
+                    print("I dont understand")
+            except ZeroDivisionError:
+                print("I dont understand")
+
     # Hold a conversation with a chatbot
     def converse(self, quit="quit"):
         user_input = ""
@@ -59,59 +71,78 @@ class Chat:
                 user_input = input(">")
             except EOFError:
                 print(user_input)
-            if user_input:
-                while user_input[-1] in "!.":
-                    user_input = user_input[:-1]
-                try:
-                    user_input = findClosestQuestion(user_input)
-                    if (self.respond(user_input)!= None):
-                        print(self.respond(user_input))
-                    else:
-                        print("I dont understand")
-                except ZeroDivisionError:
-                    print("I dont understand")
+            self.check_input(user_input)
+            
+class BestMatch:
+    def __init__(self):
+        self.data = []
+        self.cosineSimValsList = []
+
+    def take_data(self, filename='FAQs_q.txt'):
+        with open(filename) as f:
+            lines = f.readlines()
+            for line in lines:
+                self.data.append(line.strip('\n'))
 
 
-def findClosestQuestion(userQ):
-    data = []
-    with open('FAQs_q.txt') as f:
-        lines = f.readlines()
-        for line in lines:
-            data.append(line.strip('\n'))
-    cosineSimValsList = []
-    for q in data:
-        X = userQ
-        Y = q
-        # tokenization
+    def tokenize(self, X, Y):
         X_list = word_tokenize(X) 
         Y_list = word_tokenize(Y)
+
+        return X_list, Y_list
+
+    def remove_stopwords(self,X_list,Y_list):
         # sw contains the list of stopwords
         sw = stopwords.words('english') 
         l1 =[];l2 =[]
+  
         # remove stop words from the string
         X_set = {w for w in X_list if not w in sw} 
         Y_set = {w for w in Y_list if not w in sw}
+
+        return l1,l2, X_set, Y_set
+
+    def form_vector(self, X_set, Y_set, l1, l2):
         # form a set containing keywords of both strings 
         rvector = X_set.union(Y_set) 
         for w in rvector:
-            if w in X_set: l1.append(1) # create a vector
-            else: l1.append(0)
-            if w in Y_set: l2.append(1)
-            else: l2.append(0)
+                if w in X_set: l1.append(1) # create a vector
+                else: l1.append(0)
+                if w in Y_set: l2.append(1)
+                else: l2.append(0)
+
+        return l1, l2, rvector
+
+    def cosine_formula (self, l1, l2, rvector, cosineSimValsList):
         c = 0
-        # cosine formula 
         for i in range(len(rvector)):
-                c+= l1[i]*l2[i]
+            c+= l1[i]*l2[i]
         cosine = c / float((sum(l1)*sum(l2))**0.5)
         cosineSimValsList.append(cosine)
-    maxSim = max(cosineSimValsList)
-    if maxSim < 0.55:
-        return(userQ)
-    else:
-        index = cosineSimValsList.index(maxSim)
-        return(data[index])
 
+    def calculate_maxSim(self, userQ, data, cosineSimValsList):
+        maxSim = max(cosineSimValsList)
+        if maxSim < 0.55:
+            return(userQ)
+        else:
+            index = cosineSimValsList.index(maxSim)
+            return(data[index])
+        
+    def findClosestQuestion(self, userQ):
+        data = self.data
+        cosineSimValsList = self.cosineSimValsList
+        self.take_data()
 
+        for q in data:
+        
+            X_list, Y_list = self.tokenize(userQ, q)
+            l1,l2, X_set,Y_set = self.remove_stopwords(X_list,Y_list)
+            l1,l2, rvector = self.form_vector(X_set, Y_set, l1, l2)
+            self.cosine_formula(l1,l2,rvector,cosineSimValsList)
+
+        return self.calculate_maxSim(userQ, data, cosineSimValsList)
+        
+      
 pairs = [
     [
         r"hi|hey|hello",
@@ -218,3 +249,9 @@ def startChat():
 
 if __name__ == "__main__":
     startChat()
+
+
+# Sources:
+#   https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
+#   https://www.geeksforgeeks.org/python-measure-similarity-between-two-sentences-using-cosine-similarity/
+#   https://www.nltk.org/_modules/nltk/chat/util.html#Chat

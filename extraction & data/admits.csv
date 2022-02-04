@@ -1,0 +1,451 @@
+nation,fin_year,disease,admits_all_cvd
+UK,2005/06,cvd,
+UK,2006/07,cvd,
+UK,2007/08,cvd,
+UK,2008/09,cvd,
+UK,2009/10,cvd,
+UK,2010/11,cvd,
+UK,2011/12,cvd,1126145
+UK,2012/13,cvd,1109777
+UK,2013/14,cvd,1126470
+UK,2014/15,cvd,1140665
+UK,2015/16,cvd,1173042
+UK,2016/17,cvd,1084558
+UK,2017/18,cvd,1088217
+UK,2018/19,cvd,1113349
+UK,2019/20,cvd,1127647.9430584323
+England,2005/06,cvd,
+England,2006/07,cvd,
+England,2007/08,cvd,897843
+England,2008/09,cvd,917317
+England,2009/10,cvd,925007
+England,2010/11,cvd,936007
+England,2011/12,cvd,941880
+England,2012/13,cvd,930641
+England,2013/14,cvd,944753
+England,2014/15,cvd,962129
+England,2015/16,cvd,994450
+England,2016/17,cvd,918298
+England,2017/18,cvd,925576
+England,2018/19,cvd,947200
+England,2019/20,cvd,963782.9430584323
+Wales,2005/06,cvd,54249
+Wales,2006/07,cvd,54906
+Wales,2007/08,cvd,55272
+Wales,2008/09,cvd,56997
+Wales,2009/10,cvd,56032
+Wales,2010/11,cvd,55059
+Wales,2011/12,cvd,53577
+Wales,2012/13,cvd,52671
+Wales,2013/14,cvd,53665
+Wales,2014/15,cvd,52852
+Wales,2015/16,cvd,53087
+Wales,2016/17,cvd,49424
+Wales,2017/18,cvd,46917
+Wales,2018/19,cvd,49390
+Wales,2019/20,cvd,48261
+Scotland,2005/06,cvd,
+Scotland,2006/07,cvd,
+Scotland,2007/08,cvd,
+Scotland,2008/09,cvd,94096
+Scotland,2009/10,cvd,91714
+Scotland,2010/11,cvd,91518
+Scotland,2011/12,cvd,91688
+Scotland,2012/13,cvd,90765
+Scotland,2013/14,cvd,91252
+Scotland,2014/15,cvd,89884
+Scotland,2015/16,cvd,90805
+Scotland,2016/17,cvd,84036
+Scotland,2017/18,cvd,83624
+Scotland,2018/19,cvd,83759
+Scotland,2019/20,cvd,83099
+Northern Ireland,2005/06,cvd,
+Northern Ireland,2006/07,cvd,
+Northern Ireland,2007/08,cvd,
+Northern Ireland,2008/09,cvd,
+Northern Ireland,2009/10,cvd,
+Northern Ireland,2010/11,cvd,
+Northern Ireland,2011/12,cvd,39000
+Northern Ireland,2012/13,cvd,35700
+Northern Ireland,2013/14,cvd,36800
+Northern Ireland,2014/15,cvd,35800
+Northern Ireland,2015/16,cvd,34700
+Northern Ireland,2016/17,cvd,32800
+Northern Ireland,2017/18,cvd,32100
+Northern Ireland,2018/19,cvd,33000
+Northern Ireland,2019/20,cvd,32505
+UK,2005/06,chd,
+UK,2006/07,chd,
+UK,2007/08,chd,
+UK,2008/09,chd,
+UK,2009/10,chd,
+UK,2010/11,chd,
+UK,2011/12,chd,335851
+UK,2012/13,chd,330552
+UK,2013/14,chd,328162
+UK,2014/15,chd,320939
+UK,2015/16,chd,318154
+UK,2016/17,chd,317115
+UK,2017/18,chd,312763
+UK,2018/19,chd,311519
+UK,2019/20,chd,304745.2939045811
+England,2005/06,chd,
+England,2006/07,chd,
+England,2007/08,chd,305988
+England,2008/09,chd,300164
+England,2009/10,chd,285426
+England,2010/11,chd,279923
+England,2011/12,chd,280794
+England,2012/13,chd,276762
+England,2013/14,chd,273873
+England,2014/15,chd,269116
+England,2015/16,chd,267016
+England,2016/17,chd,266725
+England,2017/18,chd,263656
+England,2018/19,chd,261100
+England,2019/20,chd,255562.29390458108
+Wales,2005/06,chd,17428
+Wales,2006/07,chd,17990
+Wales,2007/08,chd,17945
+Wales,2008/09,chd,17913
+Wales,2009/10,chd,16811
+Wales,2010/11,chd,16325
+Wales,2011/12,chd,15601
+Wales,2012/13,chd,14961
+Wales,2013/14,chd,14646
+Wales,2014/15,chd,13969
+Wales,2015/16,chd,14338
+Wales,2016/17,chd,13873
+Wales,2017/18,chd,13262
+Wales,2018/19,chd,13752
+Wales,2019/20,chd,13663
+Scotland,2005/06,chd,
+Scotland,2006/07,chd,
+Scotland,2007/08,chd,
+Scotland,2008/09,chd,28645
+Scotland,2009/10,chd,26689
+Scotland,2010/11,chd,27331
+Scotland,2011/12,chd,27156
+Scotland,2012/13,chd,26129
+Scotland,2013/14,chd,25943
+Scotland,2014/15,chd,24854
+Scotland,2015/16,chd,24100
+Scotland,2016/17,chd,24417
+Scotland,2017/18,chd,24245
+Scotland,2018/19,chd,24667
+Scotland,2019/20,chd,24288
+Northern Ireland,2005/06,chd,
+Northern Ireland,2006/07,chd,
+Northern Ireland,2007/08,chd,
+Northern Ireland,2008/09,chd,
+Northern Ireland,2009/10,chd,
+Northern Ireland,2010/11,chd,
+Northern Ireland,2011/12,chd,12300
+Northern Ireland,2012/13,chd,12700
+Northern Ireland,2013/14,chd,13700
+Northern Ireland,2014/15,chd,13000
+Northern Ireland,2015/16,chd,12700
+Northern Ireland,2016/17,chd,12100
+Northern Ireland,2017/18,chd,11600
+Northern Ireland,2018/19,chd,12000
+Northern Ireland,2019/20,chd,11232
+UK,2005/06,af,
+UK,2006/07,af,
+UK,2007/08,af,
+UK,2008/09,af,
+UK,2009/10,af,
+UK,2010/11,af,
+UK,2011/12,af,114787
+UK,2012/13,af,116766
+UK,2013/14,af,119556
+UK,2014/15,af,121029
+UK,2015/16,af,127122
+UK,2016/17,af,128624
+UK,2017/18,af,128580
+UK,2018/19,af,134707
+UK,2019/20,af,136180.23204164256
+England,2005/06,af,
+England,2006/07,af,
+England,2007/08,af,85610
+England,2008/09,af,88469
+England,2009/10,af,91782
+England,2010/11,af,94450
+England,2011/12,af,96065
+England,2012/13,af,98169
+England,2013/14,af,100616
+England,2014/15,af,102202
+England,2015/16,af,107513
+England,2016/17,af,109092
+England,2017/18,af,109564
+England,2018/19,af,115300
+England,2019/20,af,117608.23204164256
+Wales,2005/06,af,4969
+Wales,2006/07,af,4880
+Wales,2007/08,af,5019
+Wales,2008/09,af,4919
+Wales,2009/10,af,5097
+Wales,2010/11,af,5389
+Wales,2011/12,af,5418
+Wales,2012/13,af,5505
+Wales,2013/14,af,5691
+Wales,2014/15,af,5577
+Wales,2015/16,af,5642
+Wales,2016/17,af,5884
+Wales,2017/18,af,5450
+Wales,2018/19,af,5820
+Wales,2019/20,af,5155
+Scotland,2005/06,af,
+Scotland,2006/07,af,
+Scotland,2007/08,af,
+Scotland,2008/09,af,8821
+Scotland,2009/10,af,8724
+Scotland,2010/11,af,9203
+Scotland,2011/12,af,9304
+Scotland,2012/13,af,9192
+Scotland,2013/14,af,9449
+Scotland,2014/15,af,9450
+Scotland,2015/16,af,9667
+Scotland,2016/17,af,9548
+Scotland,2017/18,af,9666
+Scotland,2018/19,af,9787
+Scotland,2019/20,af,9609
+Northern Ireland,2005/06,af,
+Northern Ireland,2006/07,af,
+Northern Ireland,2007/08,af,
+Northern Ireland,2008/09,af,
+Northern Ireland,2009/10,af,
+Northern Ireland,2010/11,af,
+Northern Ireland,2011/12,af,4000
+Northern Ireland,2012/13,af,3900
+Northern Ireland,2013/14,af,3800
+Northern Ireland,2014/15,af,3800
+Northern Ireland,2015/16,af,4300
+Northern Ireland,2016/17,af,4100
+Northern Ireland,2017/18,af,3900
+Northern Ireland,2018/19,af,3800
+Northern Ireland,2019/20,af,3808
+UK,2005/06,hf,
+UK,2006/07,hf,
+UK,2007/08,hf,
+UK,2008/09,hf,
+UK,2009/10,hf,
+UK,2010/11,hf,
+UK,2011/12,hf,74534
+UK,2012/13,hf,76743
+UK,2013/14,hf,78459
+UK,2014/15,hf,84453
+UK,2015/16,hf,91667
+UK,2016/17,hf,95764
+UK,2017/18,hf,99840
+UK,2018/19,hf,101938
+UK,2019/20,hf,110511.4939015487
+England,2005/06,hf,
+England,2006/07,hf,
+England,2007/08,hf,58582
+England,2008/09,hf,57916
+England,2009/10,hf,58513
+England,2010/11,hf,59221
+England,2011/12,hf,60419
+England,2012/13,hf,62378
+England,2013/14,hf,64200
+England,2014/15,hf,70143
+England,2015/16,hf,76994
+England,2016/17,hf,80603
+England,2017/18,hf,84776
+England,2018/19,hf,86500
+England,2019/20,hf,94146.4939015487
+Wales,2005/06,hf,5022
+Wales,2006/07,hf,4576
+Wales,2007/08,hf,4645
+Wales,2008/09,hf,4711
+Wales,2009/10,hf,4390
+Wales,2010/11,hf,4685
+Wales,2011/12,hf,4447
+Wales,2012/13,hf,4609
+Wales,2013/14,hf,4494
+Wales,2014/15,hf,4564
+Wales,2015/16,hf,4443
+Wales,2016/17,hf,4634
+Wales,2017/18,hf,4387
+Wales,2018/19,hf,4535
+Wales,2019/20,hf,4642
+Scotland,2005/06,hf,
+Scotland,2006/07,hf,
+Scotland,2007/08,hf,
+Scotland,2008/09,hf,7245
+Scotland,2009/10,hf,6992
+Scotland,2010/11,hf,7058
+Scotland,2011/12,hf,7268
+Scotland,2012/13,hf,7056
+Scotland,2013/14,hf,6965
+Scotland,2014/15,hf,6946
+Scotland,2015/16,hf,7430
+Scotland,2016/17,hf,7627
+Scotland,2017/18,hf,7677
+Scotland,2018/19,hf,7703
+Scotland,2019/20,hf,8138
+Northern Ireland,2005/06,hf,
+Northern Ireland,2006/07,hf,
+Northern Ireland,2007/08,hf,
+Northern Ireland,2008/09,hf,
+Northern Ireland,2009/10,hf,
+Northern Ireland,2010/11,hf,
+Northern Ireland,2011/12,hf,2400
+Northern Ireland,2012/13,hf,2700
+Northern Ireland,2013/14,hf,2800
+Northern Ireland,2014/15,hf,2800
+Northern Ireland,2015/16,hf,2800
+Northern Ireland,2016/17,hf,2900
+Northern Ireland,2017/18,hf,3000
+Northern Ireland,2018/19,hf,3200
+Northern Ireland,2019/20,hf,3585
+UK,2005/06,stroke_tia,
+UK,2006/07,stroke_tia,
+UK,2007/08,stroke_tia,
+UK,2008/09,stroke_tia,
+UK,2009/10,stroke_tia,
+UK,2010/11,stroke_tia,
+UK,2011/12,stroke_tia,127312
+UK,2012/13,stroke_tia,127963
+UK,2013/14,stroke_tia,127513
+UK,2014/15,stroke_tia,128038
+UK,2015/16,stroke_tia,129744
+UK,2016/17,stroke_tia,128571
+UK,2017/18,stroke_tia,129556
+UK,2018/19,stroke_tia,131862
+UK,2019/20,stroke_tia,135669.83425506804
+England,2005/06,stroke_tia,
+England,2006/07,stroke_tia,
+England,2007/08,stroke_tia,93136
+England,2008/09,stroke_tia,95841
+England,2009/10,stroke_tia,101319
+England,2010/11,stroke_tia,104475
+England,2011/12,stroke_tia,106516
+England,2012/13,stroke_tia,107412
+England,2013/14,stroke_tia,106531
+England,2014/15,stroke_tia,107279
+England,2015/16,stroke_tia,108940
+England,2016/17,stroke_tia,107828
+England,2017/18,stroke_tia,109124
+England,2018/19,stroke_tia,111100
+England,2019/20,stroke_tia,114990.83425506804
+Wales,2005/06,stroke_tia,7305
+Wales,2006/07,stroke_tia,6912
+Wales,2007/08,stroke_tia,6908
+Wales,2008/09,stroke_tia,7509
+Wales,2009/10,stroke_tia,7089
+Wales,2010/11,stroke_tia,7284
+Wales,2011/12,stroke_tia,7239
+Wales,2012/13,stroke_tia,7182
+Wales,2013/14,stroke_tia,7531
+Wales,2014/15,stroke_tia,7492
+Wales,2015/16,stroke_tia,7548
+Wales,2016/17,stroke_tia,7484
+Wales,2017/18,stroke_tia,7167
+Wales,2018/19,stroke_tia,7404
+Wales,2019/20,stroke_tia,7377
+Scotland,2005/06,stroke_tia,
+Scotland,2006/07,stroke_tia,
+Scotland,2007/08,stroke_tia,
+Scotland,2008/09,stroke_tia,11536
+Scotland,2009/10,stroke_tia,11650
+Scotland,2010/11,stroke_tia,11327
+Scotland,2011/12,stroke_tia,11357
+Scotland,2012/13,stroke_tia,11369
+Scotland,2013/14,stroke_tia,11251
+Scotland,2014/15,stroke_tia,11607
+Scotland,2015/16,stroke_tia,11806
+Scotland,2016/17,stroke_tia,11859
+Scotland,2017/18,stroke_tia,11845
+Scotland,2018/19,stroke_tia,12048
+Scotland,2019/20,stroke_tia,12068
+Northern Ireland,2005/06,stroke_tia,
+Northern Ireland,2006/07,stroke_tia,
+Northern Ireland,2007/08,stroke_tia,
+Northern Ireland,2008/09,stroke_tia,
+Northern Ireland,2009/10,stroke_tia,
+Northern Ireland,2010/11,stroke_tia,
+Northern Ireland,2011/12,stroke_tia,2200
+Northern Ireland,2012/13,stroke_tia,2000
+Northern Ireland,2013/14,stroke_tia,2200
+Northern Ireland,2014/15,stroke_tia,1660
+Northern Ireland,2015/16,stroke_tia,1450
+Northern Ireland,2016/17,stroke_tia,1400
+Northern Ireland,2017/18,stroke_tia,1420
+Northern Ireland,2018/19,stroke_tia,1310
+Northern Ireland,2019/20,stroke_tia,1234
+UK,2005/06,other_cvd,
+UK,2006/07,other_cvd,
+UK,2007/08,other_cvd,
+UK,2008/09,other_cvd,
+UK,2009/10,other_cvd,
+UK,2010/11,other_cvd,
+UK,2011/12,other_cvd,473661
+UK,2012/13,other_cvd,457753
+UK,2013/14,other_cvd,472780
+UK,2014/15,other_cvd,486206
+UK,2015/16,other_cvd,506355
+UK,2016/17,other_cvd,414484
+UK,2017/18,other_cvd,417478
+UK,2018/19,other_cvd,433323
+UK,2019/20,other_cvd,440573.67630133475
+England,2005/06,other_cvd,
+England,2006/07,other_cvd,
+England,2007/08,other_cvd,354527
+England,2008/09,other_cvd,374927
+England,2009/10,other_cvd,387967
+England,2010/11,other_cvd,397938
+England,2011/12,other_cvd,398086
+England,2012/13,other_cvd,385920
+England,2013/14,other_cvd,399533
+England,2014/15,other_cvd,413389
+England,2015/16,other_cvd,433987
+England,2016/17,other_cvd,354050
+England,2017/18,other_cvd,358456
+England,2018/19,other_cvd,373200
+England,2019/20,other_cvd,381507.67630133475
+Wales,2005/06,other_cvd,19525
+Wales,2006/07,other_cvd,20548
+Wales,2007/08,other_cvd,20755
+Wales,2008/09,other_cvd,21945
+Wales,2009/10,other_cvd,22645
+Wales,2010/11,other_cvd,21376
+Wales,2011/12,other_cvd,20872
+Wales,2012/13,other_cvd,20414
+Wales,2013/14,other_cvd,21303
+Wales,2014/15,other_cvd,21250
+Wales,2015/16,other_cvd,21116
+Wales,2016/17,other_cvd,17549
+Wales,2017/18,other_cvd,16651
+Wales,2018/19,other_cvd,17879
+Wales,2019/20,other_cvd,17424
+Scotland,2005/06,other_cvd,
+Scotland,2006/07,other_cvd,
+Scotland,2007/08,other_cvd,
+Scotland,2008/09,other_cvd,37849
+Scotland,2009/10,other_cvd,37659
+Scotland,2010/11,other_cvd,36599
+Scotland,2011/12,other_cvd,36603
+Scotland,2012/13,other_cvd,37019
+Scotland,2013/14,other_cvd,37644
+Scotland,2014/15,other_cvd,37027
+Scotland,2015/16,other_cvd,37802
+Scotland,2016/17,other_cvd,30585
+Scotland,2017/18,other_cvd,30191
+Scotland,2018/19,other_cvd,29554
+Scotland,2019/20,other_cvd,28996
+Northern Ireland,2005/06,other_cvd,
+Northern Ireland,2006/07,other_cvd,
+Northern Ireland,2007/08,other_cvd,
+Northern Ireland,2008/09,other_cvd,
+Northern Ireland,2009/10,other_cvd,
+Northern Ireland,2010/11,other_cvd,
+Northern Ireland,2011/12,other_cvd,18100
+Northern Ireland,2012/13,other_cvd,14400
+Northern Ireland,2013/14,other_cvd,14300
+Northern Ireland,2014/15,other_cvd,14540
+Northern Ireland,2015/16,other_cvd,13450
+Northern Ireland,2016/17,other_cvd,12300
+Northern Ireland,2017/18,other_cvd,12180
+Northern Ireland,2018/19,other_cvd,12690
+Northern Ireland,2019/20,other_cvd,12646

@@ -1,24 +1,11 @@
-# How many men in the UK die from coronary heart disease?
-# Sex - Men, Nation - UK, Disease - chd, Type of Question - How Many - Count
-
 import nltk
 nltk.download('punkt')
 import re
 
-sex = ['men', 'woman']
-nation = ['uk', 'england' 'wales']
-disease = ['chd',"coronary heart disease"]
-typesOfQuestions = ['how many', 'what is']
-tables = []
-
-# clean the question - make lower and remove stop words
-# tokenise the question
-# try and identify the words in the question
-
-def cleanInput(inp):
-  inp = inp.lower()
-  inp = re.sub("[^a-z0-9\s]", "", inp)
-  return inp
+def cleanInput(user_input):
+  user_input = user_input.upper()
+  user_input = re.sub("[^A-Z0-9\s]", "", user_input)
+  return user_input
 
 question = input("Please enter the question: ")
 cleanedQuestion = cleanInput(question)

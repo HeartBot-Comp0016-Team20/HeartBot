@@ -24,8 +24,8 @@ def connect_dataframe_to_database(dfs, conn):
 
 if __name__=="__main__":
     dataframes = []
-    conn = sqlite3.connect('sample.db')
-    
+    conn = sqlite3.connect('data.db')
+
     if conn is None:
         sheet_names = get_sheet_names('data.xlsx')
 
@@ -33,11 +33,19 @@ if __name__=="__main__":
             csv = from_xslx_to_csv('data.xlsx', sheet,sheet+'.csv')
             dataframes.append(from_csv_to_dataframe(csv))
 
-    #connect_dataframe_to_database(dataframes,conn)
-    cursor = conn.execute("SELECT year FROM tablename0 WHERE nation=='Wales'")
+    connect_dataframe_to_database(dataframes,conn)
+    cursor = conn.execute("SELECT * FROM tablename0")
     for row in cursor:
-        print(row[0])
+        print(row[1:])
     conn.commit()
     conn.close()
+
+    # #Create Database - One Time
+    # dataframes = []
+    # sheet_names = get_sheet_names('data.xlsx')
+
+    # for sheet in sheet_names:
+    #     csv = from_xslx_to_csv('data.xlsx', sheet,sheet+'.csv')
+    #     dataframes.append(from_csv_to_dataframe(csv))
 
     

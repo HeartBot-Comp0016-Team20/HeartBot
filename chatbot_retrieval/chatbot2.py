@@ -1,7 +1,7 @@
 import nltk as N
+from nltk.corpus import stopwords
 import string
 import re
-from nltk.corpus import stopwords
 
 def cleanInput(user_input):
   user_input = user_input.upper()
@@ -17,8 +17,20 @@ def remove_stopWords_tokenize(q):
   filtered = [w for w in word_tokens if not w.lower() in stop_words]
   return filtered
 
+def pos_tagging(tokens):
+  pass
+
+def group_data(tagged_tokens):
+  pass
+
+# Add classes
+
 if __name__=="__main__":
   q = input("Please enter the question: ")
   cleanedQ = cleanInput(q)
   cleanedQ = remove_stopWords_tokenize(cleanedQ)
   print(cleanedQ)
+
+# Sources:
+#   https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
+#

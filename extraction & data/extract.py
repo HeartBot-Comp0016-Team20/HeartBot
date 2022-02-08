@@ -17,9 +17,10 @@ def from_csv_to_dataframe(filename):
     return pd.DataFrame(data)
 
 def connect_dataframe_to_database(dfs, conn):
+    names = get_sheet_names('data.xlsx')
     i = 0
     for df in dfs:
-        df.to_sql(name='tablename' + str(i), con = conn)
+        df.to_sql(name=(names[i].lower()), con = conn)
         i+=1
 
 if __name__=="__main__":
@@ -34,18 +35,25 @@ if __name__=="__main__":
             dataframes.append(from_csv_to_dataframe(csv))
 
     connect_dataframe_to_database(dataframes,conn)
-    cursor = conn.execute("SELECT * FROM tablename0")
+    cursor = conn.execute("SELECT * FROM admits")
     for row in cursor:
         print(row[1:])
     conn.commit()
     conn.close()
 
+
+
     # #Create Database - One Time
+    # conn = sqlite3.connect('data.db')
     # dataframes = []
     # sheet_names = get_sheet_names('data.xlsx')
 
     # for sheet in sheet_names:
     #     csv = from_xslx_to_csv('data.xlsx', sheet,sheet+'.csv')
     #     dataframes.append(from_csv_to_dataframe(csv))
+
+    # connect_dataframe_to_database(dataframes,conn)
+    # conn.commit()
+    # conn.close()
 
     

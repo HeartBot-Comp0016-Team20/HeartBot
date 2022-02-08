@@ -35,9 +35,10 @@ if __name__=="__main__":
             dataframes.append(from_csv_to_dataframe(csv))
 
     connect_dataframe_to_database(dataframes,conn)
-    cursor = conn.execute("SELECT * FROM admits")
+    sqlQuery = "SELECT * FROM admissions"
+    cursor = conn.execute(sqlQuery)
     for row in cursor:
-        print(row[1:])
+        print(row)
     conn.commit()
     conn.close()
 

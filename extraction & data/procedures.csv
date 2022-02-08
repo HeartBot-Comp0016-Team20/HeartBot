@@ -1,4 +1,4 @@
-year,proc,cabg
+year,proc_name,count
 1977,CABG,2297
 1978,CABG,2653
 1979,CABG,2918
@@ -83,4 +83,3 @@ year,proc,cabg
 2016,PCI,100483
 2017,PCI,102258
 2018,PCI,100294
-,AVR,

@@ -1,0 +1,325 @@
+ambulance_trust,fin_year,measure,value
+England,2011-12,resus_attempt,24136
+England,2012-13,resus_attempt,28784
+England,2013-14,resus_attempt,29528
+England,2014-15,resus_attempt,30406
+England,2015-16,resus_attempt,29372
+England,2016-17,resus_attempt,30829
+England,2017-18,resus_attempt,31316
+England,2018-19,resus_attempt,29986
+England,2019-20,resus_attempt,29973
+England,2011-12,number_discharged_alive,1701
+England,2012-13,number_discharged_alive,2254
+England,2013-14,number_discharged_alive,2560
+England,2014-15,number_discharged_alive,2630
+England,2015-16,number_discharged_alive,2447
+England,2016-17,number_discharged_alive,2702
+England,2017-18,number_discharged_alive,2852
+England,2018-19,number_discharged_alive,3011
+England,2019-20,number_discharged_alive,2771
+England,2011-12,proportion_discharged_alive,0.077
+England,2012-13,proportion_discharged_alive,0.078
+England,2013-14,proportion_discharged_alive,0.087
+England,2014-15,proportion_discharged_alive,0.086
+England,2015-16,proportion_discharged_alive,0.083
+England,2016-17,proportion_discharged_alive,0.08764475007298322
+England,2017-18,proportion_discharged_alive,0.09107165666113168
+England,2018-19,proportion_discharged_alive,0.10041352631227907
+England,2019-20,proportion_discharged_alive,0.0924
+East Midlands Ambulance Service NHS Trust,2011-12,resus_attempt,1487
+East Midlands Ambulance Service NHS Trust,2012-13,resus_attempt,2935
+East Midlands Ambulance Service NHS Trust,2013-14,resus_attempt,2595
+East Midlands Ambulance Service NHS Trust,2014-15,resus_attempt,2608
+East Midlands Ambulance Service NHS Trust,2015-16,resus_attempt,2338
+East Midlands Ambulance Service NHS Trust,2016-17,resus_attempt,2459
+East Midlands Ambulance Service NHS Trust,2017-18,resus_attempt,2227
+East Midlands Ambulance Service NHS Trust,2018-19,resus_attempt,2484
+East Midlands Ambulance Service NHS Trust,2019-20,resus_attempt,2800
+East Midlands Ambulance Service NHS Trust,2011-12,number_discharged_alive,95
+East Midlands Ambulance Service NHS Trust,2012-13,number_discharged_alive,203
+East Midlands Ambulance Service NHS Trust,2013-14,number_discharged_alive,128
+East Midlands Ambulance Service NHS Trust,2014-15,number_discharged_alive,129
+East Midlands Ambulance Service NHS Trust,2015-16,number_discharged_alive,130
+East Midlands Ambulance Service NHS Trust,2016-17,number_discharged_alive,149
+East Midlands Ambulance Service NHS Trust,2017-18,number_discharged_alive,156
+East Midlands Ambulance Service NHS Trust,2018-19,number_discharged_alive,196
+East Midlands Ambulance Service NHS Trust,2019-20,number_discharged_alive,218
+East Midlands Ambulance Service NHS Trust,2011-12,proportion_discharged_alive,0.06388702084734364
+East Midlands Ambulance Service NHS Trust,2012-13,proportion_discharged_alive,0.06916524701873936
+East Midlands Ambulance Service NHS Trust,2013-14,proportion_discharged_alive,0.04932562620423893
+East Midlands Ambulance Service NHS Trust,2014-15,proportion_discharged_alive,0.04946319018404908
+East Midlands Ambulance Service NHS Trust,2015-16,proportion_discharged_alive,0.055603079555175364
+East Midlands Ambulance Service NHS Trust,2016-17,proportion_discharged_alive,0.06059373729158194
+East Midlands Ambulance Service NHS Trust,2017-18,proportion_discharged_alive,0.07004939380332285
+East Midlands Ambulance Service NHS Trust,2018-19,proportion_discharged_alive,0.07890499194847021
+East Midlands Ambulance Service NHS Trust,2019-20,proportion_discharged_alive,0.07785714285714286
+East of England Ambulance Service NHS Trust,2011-12,resus_attempt,3161
+East of England Ambulance Service NHS Trust,2012-13,resus_attempt,3059
+East of England Ambulance Service NHS Trust,2013-14,resus_attempt,3073
+East of England Ambulance Service NHS Trust,2014-15,resus_attempt,3346
+East of England Ambulance Service NHS Trust,2015-16,resus_attempt,3127
+East of England Ambulance Service NHS Trust,2016-17,resus_attempt,3468
+East of England Ambulance Service NHS Trust,2017-18,resus_attempt,3587
+East of England Ambulance Service NHS Trust,2018-19,resus_attempt,3389
+East of England Ambulance Service NHS Trust,2019-20,resus_attempt,3594
+East of England Ambulance Service NHS Trust,2011-12,number_discharged_alive,155
+East of England Ambulance Service NHS Trust,2012-13,number_discharged_alive,192
+East of England Ambulance Service NHS Trust,2013-14,number_discharged_alive,200
+East of England Ambulance Service NHS Trust,2014-15,number_discharged_alive,218
+East of England Ambulance Service NHS Trust,2015-16,number_discharged_alive,196
+East of England Ambulance Service NHS Trust,2016-17,number_discharged_alive,293
+East of England Ambulance Service NHS Trust,2017-18,number_discharged_alive,311
+East of England Ambulance Service NHS Trust,2018-19,number_discharged_alive,370
+East of England Ambulance Service NHS Trust,2019-20,number_discharged_alive,302
+East of England Ambulance Service NHS Trust,2011-12,proportion_discharged_alive,0.04903511546978803
+East of England Ambulance Service NHS Trust,2012-13,proportion_discharged_alive,0.06276560967636483
+East of England Ambulance Service NHS Trust,2013-14,proportion_discharged_alive,0.06508298080052066
+East of England Ambulance Service NHS Trust,2014-15,proportion_discharged_alive,0.06515242080095636
+East of England Ambulance Service NHS Trust,2015-16,proportion_discharged_alive,0.06267988487368084
+East of England Ambulance Service NHS Trust,2016-17,proportion_discharged_alive,0.08448673587081892
+East of England Ambulance Service NHS Trust,2017-18,proportion_discharged_alive,0.08670197936994702
+East of England Ambulance Service NHS Trust,2018-19,proportion_discharged_alive,0.10917674830333432
+East of England Ambulance Service NHS Trust,2019-20,proportion_discharged_alive,0.08402893711741792
+Isle of Wight NHS Trust,2011-12,resus_attempt,115
+Isle of Wight NHS Trust,2012-13,resus_attempt,100
+Isle of Wight NHS Trust,2013-14,resus_attempt,132
+Isle of Wight NHS Trust,2014-15,resus_attempt,127
+Isle of Wight NHS Trust,2015-16,resus_attempt,139
+Isle of Wight NHS Trust,2016-17,resus_attempt,111
+Isle of Wight NHS Trust,2017-18,resus_attempt,127
+Isle of Wight NHS Trust,2018-19,resus_attempt,124
+Isle of Wight NHS Trust,2019-20,resus_attempt,123
+Isle of Wight NHS Trust,2011-12,number_discharged_alive,5
+Isle of Wight NHS Trust,2012-13,number_discharged_alive,8
+Isle of Wight NHS Trust,2013-14,number_discharged_alive,9
+Isle of Wight NHS Trust,2014-15,number_discharged_alive,7
+Isle of Wight NHS Trust,2015-16,number_discharged_alive,15
+Isle of Wight NHS Trust,2016-17,number_discharged_alive,12
+Isle of Wight NHS Trust,2017-18,number_discharged_alive,14
+Isle of Wight NHS Trust,2018-19,number_discharged_alive,13
+Isle of Wight NHS Trust,2019-20,number_discharged_alive,13
+Isle of Wight NHS Trust,2011-12,proportion_discharged_alive,0.043478260869565216
+Isle of Wight NHS Trust,2012-13,proportion_discharged_alive,0.08
+Isle of Wight NHS Trust,2013-14,proportion_discharged_alive,0.06818181818181818
+Isle of Wight NHS Trust,2014-15,proportion_discharged_alive,0.05511811023622047
+Isle of Wight NHS Trust,2015-16,proportion_discharged_alive,0.10791366906474821
+Isle of Wight NHS Trust,2016-17,proportion_discharged_alive,0.1081081081081081
+Isle of Wight NHS Trust,2017-18,proportion_discharged_alive,0.11023622047244094
+Isle of Wight NHS Trust,2018-19,proportion_discharged_alive,0.10483870967741936
+Isle of Wight NHS Trust,2019-20,proportion_discharged_alive,0.10569105691056911
+London Ambulance Service NHS Trust,2011-12,resus_attempt,4119
+London Ambulance Service NHS Trust,2012-13,resus_attempt,4408
+London Ambulance Service NHS Trust,2013-14,resus_attempt,4239
+London Ambulance Service NHS Trust,2014-15,resus_attempt,4597
+London Ambulance Service NHS Trust,2015-16,resus_attempt,4317
+London Ambulance Service NHS Trust,2016-17,resus_attempt,4357
+London Ambulance Service NHS Trust,2017-18,resus_attempt,4294
+London Ambulance Service NHS Trust,2018-19,resus_attempt,3806
+London Ambulance Service NHS Trust,2019-20,resus_attempt,4231
+London Ambulance Service NHS Trust,2011-12,number_discharged_alive,381
+London Ambulance Service NHS Trust,2012-13,number_discharged_alive,390
+London Ambulance Service NHS Trust,2013-14,number_discharged_alive,436
+London Ambulance Service NHS Trust,2014-15,number_discharged_alive,416
+London Ambulance Service NHS Trust,2015-16,number_discharged_alive,388
+London Ambulance Service NHS Trust,2016-17,number_discharged_alive,415
+London Ambulance Service NHS Trust,2017-18,number_discharged_alive,402
+London Ambulance Service NHS Trust,2018-19,number_discharged_alive,358
+London Ambulance Service NHS Trust,2019-20,number_discharged_alive,388
+London Ambulance Service NHS Trust,2011-12,proportion_discharged_alive,0.09249817916970138
+London Ambulance Service NHS Trust,2012-13,proportion_discharged_alive,0.08847549909255897
+London Ambulance Service NHS Trust,2013-14,proportion_discharged_alive,0.10285444680349139
+London Ambulance Service NHS Trust,2014-15,proportion_discharged_alive,0.09049380030454644
+London Ambulance Service NHS Trust,2015-16,proportion_discharged_alive,0.08987722955756312
+London Ambulance Service NHS Trust,2016-17,proportion_discharged_alive,0.09524902455818224
+London Ambulance Service NHS Trust,2017-18,proportion_discharged_alive,0.09361900326036329
+London Ambulance Service NHS Trust,2018-19,proportion_discharged_alive,0.09406200735680505
+London Ambulance Service NHS Trust,2019-20,proportion_discharged_alive,0.09170408886787994
+North East Ambulance Service NHS Foundation Trust,2011-12,resus_attempt,1340
+North East Ambulance Service NHS Foundation Trust,2012-13,resus_attempt,1645
+North East Ambulance Service NHS Foundation Trust,2013-14,resus_attempt,1611
+North East Ambulance Service NHS Foundation Trust,2014-15,resus_attempt,1550
+North East Ambulance Service NHS Foundation Trust,2015-16,resus_attempt,1720
+North East Ambulance Service NHS Foundation Trust,2016-17,resus_attempt,1882
+North East Ambulance Service NHS Foundation Trust,2017-18,resus_attempt,2071
+North East Ambulance Service NHS Foundation Trust,2018-19,resus_attempt,1833
+North East Ambulance Service NHS Foundation Trust,2019-20,resus_attempt,1911
+North East Ambulance Service NHS Foundation Trust,2011-12,number_discharged_alive,108
+North East Ambulance Service NHS Foundation Trust,2012-13,number_discharged_alive,101
+North East Ambulance Service NHS Foundation Trust,2013-14,number_discharged_alive,110
+North East Ambulance Service NHS Foundation Trust,2014-15,number_discharged_alive,74
+North East Ambulance Service NHS Foundation Trust,2015-16,number_discharged_alive,102
+North East Ambulance Service NHS Foundation Trust,2016-17,number_discharged_alive,134
+North East Ambulance Service NHS Foundation Trust,2017-18,number_discharged_alive,182
+North East Ambulance Service NHS Foundation Trust,2018-19,number_discharged_alive,189
+North East Ambulance Service NHS Foundation Trust,2019-20,number_discharged_alive,127
+North East Ambulance Service NHS Foundation Trust,2011-12,proportion_discharged_alive,0.08059701492537313
+North East Ambulance Service NHS Foundation Trust,2012-13,proportion_discharged_alive,0.06139817629179331
+North East Ambulance Service NHS Foundation Trust,2013-14,proportion_discharged_alive,0.06828057107386716
+North East Ambulance Service NHS Foundation Trust,2014-15,proportion_discharged_alive,0.04774193548387097
+North East Ambulance Service NHS Foundation Trust,2015-16,proportion_discharged_alive,0.059302325581395345
+North East Ambulance Service NHS Foundation Trust,2016-17,proportion_discharged_alive,0.07120085015940489
+North East Ambulance Service NHS Foundation Trust,2017-18,proportion_discharged_alive,0.08788025108643166
+North East Ambulance Service NHS Foundation Trust,2018-19,proportion_discharged_alive,0.10310965630114566
+North East Ambulance Service NHS Foundation Trust,2019-20,proportion_discharged_alive,0.06645735217163788
+North West Ambulance Service NHS Trust,2011-12,resus_attempt,2137
+North West Ambulance Service NHS Trust,2012-13,resus_attempt,3414
+North West Ambulance Service NHS Trust,2013-14,resus_attempt,3502
+North West Ambulance Service NHS Trust,2014-15,resus_attempt,3453
+North West Ambulance Service NHS Trust,2015-16,resus_attempt,3371
+North West Ambulance Service NHS Trust,2016-17,resus_attempt,3734
+North West Ambulance Service NHS Trust,2017-18,resus_attempt,3924
+North West Ambulance Service NHS Trust,2018-19,resus_attempt,3481
+North West Ambulance Service NHS Trust,2019-20,resus_attempt,2950
+North West Ambulance Service NHS Trust,2011-12,number_discharged_alive,174
+North West Ambulance Service NHS Trust,2012-13,number_discharged_alive,256
+North West Ambulance Service NHS Trust,2013-14,number_discharged_alive,309
+North West Ambulance Service NHS Trust,2014-15,number_discharged_alive,321
+North West Ambulance Service NHS Trust,2015-16,number_discharged_alive,311
+North West Ambulance Service NHS Trust,2016-17,number_discharged_alive,349
+North West Ambulance Service NHS Trust,2017-18,number_discharged_alive,382
+North West Ambulance Service NHS Trust,2018-19,number_discharged_alive,296
+North West Ambulance Service NHS Trust,2019-20,number_discharged_alive,249
+North West Ambulance Service NHS Trust,2011-12,proportion_discharged_alive,0.08142255498362189
+North West Ambulance Service NHS Trust,2012-13,proportion_discharged_alive,0.07498535442296426
+North West Ambulance Service NHS Trust,2013-14,proportion_discharged_alive,0.08823529411764706
+North West Ambulance Service NHS Trust,2014-15,proportion_discharged_alive,0.09296264118158123
+North West Ambulance Service NHS Trust,2015-16,proportion_discharged_alive,0.09225749035894391
+North West Ambulance Service NHS Trust,2016-17,proportion_discharged_alive,0.0934654525977504
+North West Ambulance Service NHS Trust,2017-18,proportion_discharged_alive,0.09734964322120283
+North West Ambulance Service NHS Trust,2018-19,proportion_discharged_alive,0.08503303648376903
+North West Ambulance Service NHS Trust,2019-20,proportion_discharged_alive,0.08440677966101695
+South Central Ambulance Service NHS Foundation Trust,2011-12,resus_attempt,1353
+South Central Ambulance Service NHS Foundation Trust,2012-13,resus_attempt,1031
+South Central Ambulance Service NHS Foundation Trust,2013-14,resus_attempt,1236
+South Central Ambulance Service NHS Foundation Trust,2014-15,resus_attempt,1433
+South Central Ambulance Service NHS Foundation Trust,2015-16,resus_attempt,1392
+South Central Ambulance Service NHS Foundation Trust,2016-17,resus_attempt,1244
+South Central Ambulance Service NHS Foundation Trust,2017-18,resus_attempt,1436
+South Central Ambulance Service NHS Foundation Trust,2018-19,resus_attempt,1962
+South Central Ambulance Service NHS Foundation Trust,2019-20,resus_attempt,2155
+South Central Ambulance Service NHS Foundation Trust,2011-12,number_discharged_alive,76
+South Central Ambulance Service NHS Foundation Trust,2012-13,number_discharged_alive,162
+South Central Ambulance Service NHS Foundation Trust,2013-14,number_discharged_alive,240
+South Central Ambulance Service NHS Foundation Trust,2014-15,number_discharged_alive,240
+South Central Ambulance Service NHS Foundation Trust,2015-16,number_discharged_alive,189
+South Central Ambulance Service NHS Foundation Trust,2016-17,number_discharged_alive,148
+South Central Ambulance Service NHS Foundation Trust,2017-18,number_discharged_alive,212
+South Central Ambulance Service NHS Foundation Trust,2018-19,number_discharged_alive,262
+South Central Ambulance Service NHS Foundation Trust,2019-20,number_discharged_alive,223
+South Central Ambulance Service NHS Foundation Trust,2011-12,proportion_discharged_alive,0.05617147080561715
+South Central Ambulance Service NHS Foundation Trust,2012-13,proportion_discharged_alive,0.1571290009699321
+South Central Ambulance Service NHS Foundation Trust,2013-14,proportion_discharged_alive,0.1941747572815534
+South Central Ambulance Service NHS Foundation Trust,2014-15,proportion_discharged_alive,0.1674808094905792
+South Central Ambulance Service NHS Foundation Trust,2015-16,proportion_discharged_alive,0.13577586206896552
+South Central Ambulance Service NHS Foundation Trust,2016-17,proportion_discharged_alive,0.1189710610932476
+South Central Ambulance Service NHS Foundation Trust,2017-18,proportion_discharged_alive,0.14763231197771587
+South Central Ambulance Service NHS Foundation Trust,2018-19,proportion_discharged_alive,0.13353720693170235
+South Central Ambulance Service NHS Foundation Trust,2019-20,proportion_discharged_alive,0.10348027842227378
+South East Coast Ambulance Service NHS Foundation Trust,2011-12,resus_attempt,2270
+South East Coast Ambulance Service NHS Foundation Trust,2012-13,resus_attempt,2551
+South East Coast Ambulance Service NHS Foundation Trust,2013-14,resus_attempt,2691
+South East Coast Ambulance Service NHS Foundation Trust,2014-15,resus_attempt,2728
+South East Coast Ambulance Service NHS Foundation Trust,2015-16,resus_attempt,2802
+South East Coast Ambulance Service NHS Foundation Trust,2016-17,resus_attempt,3021
+South East Coast Ambulance Service NHS Foundation Trust,2017-18,resus_attempt,3023
+South East Coast Ambulance Service NHS Foundation Trust,2018-19,resus_attempt,2663
+South East Coast Ambulance Service NHS Foundation Trust,2019-20,resus_attempt,2588
+South East Coast Ambulance Service NHS Foundation Trust,2011-12,number_discharged_alive,129
+South East Coast Ambulance Service NHS Foundation Trust,2012-13,number_discharged_alive,153
+South East Coast Ambulance Service NHS Foundation Trust,2013-14,number_discharged_alive,198
+South East Coast Ambulance Service NHS Foundation Trust,2014-15,number_discharged_alive,233
+South East Coast Ambulance Service NHS Foundation Trust,2015-16,number_discharged_alive,213
+South East Coast Ambulance Service NHS Foundation Trust,2016-17,number_discharged_alive,248
+South East Coast Ambulance Service NHS Foundation Trust,2017-18,number_discharged_alive,209
+South East Coast Ambulance Service NHS Foundation Trust,2018-19,number_discharged_alive,223
+South East Coast Ambulance Service NHS Foundation Trust,2019-20,number_discharged_alive,229
+South East Coast Ambulance Service NHS Foundation Trust,2011-12,proportion_discharged_alive,0.05682819383259912
+South East Coast Ambulance Service NHS Foundation Trust,2012-13,proportion_discharged_alive,0.05997647981183849
+South East Coast Ambulance Service NHS Foundation Trust,2013-14,proportion_discharged_alive,0.07357859531772576
+South East Coast Ambulance Service NHS Foundation Trust,2014-15,proportion_discharged_alive,0.08541055718475073
+South East Coast Ambulance Service NHS Foundation Trust,2015-16,proportion_discharged_alive,0.07601713062098502
+South East Coast Ambulance Service NHS Foundation Trust,2016-17,proportion_discharged_alive,0.08209202250910294
+South East Coast Ambulance Service NHS Foundation Trust,2017-18,proportion_discharged_alive,0.06913661925239828
+South East Coast Ambulance Service NHS Foundation Trust,2018-19,proportion_discharged_alive,0.08374014269620728
+South East Coast Ambulance Service NHS Foundation Trust,2019-20,proportion_discharged_alive,0.08848531684698609
+South Western Ambulance Service NHS Foundation Trust,2011-12,resus_attempt,3142
+South Western Ambulance Service NHS Foundation Trust,2012-13,resus_attempt,3715
+South Western Ambulance Service NHS Foundation Trust,2013-14,resus_attempt,3750
+South Western Ambulance Service NHS Foundation Trust,2014-15,resus_attempt,3722
+South Western Ambulance Service NHS Foundation Trust,2015-16,resus_attempt,3444
+South Western Ambulance Service NHS Foundation Trust,2016-17,resus_attempt,3680
+South Western Ambulance Service NHS Foundation Trust,2017-18,resus_attempt,3910
+South Western Ambulance Service NHS Foundation Trust,2018-19,resus_attempt,3633
+South Western Ambulance Service NHS Foundation Trust,2019-20,resus_attempt,3590
+South Western Ambulance Service NHS Foundation Trust,2011-12,number_discharged_alive,216
+South Western Ambulance Service NHS Foundation Trust,2012-13,number_discharged_alive,334
+South Western Ambulance Service NHS Foundation Trust,2013-14,number_discharged_alive,386
+South Western Ambulance Service NHS Foundation Trust,2014-15,number_discharged_alive,360
+South Western Ambulance Service NHS Foundation Trust,2015-16,number_discharged_alive,307
+South Western Ambulance Service NHS Foundation Trust,2016-17,number_discharged_alive,305
+South Western Ambulance Service NHS Foundation Trust,2017-18,number_discharged_alive,340
+South Western Ambulance Service NHS Foundation Trust,2018-19,number_discharged_alive,370
+South Western Ambulance Service NHS Foundation Trust,2019-20,number_discharged_alive,389
+South Western Ambulance Service NHS Foundation Trust,2011-12,proportion_discharged_alive,0.06874602164226608
+South Western Ambulance Service NHS Foundation Trust,2012-13,proportion_discharged_alive,0.08990578734858681
+South Western Ambulance Service NHS Foundation Trust,2013-14,proportion_discharged_alive,0.10293333333333334
+South Western Ambulance Service NHS Foundation Trust,2014-15,proportion_discharged_alive,0.09672219236969372
+South Western Ambulance Service NHS Foundation Trust,2015-16,proportion_discharged_alive,0.08914053426248549
+South Western Ambulance Service NHS Foundation Trust,2016-17,proportion_discharged_alive,0.08288043478260869
+South Western Ambulance Service NHS Foundation Trust,2017-18,proportion_discharged_alive,0.08695652173913043
+South Western Ambulance Service NHS Foundation Trust,2018-19,proportion_discharged_alive,0.10184420589044868
+South Western Ambulance Service NHS Foundation Trust,2019-20,proportion_discharged_alive,0.10835654596100279
+West Midlands Ambulance Service NHS Foundation Trust,2011-12,resus_attempt,2282
+West Midlands Ambulance Service NHS Foundation Trust,2012-13,resus_attempt,2909
+West Midlands Ambulance Service NHS Foundation Trust,2013-14,resus_attempt,3861
+West Midlands Ambulance Service NHS Foundation Trust,2014-15,resus_attempt,4100
+West Midlands Ambulance Service NHS Foundation Trust,2015-16,resus_attempt,4046
+West Midlands Ambulance Service NHS Foundation Trust,2016-17,resus_attempt,3794
+West Midlands Ambulance Service NHS Foundation Trust,2017-18,resus_attempt,3777
+West Midlands Ambulance Service NHS Foundation Trust,2018-19,resus_attempt,3401
+West Midlands Ambulance Service NHS Foundation Trust,2019-20,resus_attempt,3579
+West Midlands Ambulance Service NHS Foundation Trust,2011-12,number_discharged_alive,195
+West Midlands Ambulance Service NHS Foundation Trust,2012-13,number_discharged_alive,217
+West Midlands Ambulance Service NHS Foundation Trust,2013-14,number_discharged_alive,253
+West Midlands Ambulance Service NHS Foundation Trust,2014-15,number_discharged_alive,340
+West Midlands Ambulance Service NHS Foundation Trust,2015-16,number_discharged_alive,348
+West Midlands Ambulance Service NHS Foundation Trust,2016-17,number_discharged_alive,339
+West Midlands Ambulance Service NHS Foundation Trust,2017-18,number_discharged_alive,343
+West Midlands Ambulance Service NHS Foundation Trust,2018-19,number_discharged_alive,406
+West Midlands Ambulance Service NHS Foundation Trust,2019-20,number_discharged_alive,399
+West Midlands Ambulance Service NHS Foundation Trust,2011-12,proportion_discharged_alive,8.545135845749343
+West Midlands Ambulance Service NHS Foundation Trust,2012-13,proportion_discharged_alive,7.459608112753524
+West Midlands Ambulance Service NHS Foundation Trust,2013-14,proportion_discharged_alive,6.552706552706552
+West Midlands Ambulance Service NHS Foundation Trust,2014-15,proportion_discharged_alive,8.292682926829269
+West Midlands Ambulance Service NHS Foundation Trust,2015-16,proportion_discharged_alive,8.601087493821058
+West Midlands Ambulance Service NHS Foundation Trust,2016-17,proportion_discharged_alive,8.93516078017923
+West Midlands Ambulance Service NHS Foundation Trust,2017-18,proportion_discharged_alive,9.081281440296532
+West Midlands Ambulance Service NHS Foundation Trust,2018-19,proportion_discharged_alive,11.937665392531608
+West Midlands Ambulance Service NHS Foundation Trust,2019-20,proportion_discharged_alive,11.148365465213747
+Yorkshire Ambulance Service NHS Trust,2011-12,resus_attempt,2730
+Yorkshire Ambulance Service NHS Trust,2012-13,resus_attempt,3017
+Yorkshire Ambulance Service NHS Trust,2013-14,resus_attempt,2838
+Yorkshire Ambulance Service NHS Trust,2014-15,resus_attempt,2742
+Yorkshire Ambulance Service NHS Trust,2015-16,resus_attempt,2676
+Yorkshire Ambulance Service NHS Trust,2016-17,resus_attempt,3079
+Yorkshire Ambulance Service NHS Trust,2017-18,resus_attempt,2940
+Yorkshire Ambulance Service NHS Trust,2018-19,resus_attempt,3210
+Yorkshire Ambulance Service NHS Trust,2019-20,resus_attempt,2452
+Yorkshire Ambulance Service NHS Trust,2011-12,number_discharged_alive,167
+Yorkshire Ambulance Service NHS Trust,2012-13,number_discharged_alive,238
+Yorkshire Ambulance Service NHS Trust,2013-14,number_discharged_alive,291
+Yorkshire Ambulance Service NHS Trust,2014-15,number_discharged_alive,292
+Yorkshire Ambulance Service NHS Trust,2015-16,number_discharged_alive,248
+Yorkshire Ambulance Service NHS Trust,2016-17,number_discharged_alive,310
+Yorkshire Ambulance Service NHS Trust,2017-18,number_discharged_alive,301
+Yorkshire Ambulance Service NHS Trust,2018-19,number_discharged_alive,328
+Yorkshire Ambulance Service NHS Trust,2019-20,number_discharged_alive,234
+Yorkshire Ambulance Service NHS Trust,2011-12,proportion_discharged_alive,0.06117216117216117
+Yorkshire Ambulance Service NHS Trust,2012-13,proportion_discharged_alive,0.07888631090487239
+Yorkshire Ambulance Service NHS Trust,2013-14,proportion_discharged_alive,0.10253699788583509
+Yorkshire Ambulance Service NHS Trust,2014-15,proportion_discharged_alive,0.10649161196207148
+Yorkshire Ambulance Service NHS Trust,2015-16,proportion_discharged_alive,0.09267563527653215
+Yorkshire Ambulance Service NHS Trust,2016-17,proportion_discharged_alive,0.10068203962325431
+Yorkshire Ambulance Service NHS Trust,2017-18,proportion_discharged_alive,0.10238095238095238
+Yorkshire Ambulance Service NHS Trust,2018-19,proportion_discharged_alive,0.10218068535825545
+Yorkshire Ambulance Service NHS Trust,2019-20,proportion_discharged_alive,0.09543230016313213

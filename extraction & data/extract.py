@@ -1,7 +1,6 @@
 import pandas as pd
 import sqlite3
 
-
 def from_xslx_to_csv(filename, sheet, csvfilename = 'csvfile.csv'):
     data_xls = pd.read_excel(filename, sheet, dtype=str, index_col=None)
     data_xls.to_csv(csvfilename, encoding='utf-8', index=False)
@@ -9,7 +8,6 @@ def from_xslx_to_csv(filename, sheet, csvfilename = 'csvfile.csv'):
 
 def get_sheet_names(filename):
     xls = pd.ExcelFile(filename)
-
     return xls.sheet_names
 
 def from_csv_to_dataframe(filename):

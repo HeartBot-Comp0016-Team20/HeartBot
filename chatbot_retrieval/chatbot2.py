@@ -1,6 +1,7 @@
 # Check Licenses
 from turtle import pos
 import nltk as N
+N.download()
 from nltk.corpus import stopwords
 import string
 import re
@@ -8,7 +9,6 @@ from collections import defaultdict
 import pandas as pd
 from fuzzywuzzy import process
 from nltk.corpus import wordnet
-N.download('omw-1.4')
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -98,10 +98,20 @@ class Classifier():
   def nGramsCheck():
     pass
 
+  def get_table_name(self, str2Match):
+    res = self.directCheckForTableNames(str2Match)
+    # proceed if direct check failed
+    if res == 0:
+      res = self.synonymsCheck(str2Match)
+    return res
+
+      
+
+
 
 if __name__=="__main__":
 
-  t = Classifier([]).directCheckForTableNames("admits")
+  t = Classifier([]).get_table_name("entrances")
   print(t)
 
   q = input("Please enter the question: ")

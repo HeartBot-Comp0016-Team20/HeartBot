@@ -1,3 +1,4 @@
+# Check Licenses
 from turtle import pos
 import nltk as N
 from nltk.corpus import stopwords
@@ -6,6 +7,8 @@ import re
 from collections import defaultdict
 import pandas as pd
 from fuzzywuzzy import process
+from nltk.corpus import wordnet
+N.download('omw-1.4')
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -33,52 +36,73 @@ class ProcessQ():
     self.pos_tagging()
     return self.userQ
 
-if __name__=="__main__":
-  
+class Classifier():
+  def __init__(self, tokens):
+    self.tokens = tokens
+    # These are the attributes for the SQL query
+    self.tableName = None
+    self.columnNames = []
+    self.other = []
+
+    # Create a dictionary with the actual tableName as in database + synonyms
+    # as the key. The values for the keys are lists with other possible
+    # words that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
+    # Note: in each value list the first word will always be the exact database word
+    # TODO Create a list of alternative words people could type
+    # TODO Add a way to automatically add this list into the values list
+    actualTableNames = self.get_sheet_names()
+    self.tablesNames  = defaultdict(list)
+    for tableName in actualTableNames:
+      tableName = tableName.lower()
+      self.tablesNames[tableName].append(tableName)
+
   # Get the tableNames
-  def get_sheet_names():
+  def get_sheet_names(self):
     xls = pd.ExcelFile("data.xlsx")
     return xls.sheet_names
 
-  # Create a dictionary with the actual tableName as in database + synonyms
-  # as the key. The values for the keys are lists with other possible
-  # words that could be used. For example admissions : ["admissions", "admits", ...]
-  # Note: in each value list the first word will always be the exact database word
-  # TODO Create a list of alternative words people could type
-  # TODO Add a way to automatically add this list into the values list
-  actualTableNames = get_sheet_names()
-  tablesNames  = defaultdict(list)
-  for tableName in actualTableNames:
-    tableName = tableName.lower()
-    tablesNames[tableName].append(tableName)
-  # print(tablesNames)
-
-  # Direct/(synonym)/spelling mistake check to see find the closest match
-  str2Match = "admits"
-  possibleTableNames = tablesNames.values()
-  highestMatch = 0
-  highestMatchList = None
-  for possibleTableName in possibleTableNames:
+  def directCheckForTableNames(self, str2Match, highestMatch=0, highestMatchList=None):
+    # Direct/spelling mistake check to see find the closest match
+    possibleTableNames = self.tablesNames.keys()
+    highest = process.extractOne(str2Match, possibleTableNames)
+    possibleTableNames = self.tablesNames[highest[0]]
     # Find best match from possible things the user could have typed
-    highest = process.extractOne(str2Match, possibleTableName)
-    if highest[1] > highestMatch:
-      highestMatch = highest[1]
-      highestMatchList = possibleTableName
-  if highestMatch < 75:
-    print("Try Other Checks in Classifer")
-  else:
-    # Convert thing the user typed into what SQL database uses
-    print("Found Match:", highestMatchList[0])
+    for possibleTableName in possibleTableNames:
+      highest = process.extractOne(str2Match, possibleTableName)
+      if highest[1] == 100:
+        highestMatchList = possibleTableName
+        break
+      elif highest[1] > highestMatch:
+        highestMatch = highest[1]
+        highestMatchList = possibleTableName
+    if highestMatch < 75:
+      return 0
+    else:
+      return highestMatchList
 
-  # TODO N-gram Check
-  # TODO Hypernym/Synonym Check
+  def synonymsCheck(self, token):
+    synonyms = []
+    for syn in wordnet.synsets("active"):
+      for l in syn.lemmas():
+        synonyms.append(l.name())
+    print(set(synonyms))
 
-  # TODO This section of the code will be added into a class
-  # It can be run on the different part of the SQL query
+  def hypernymsCheck(self, token):
+    syn = wordnet.synsets('hello')[0]
+    print ("Synset name :  ", syn.name())
+    print ("\nSynset abstract term :  ", syn.hypernyms())
+    print ("\nSynset specific term :  ", syn.hypernyms()[0].hyponyms()) 
+    syn.root_hypernyms()
+    print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
+
+  def nGramsCheck():
+    pass
 
 
+if __name__=="__main__":
 
-
+  t = Classifier([]).directCheckForTableNames("admits")
+  print(t)
 
   q = input("Please enter the question: ")
   question1 = ProcessQ(q).getProcessedQ()
@@ -87,3 +111,5 @@ if __name__=="__main__":
 # Sources:
 #   https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
 #   https://www.datacamp.com/community/tutorials/fuzzy-string-python
+#   https://www.guru99.com/wordnet-nltk.html
+#   https://www.geeksforgeeks.org/nlp-synsets-for-a-word-in-wordnet/

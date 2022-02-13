@@ -1,7 +1,6 @@
 # Check Licenses
 from turtle import pos
 import nltk as N
-N.download()
 from nltk.corpus import stopwords
 import string
 import re
@@ -9,6 +8,7 @@ from collections import defaultdict
 import pandas as pd
 from fuzzywuzzy import process
 from nltk.corpus import wordnet
+N.download('omw-1.4')
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -61,31 +61,60 @@ class Classifier():
     xls = pd.ExcelFile("data.xlsx")
     return xls.sheet_names
 
-  def directCheckForTableNames(self, str2Match, highestMatch=0, highestMatchList=None):
-    # Direct/spelling mistake check to see find the closest match
-    possibleTableNames = self.tablesNames.keys()
-    highest = process.extractOne(str2Match, possibleTableNames)
-    possibleTableNames = self.tablesNames[highest[0]]
+  # Direct/spelling mistake check to see find the closest match
+  def direct_table_name(self, str2Match, per_match=0, best_match=None):
+    # Finding the best match for the str2Match with the list of tablenames in the dictionary
+    actual_names = self.tablesNames.keys()
+    closest_match = process.extractOne(str2Match, actual_names)
+
+    # If the closest match percentage is too low then try another check else continue
+    if closest_match[1] < 75:
+      return 0
+
+    # The token is one of the actual table names, we need to find which one
+    possible_names = self.tablesNames[closest_match[0]]
     # Find best match from possible things the user could have typed
-    for possibleTableName in possibleTableNames:
-      highest = process.extractOne(str2Match, possibleTableName)
-      if highest[1] == 100:
-        highestMatchList = possibleTableName
+    for possible_name in possible_names:
+      closest_match = process.extractOne(str2Match, possible_name)
+      if closest_match[1] == 100:
+        best_match = possible_name
         break
-      elif highest[1] > highestMatch:
-        highestMatch = highest[1]
-        highestMatchList = possibleTableName
-    if highestMatch < 75:
+      elif closest_match[1] > per_match:
+        per_match = closest_match[1]
+        best_match = possible_name
+    return best_match
+
+  def synonyms_check(self, token):
+    actual_names = self.tablesNames.keys()
+    # A list of lists, where is list a list of synoyms for each tablename
+    synonym_tuples = []
+    for name in actual_names:
+      syn_tup = (name,[])
+      for syn in wordnet.synsets(name):
+        for l in syn.lemmas():
+          syn_tup[1].append(l.name())
+      synonym_tuples.append(syn_tup)
+    print(synonym_tuples)
+
+    per_match = 0
+    best_match = None
+    for tuple in synonym_tuples:
+      # If no synonym for a certain tablename
+      if len(tuple[1]) == 0:
+        pass
+      else:
+        closest_match = process.extractOne(token, tuple[1])
+        if closest_match[1] == 100:
+          best_match = tuple
+          break
+        elif closest_match[1] > per_match:
+          per_match = closest_match[1]
+          best_match = tuple
+    if per_match < 70:
       return 0
     else:
-      return highestMatchList
+      return best_match[0]
 
-  def synonymsCheck(self, token):
-    synonyms = []
-    for syn in wordnet.synsets("active"):
-      for l in syn.lemmas():
-        synonyms.append(l.name())
-    print(set(synonyms))
 
   def hypernymsCheck(self, token):
     syn = wordnet.synsets('hello')[0]
@@ -99,10 +128,10 @@ class Classifier():
     pass
 
   def get_table_name(self, str2Match):
-    res = self.directCheckForTableNames(str2Match)
+    res = self.direct_table_name(str2Match)
     # proceed if direct check failed
     if res == 0:
-      res = self.synonymsCheck(str2Match)
+      res = self.synonyms_check(str2Match)
     return res
 
       
@@ -110,8 +139,8 @@ class Classifier():
 
 
 if __name__=="__main__":
-
-  t = Classifier([]).get_table_name("entrances")
+  
+  t = Classifier([]).get_table_name("drugs")
   print(t)
 
   q = input("Please enter the question: ")

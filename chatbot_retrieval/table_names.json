@@ -1,12 +1,12 @@
 {
-    "admissions" : ["admits", ""],
-    "asdr all ages" : [],
-    "asdr under75" : [],
-    "burden" : [],
-    "deaths by cause age sex uk" : [],
-    "ohca" : [],
-    "prescriptions" : [],
-    "prevalence" : [],
-    "procedures" : [],
-    "risk factors" : []
+    "admissions" : ["admissions", "admits"],
+    "asdr all ages" : ["asdr all ages", "age specific death rate all ages"],
+    "asdr under75" : ["asdr under75", "asdr 75 and under"],
+    "burden" : ["burden"],
+    "deaths by cause age sex uk" : ["deaths by cause age sex uk", "deaths", "deaths by cause", "deaths by age", "deceased", "death by sex"],
+    "ohca" : ["ohca", "out of hospital cardiac arrest", "cardiac arrest"],
+    "prescriptions" : ["prescriptions"],
+    "prevalence" : ["prevalence"],
+    "procedures" : ["procedures"],
+    "risk factors" : ["risk factors"]
 }

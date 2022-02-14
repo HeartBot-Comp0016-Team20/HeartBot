@@ -8,7 +8,8 @@ from collections import defaultdict
 import pandas as pd
 from fuzzywuzzy import process
 from nltk.corpus import wordnet
-N.download('omw-1.4')
+# N.download('omw-1.4')
+import json
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -40,7 +41,7 @@ class Classifier():
   def __init__(self, tokens):
     self.tokens = tokens
     # These are the attributes for the SQL query
-    self.tableName = None
+    self.table_name = None
     self.columnNames = []
     self.other = []
 
@@ -48,23 +49,24 @@ class Classifier():
     # as the key. The values for the keys are lists with other possible
     # words that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
     # Note: in each value list the first word will always be the exact database word
-    # TODO Create a list of alternative words people could type
-    # TODO Add a way to automatically add this list into the values list
-    actualTableNames = self.get_sheet_names()
-    self.tablesNames  = defaultdict(list)
-    for tableName in actualTableNames:
-      tableName = tableName.lower()
-      self.tablesNames[tableName].append(tableName)
+    self.table_names = self.create_table_names_json(defaultdict(list))
 
-  # Get the tableNames
-  def get_sheet_names(self):
-    xls = pd.ExcelFile("data.xlsx")
-    return xls.sheet_names
+  # Create dictionary for tables_names using the json file details
+  def create_table_names_json(self, table_names):
+    with open('table_names.json') as json_file:
+      data = json.load(json_file)
+    i = 0
+    keys = list(data.keys())
+    values = list(data.values())
+    while i < len(keys):
+      table_names[keys[i]] = values[i]
+      i = i + 1
+    return table_names
 
   # Direct/spelling mistake check to see find the closest match
   def direct_table_name(self, str2Match):
     # Finding the best match for the str2Match with the list of tablenames in the dictionary
-    actual_names = self.tablesNames.keys()
+    actual_names = self.table_names.keys()
     closest_match = process.extractOne(str2Match, actual_names)
 
     # If the closest match percentage is too low then try another check else continue
@@ -72,7 +74,7 @@ class Classifier():
       return 0
 
     # The token is one of the actual table names, we need to find which one
-    possible_names = self.tablesNames[closest_match[0]]
+    possible_names = self.table_names[closest_match[0]]
     # Find best match from possible things the user could have typed
     per_match, best_match = self.sim_check(str2Match, [possible_names])
     if per_match < 75:
@@ -81,7 +83,7 @@ class Classifier():
       return best_match[0]
 
   def synonyms_check(self, token):
-    actual_names = self.tablesNames.keys()
+    actual_names = self.table_names.keys()
     # A list of lists, where is list a list of synoyms for each tablename
     synonym_tuples = []
     for name in actual_names:
@@ -125,7 +127,13 @@ class Classifier():
   # def nGramsCheck():
   #   pass
 
-  # For Column Names
+  def get_table_name(self, str2Match):
+    res = self.direct_table_name(str2Match)
+    # proceed if direct check failed
+    if res == 0:
+      res = self.synonyms_check(str2Match)
+    return res
+
   # def hypernymsCheck(self, token):
   #   syn = wordnet.synsets('hello')[0]
   #   print ("Synset name :  ", syn.name())
@@ -134,20 +142,13 @@ class Classifier():
   #   syn.root_hypernyms()
   #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
 
-  def get_table_name(self, str2Match):
-    res = self.direct_table_name(str2Match)
-    # proceed if direct check failed
-    if res == 0:
-      res = self.synonyms_check(str2Match)
-    return res
-
       
 
 
 
 if __name__=="__main__":
   # Test - admissions, admits, entry, prescriptions, drugs, medicines, asdr
-  t = Classifier([]).get_table_name("risk")
+  t = Classifier([]).get_table_name("asdr")
   print(t)
 
   q = input("Please enter the question: ")

@@ -41,7 +41,6 @@ class ProcessQ():
 class Classifier():
   def __init__(self, tokens):
     self.tokens = tokens
-
     # Create a dictionary with actual table names as in database + other possible
     # words that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
     self.table_names = self.create_table_names_json(defaultdict(list))
@@ -58,7 +57,7 @@ class Classifier():
       i = i + 1
     return table_names
 
-  # Direct/spelling mistake check to see find the closest match
+  # Direct/spelling mistake check to find the closest match
   def direct_table_name(self, str2Match):
     # Finding the best match for the str2Match with the list of tablenames in the dictionary
     actual_names = self.table_names.keys()
@@ -73,6 +72,7 @@ class Classifier():
     else:
       return best_match[0]
 
+  # Synonym check to find the closest match
   def synonyms_check(self, token):
     actual_names = self.table_names.keys()
     # A list of lists, where is list a list of synoyms for each tablename
@@ -118,6 +118,14 @@ class Classifier():
   # def nGramsCheck():
   #   pass
 
+  # def hypernymsCheck(self, token):
+  #   syn = wordnet.synsets('hello')[0]
+  #   print ("Synset name :  ", syn.name())
+  #   print ("\nSynset abstract term :  ", syn.hypernyms())
+  #   print ("\nSynset specific term :  ", syn.hypernyms()[0].hyponyms()) 
+  #   syn.root_hypernyms()
+  #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
+
   # Try different checks to find the best match of table name from the list of tokens
   def get_table_name(self, str2Match):
     res = self.direct_table_name(str2Match)
@@ -140,6 +148,7 @@ class Classifier():
     return table_name
 
   def find_column_names(self):
+    # TODO
     # Find table name
     # Look in excel sheet and get column names in that table name sheet
     # Search the sentence tokens for the colums names:
@@ -151,16 +160,9 @@ class Classifier():
     # Also could be directly found, "nation"
     pass
 
-  # def hypernymsCheck(self, token):
-  #   syn = wordnet.synsets('hello')[0]
-  #   print ("Synset name :  ", syn.name())
-  #   print ("\nSynset abstract term :  ", syn.hypernyms())
-  #   print ("\nSynset specific term :  ", syn.hypernyms()[0].hyponyms()) 
-  #   syn.root_hypernyms()
-  #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
-
       
 if __name__=="__main__":
+
   q = input("Please enter the question: ")
   tokens = ProcessQ(q).getProcessedQ()
   print(tokens)
@@ -175,10 +177,9 @@ if __name__=="__main__":
 
 
 
-
-
 # Sources:
 #   https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
 #   https://www.datacamp.com/community/tutorials/fuzzy-string-python
 #   https://www.guru99.com/wordnet-nltk.html
 #   https://www.geeksforgeeks.org/nlp-synsets-for-a-word-in-wordnet/
+#   https://www.geeksforgeeks.org/convert-json-to-dictionary-in-python/

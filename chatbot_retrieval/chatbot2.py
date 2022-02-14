@@ -78,7 +78,7 @@ class Classifier():
     if per_match < 75:
       return 0
     else:
-      return best_match
+      return best_match[0]
 
   def synonyms_check(self, token):
     actual_names = self.tablesNames.keys()
@@ -98,11 +98,14 @@ class Classifier():
       if len(tuple[1]) == 0:
         pass
       else:
-        per_match, best_match = self.sim_check(token, tuple[1])
-        if per_match < 70:
-          return 0
-        else:
-          return best_match
+        new_per_match, new_best_match = self.sim_check(token, [tuple[1]])
+        if new_per_match > per_match:
+          per_match = new_per_match
+          best_match = tuple
+    if per_match < 70:
+      return 0
+    else:
+      return best_match[0]
 
   # Given a str2Match and a list of things to match from, the functions finds and returns the best match
   def sim_check(self, str2Match, possible_names):
@@ -119,8 +122,10 @@ class Classifier():
         best_match = possible_name
     return per_match, best_match
 
+  # def nGramsCheck():
+  #   pass
 
-
+  # For Column Names
   # def hypernymsCheck(self, token):
   #   syn = wordnet.synsets('hello')[0]
   #   print ("Synset name :  ", syn.name())
@@ -128,9 +133,6 @@ class Classifier():
   #   print ("\nSynset specific term :  ", syn.hypernyms()[0].hyponyms()) 
   #   syn.root_hypernyms()
   #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
-
-  def nGramsCheck():
-    pass
 
   def get_table_name(self, str2Match):
     res = self.direct_table_name(str2Match)
@@ -144,8 +146,8 @@ class Classifier():
 
 
 if __name__=="__main__":
-  
-  t = Classifier([]).get_table_name("entry")
+  # Test - admissions, admits, entry, prescriptions, drugs, medicines, asdr
+  t = Classifier([]).get_table_name("risk")
   print(t)
 
   q = input("Please enter the question: ")

@@ -5,7 +5,7 @@
     "burden" : ["burden"],
     "deaths by cause age sex uk" : ["deaths by cause age sex uk", "deaths", "deaths by cause", "deaths by age", "deceased", "death by sex"],
     "ohca" : ["ohca", "out of hospital cardiac arrest", "cardiac arrest"],
-    "prescriptions" : ["prescriptions"],
+    "prescriptions" : ["prescriptions", "prescribed"],
     "prevalence" : ["prevalence"],
     "procedures" : ["procedures"],
     "risk factors" : ["risk factors"]

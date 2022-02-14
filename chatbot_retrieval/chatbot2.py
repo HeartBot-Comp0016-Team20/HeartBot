@@ -41,15 +41,9 @@ class ProcessQ():
 class Classifier():
   def __init__(self, tokens):
     self.tokens = tokens
-    # These are the attributes for the SQL query
-    self.table_name = None
-    self.columnNames = []
-    self.other = []
 
-    # Create a dictionary with the actual tableName as in database + synonyms
-    # as the key. The values for the keys are lists with other possible
+    # Create a dictionary with actual table names as in database + other possible
     # words that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
-    # Note: in each value list the first word will always be the exact database word
     self.table_names = self.create_table_names_json(defaultdict(list))
 
   # Create dictionary for tables_names using the json file details
@@ -93,7 +87,7 @@ class Classifier():
     per_match = 0
     best_match = None
     for tuple in synonym_tuples:
-      # If no synonyms for a certain tablename
+      # If no synonyms for a certain table name
       if len(tuple[1]) == 0:
         pass
       else:
@@ -124,8 +118,18 @@ class Classifier():
   # def nGramsCheck():
   #   pass
 
+  # Try different checks to find the best match of table name from the list of tokens
+  def get_table_name(self, str2Match):
+    res = self.direct_table_name(str2Match)
+    # proceed if direct check failed
+    if res == 0:
+      res = self.synonyms_check(str2Match)
+    return res
+
   # Finds the table name from the list of tokens
   def find_table_name(self):
+    # If more than one table name in the list of tokens
+    # take the first table name
     table_name = None
     for token in self.tokens:
       token = token[0]
@@ -135,14 +139,17 @@ class Classifier():
         break
     return table_name
 
-  def get_table_name(self, str2Match):
-    res = self.direct_table_name(str2Match)
-    # proceed if direct check failed
-    if res == 0:
-      res = self.synonyms_check(str2Match)
-    # if res == 0:
-    #   res = self.nGramsCheck(str2Match)
-    return res
+  def find_column_names(self):
+    # Find table name
+    # Look in excel sheet and get column names in that table name sheet
+    # Search the sentence tokens for the colums names:
+    #   directCheck
+    #   n-gramsCheck
+    #   synonymCheck
+    # After getting the column name then use HypernymCheck to get general column name
+    # For example find 'UK', this is converted into 'nation'
+    # Also could be directly found, "nation"
+    pass
 
   # def hypernymsCheck(self, token):
   #   syn = wordnet.synsets('hello')[0]
@@ -153,18 +160,21 @@ class Classifier():
   #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
 
       
-
-
-
 if __name__=="__main__":
-  # # Test - admissions, admits, entry, prescriptions, drugs, medicines, asdr
-  # t = Classifier([]).get_table_name("asdr")
-  # print(t)
-
   q = input("Please enter the question: ")
   tokens = ProcessQ(q).getProcessedQ()
+  print(tokens)
   table_name = Classifier(tokens).find_table_name()
   print(table_name)
+
+
+
+
+
+
+
+
+
 
 
 # Sources:

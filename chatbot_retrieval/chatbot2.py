@@ -8,6 +8,7 @@ from collections import defaultdict
 import pandas as pd
 from fuzzywuzzy import process
 from nltk.corpus import wordnet
+from nltk import ngrams
 # N.download('omw-1.4')
 import json
 
@@ -69,10 +70,6 @@ class Classifier():
     actual_names = self.table_names.keys()
     closest_match = process.extractOne(str2Match, actual_names)
 
-    # If the closest match percentage is too low then try another check else continue
-    if closest_match[1] < 75:
-      return 0
-
     # The token is one of the actual table names, we need to find which one
     possible_names = self.table_names[closest_match[0]]
     # Find best match from possible things the user could have typed
@@ -127,11 +124,24 @@ class Classifier():
   # def nGramsCheck():
   #   pass
 
+  # Finds the table name from the list of tokens
+  def find_table_name(self):
+    table_name = None
+    for token in self.tokens:
+      token = token[0]
+      res = self.get_table_name(token)
+      if res != 0:
+        table_name = res
+        break
+    return table_name
+
   def get_table_name(self, str2Match):
     res = self.direct_table_name(str2Match)
     # proceed if direct check failed
     if res == 0:
       res = self.synonyms_check(str2Match)
+    # if res == 0:
+    #   res = self.nGramsCheck(str2Match)
     return res
 
   # def hypernymsCheck(self, token):
@@ -147,13 +157,15 @@ class Classifier():
 
 
 if __name__=="__main__":
-  # Test - admissions, admits, entry, prescriptions, drugs, medicines, asdr
-  t = Classifier([]).get_table_name("asdr")
-  print(t)
+  # # Test - admissions, admits, entry, prescriptions, drugs, medicines, asdr
+  # t = Classifier([]).get_table_name("asdr")
+  # print(t)
 
   q = input("Please enter the question: ")
-  question1 = ProcessQ(q).getProcessedQ()
-  print(question1)
+  tokens = ProcessQ(q).getProcessedQ()
+  table_name = Classifier(tokens).find_table_name()
+  print(table_name)
+
 
 # Sources:
 #   https://www.geeksforgeeks.org/removing-stop-words-nltk-python/

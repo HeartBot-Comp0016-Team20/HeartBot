@@ -10,7 +10,9 @@ from fuzzywuzzy import process
 from nltk.corpus import wordnet
 from nltk import ngrams
 # N.download('omw-1.4')
+import pandas as pd
 import json
+import os
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -148,9 +150,8 @@ class Classifier():
     return table_name
 
   def find_column_names(self):
-    # TODO
-    # Find table name
-    # Look in excel sheet and get column names in that table name sheet
+    table_name = self.find_table_name()
+    column_names_for_table = self.get_tables_columns(table_name)
     # Search the sentence tokens for the colums names:
     #   directCheck
     #   n-gramsCheck
@@ -158,16 +159,24 @@ class Classifier():
     # After getting the column name then use HypernymCheck to get general column name
     # For example find 'UK', this is converted into 'nation'
     # Also could be directly found, "nation"
-    pass
+    return column_names_for_table
+
+  def get_tables_columns(self, table_name):
+    data = pd.read_csv("data/{}.csv".format(table_name))
+    return list(data.columns.values)
+
 
       
 if __name__=="__main__":
-
+  # Add a check so if there is no table_name or column_name then return invalid question
+  # Code now assumes that the questions are in valid format
   q = input("Please enter the question: ")
   tokens = ProcessQ(q).getProcessedQ()
   print(tokens)
   table_name = Classifier(tokens).find_table_name()
   print(table_name)
+  column_names = Classifier(tokens).find_column_names()
+  print(column_names)
 
 
 

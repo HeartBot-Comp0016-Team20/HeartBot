@@ -1,0 +1,369 @@
+cause,gender,age_group,deaths
+All causes,male,All ages ,301579
+All causes,male,Under 35,7360
+All causes,male,35-44,6239
+All causes,male,45-54,14881
+All causes,male,55-64,29162
+All causes,male,65-74,58832
+All causes,male,75-84,91789
+All causes,male,85+,93316
+All causes,female,All ages ,303128
+All causes,female,Under 35,4171
+All causes,female,35-44,3818
+All causes,female,45-54,9779
+All causes,female,55-64,20167
+All causes,female,65-74,42411
+All causes,female,75-84,80732
+All causes,female,85+,142050
+All heart and circulatory diseases,male,All ages ,84742
+All heart and circulatory diseases,male,Under 35,535
+All heart and circulatory diseases,male,35-44,1096
+All heart and circulatory diseases,male,45-54,3840
+All heart and circulatory diseases,male,55-64,8009
+All heart and circulatory diseases,male,65-74,15852
+All heart and circulatory diseases,male,75-84,26556
+All heart and circulatory diseases,male,85+,28854
+All heart and circulatory diseases,female,All ages ,79146
+All heart and circulatory diseases,female,Under 35,371
+All heart and circulatory diseases,female,35-44,460
+All heart and circulatory diseases,female,45-54,1417
+All heart and circulatory diseases,female,55-64,3442
+All heart and circulatory diseases,female,65-74,8229
+All heart and circulatory diseases,female,75-84,21255
+All heart and circulatory diseases,female,85+,43972
+Diseases of the circulatory system,male,All ages ,78176
+Diseases of the circulatory system,male,Under 35,421
+Diseases of the circulatory system,male,35-44,1060
+Diseases of the circulatory system,male,45-54,3818
+Diseases of the circulatory system,male,55-64,7938
+Diseases of the circulatory system,male,65-74,15406
+Diseases of the circulatory system,male,75-84,24304
+Diseases of the circulatory system,male,85+,25229
+Diseases of the circulatory system,female,All ages ,69692
+Diseases of the circulatory system,female,Under 35,278
+Diseases of the circulatory system,female,35-44,452
+Diseases of the circulatory system,female,45-54,1387
+Diseases of the circulatory system,female,55-64,3393
+Diseases of the circulatory system,female,65-74,7963
+Diseases of the circulatory system,female,75-84,19051
+Diseases of the circulatory system,female,85+,37168
+Chronic rheumatic heart diseases,male,All ages ,323
+Chronic rheumatic heart diseases,male,Under 35,4
+Chronic rheumatic heart diseases,male,35-44,7
+Chronic rheumatic heart diseases,male,45-54,13
+Chronic rheumatic heart diseases,male,55-64,21
+Chronic rheumatic heart diseases,male,65-74,54
+Chronic rheumatic heart diseases,male,75-84,107
+Chronic rheumatic heart diseases,male,85+,117
+Chronic rheumatic heart diseases,female,All ages ,576
+Chronic rheumatic heart diseases,female,Under 35,2
+Chronic rheumatic heart diseases,female,35-44,8
+Chronic rheumatic heart diseases,female,45-54,18
+Chronic rheumatic heart diseases,female,55-64,30
+Chronic rheumatic heart diseases,female,65-74,78
+Chronic rheumatic heart diseases,female,75-84,203
+Chronic rheumatic heart diseases,female,85+,237
+Hypertensive diseases,male,All ages ,3321
+Hypertensive diseases,male,Under 35,5
+Hypertensive diseases,male,35-44,41
+Hypertensive diseases,male,45-54,176
+Hypertensive diseases,male,55-64,299
+Hypertensive diseases,male,65-74,590
+Hypertensive diseases,male,75-84,907
+Hypertensive diseases,male,85+,1303
+Hypertensive diseases,female,All ages ,4551
+Hypertensive diseases,female,Under 35,5
+Hypertensive diseases,female,35-44,12
+Hypertensive diseases,female,45-54,55
+Hypertensive diseases,female,55-64,162
+Hypertensive diseases,female,65-74,389
+Hypertensive diseases,female,75-84,1004
+Hypertensive diseases,female,85+,2924
+Coronary heart disease,male,All ages ,39845
+Coronary heart disease,male,Under 35,91
+Coronary heart disease,male,35-44,470
+Coronary heart disease,male,45-54,2229
+Coronary heart disease,male,55-64,5033
+Coronary heart disease,male,65-74,9103
+Coronary heart disease,male,75-84,12313
+Coronary heart disease,male,85+,10606
+Coronary heart disease,female,All ages ,23392
+Coronary heart disease,female,Under 35,22
+Coronary heart disease,female,35-44,121
+Coronary heart disease,female,45-54,496
+Coronary heart disease,female,55-64,1529
+Coronary heart disease,female,65-74,3341
+Coronary heart disease,female,75-84,6882
+Coronary heart disease,female,85+,11001
+Myocardial infarction,male,All ages ,15006
+Myocardial infarction,male,Under 35,39
+Myocardial infarction,male,35-44,206
+Myocardial infarction,male,45-54,963
+Myocardial infarction,male,55-64,2031
+Myocardial infarction,male,65-74,3613
+Myocardial infarction,male,75-84,4649
+Myocardial infarction,male,85+,3505
+Myocardial infarction,female,All ages ,9302
+Myocardial infarction,female,Under 35,8
+Myocardial infarction,female,35-44,52
+Myocardial infarction,female,45-54,214
+Myocardial infarction,female,55-64,666
+Myocardial infarction,female,65-74,1505
+Myocardial infarction,female,75-84,2944
+Myocardial infarction,female,85+,3913
+Other heart diseases,male,All ages ,13806
+Other heart diseases,male,Under 35,215
+Other heart diseases,male,35-44,280
+Other heart diseases,male,45-54,596
+Other heart diseases,male,55-64,1014
+Other heart diseases,male,65-74,1937
+Other heart diseases,male,75-84,3929
+Other heart diseases,male,85+,5835
+Other heart diseases,female,All ages ,16444
+Other heart diseases,female,Under 35,146
+Other heart diseases,female,35-44,131
+Other heart diseases,female,45-54,297
+Other heart diseases,female,55-64,582
+Other heart diseases,female,65-74,1338
+Other heart diseases,female,75-84,3862
+Other heart diseases,female,85+,10088
+Stroke,male,All ages ,14988
+Stroke,male,Under 35,56
+Stroke,male,35-44,163
+Stroke,male,45-54,498
+Stroke,male,55-64,1013
+Stroke,male,65-74,2466
+Stroke,male,75-84,5065
+Stroke,male,85+,5727
+Stroke,female,All ages ,19432
+Stroke,female,Under 35,61
+Stroke,female,35-44,119
+Stroke,female,45-54,337
+Stroke,female,55-64,758
+Stroke,female,65-74,1977
+Stroke,female,75-84,5453
+Stroke,female,85+,10727
+"Diseases of arteries, arterioles and capillaries",male,All ages ,4735
+"Diseases of arteries, arterioles and capillaries",male,Under 35,20
+"Diseases of arteries, arterioles and capillaries",male,35-44,44
+"Diseases of arteries, arterioles and capillaries",male,45-54,152
+"Diseases of arteries, arterioles and capillaries",male,55-64,344
+"Diseases of arteries, arterioles and capillaries",male,65-74,947
+"Diseases of arteries, arterioles and capillaries",male,75-84,1729
+"Diseases of arteries, arterioles and capillaries",male,85+,1499
+"Diseases of arteries, arterioles and capillaries",female,All ages ,3816
+"Diseases of arteries, arterioles and capillaries",female,Under 35,8
+"Diseases of arteries, arterioles and capillaries",female,35-44,13
+"Diseases of arteries, arterioles and capillaries",female,45-54,60
+"Diseases of arteries, arterioles and capillaries",female,55-64,164
+"Diseases of arteries, arterioles and capillaries",female,65-74,546
+"Diseases of arteries, arterioles and capillaries",female,75-84,1237
+"Diseases of arteries, arterioles and capillaries",female,85+,1788
+"Diseases of veins, lymphatic vessels and lymph nodes",male,All ages ,1145
+"Diseases of veins, lymphatic vessels and lymph nodes",male,Under 35,30
+"Diseases of veins, lymphatic vessels and lymph nodes",male,35-44,55
+"Diseases of veins, lymphatic vessels and lymph nodes",male,45-54,154
+"Diseases of veins, lymphatic vessels and lymph nodes",male,55-64,214
+"Diseases of veins, lymphatic vessels and lymph nodes",male,65-74,307
+"Diseases of veins, lymphatic vessels and lymph nodes",male,75-84,251
+"Diseases of veins, lymphatic vessels and lymph nodes",male,85+,134
+"Diseases of veins, lymphatic vessels and lymph nodes",female,All ages ,1454
+"Diseases of veins, lymphatic vessels and lymph nodes",female,Under 35,34
+"Diseases of veins, lymphatic vessels and lymph nodes",female,35-44,48
+"Diseases of veins, lymphatic vessels and lymph nodes",female,45-54,124
+"Diseases of veins, lymphatic vessels and lymph nodes",female,55-64,167
+"Diseases of veins, lymphatic vessels and lymph nodes",female,65-74,293
+"Diseases of veins, lymphatic vessels and lymph nodes",female,75-84,404
+"Diseases of veins, lymphatic vessels and lymph nodes",female,85+,384
+Malignant neoplasm: Heart,male,All ages ,8
+Malignant neoplasm: Heart,male,Under 35,0
+Malignant neoplasm: Heart,male,35-44,2
+Malignant neoplasm: Heart,male,45-54,0
+Malignant neoplasm: Heart,male,55-64,2
+Malignant neoplasm: Heart,male,65-74,0
+Malignant neoplasm: Heart,male,75-84,2
+Malignant neoplasm: Heart,male,85+,2
+Malignant neoplasm: Heart,female,All ages ,10
+Malignant neoplasm: Heart,female,Under 35,2
+Malignant neoplasm: Heart,female,35-44,0
+Malignant neoplasm: Heart,female,45-54,2
+Malignant neoplasm: Heart,female,55-64,1
+Malignant neoplasm: Heart,female,65-74,0
+Malignant neoplasm: Heart,female,75-84,2
+Malignant neoplasm: Heart,female,85+,3
+Vascular dementia,male,All ages ,6254
+Vascular dementia,male,Under 35,0
+Vascular dementia,male,35-44,0
+Vascular dementia,male,45-54,0
+Vascular dementia,male,55-64,29
+Vascular dementia,male,65-74,409
+Vascular dementia,male,75-84,2220
+Vascular dementia,male,85+,3596
+Vascular dementia,female,All ages ,9181
+Vascular dementia,female,Under 35,0
+Vascular dementia,female,35-44,0
+Vascular dementia,female,45-54,2
+Vascular dementia,female,55-64,14
+Vascular dementia,female,65-74,244
+Vascular dementia,female,75-84,2164
+Vascular dementia,female,85+,6757
+Transient cerebral ischaemic attacks and related syndromes,male,All ages ,12
+Transient cerebral ischaemic attacks and related syndromes,male,Under 35,0
+Transient cerebral ischaemic attacks and related syndromes,male,35-44,0
+Transient cerebral ischaemic attacks and related syndromes,male,45-54,0
+Transient cerebral ischaemic attacks and related syndromes,male,55-64,0
+Transient cerebral ischaemic attacks and related syndromes,male,65-74,0
+Transient cerebral ischaemic attacks and related syndromes,male,75-84,3
+Transient cerebral ischaemic attacks and related syndromes,male,85+,9
+Transient cerebral ischaemic attacks and related syndromes,female,All ages ,29
+Transient cerebral ischaemic attacks and related syndromes,female,Under 35,0
+Transient cerebral ischaemic attacks and related syndromes,female,35-44,0
+Transient cerebral ischaemic attacks and related syndromes,female,45-54,0
+Transient cerebral ischaemic attacks and related syndromes,female,55-64,0
+Transient cerebral ischaemic attacks and related syndromes,female,65-74,0
+Transient cerebral ischaemic attacks and related syndromes,female,75-84,5
+Transient cerebral ischaemic attacks and related syndromes,female,85+,24
+Cardiovascular disorders originating in the perinatal period,male,All ages ,5
+Cardiovascular disorders originating in the perinatal period,male,Under 35,5
+Cardiovascular disorders originating in the perinatal period,male,35-44,0
+Cardiovascular disorders originating in the perinatal period,male,45-54,0
+Cardiovascular disorders originating in the perinatal period,male,55-64,0
+Cardiovascular disorders originating in the perinatal period,male,65-74,0
+Cardiovascular disorders originating in the perinatal period,male,75-84,0
+Cardiovascular disorders originating in the perinatal period,male,85+,0
+Cardiovascular disorders originating in the perinatal period,female,All ages ,3
+Cardiovascular disorders originating in the perinatal period,female,Under 35,3
+Cardiovascular disorders originating in the perinatal period,female,35-44,0
+Cardiovascular disorders originating in the perinatal period,female,45-54,0
+Cardiovascular disorders originating in the perinatal period,female,55-64,0
+Cardiovascular disorders originating in the perinatal period,female,65-74,0
+Cardiovascular disorders originating in the perinatal period,female,75-84,0
+Cardiovascular disorders originating in the perinatal period,female,85+,0
+Congenital malformations of the circulatory system,male,All ages ,287
+Congenital malformations of the circulatory system,male,Under 35,109
+Congenital malformations of the circulatory system,male,35-44,34
+Congenital malformations of the circulatory system,male,45-54,22
+Congenital malformations of the circulatory system,male,55-64,40
+Congenital malformations of the circulatory system,male,65-74,37
+Congenital malformations of the circulatory system,male,75-84,27
+Congenital malformations of the circulatory system,male,85+,18
+Congenital malformations of the circulatory system,female,All ages ,231
+Congenital malformations of the circulatory system,female,Under 35,88
+Congenital malformations of the circulatory system,female,35-44,8
+Congenital malformations of the circulatory system,female,45-54,26
+Congenital malformations of the circulatory system,female,55-64,34
+Congenital malformations of the circulatory system,female,65-74,22
+Congenital malformations of the circulatory system,female,75-84,33
+Congenital malformations of the circulatory system,female,85+,20
+Cancer,male,All ages ,91779
+Cancer,male,Under 35,665
+Cancer,male,35-44,999
+Cancer,male,45-54,3843
+Cancer,male,55-64,11216
+Cancer,male,65-74,24701
+Cancer,male,75-84,30690
+Cancer,male,85+,19665
+Cancer,female,All ages ,80450
+Cancer,female,Under 35,626
+Cancer,female,35-44,1359
+Cancer,female,45-54,4488
+Cancer,female,55-64,9991
+Cancer,female,65-74,19392
+Cancer,female,75-84,24919
+Cancer,female,85+,19675
+Lung cancer,male,All ages ,18508
+Lung cancer,male,Under 35,15
+Lung cancer,male,35-44,103
+Lung cancer,male,45-54,659
+Lung cancer,male,55-64,2435
+Lung cancer,male,65-74,5995
+Lung cancer,male,75-84,6469
+Lung cancer,male,85+,2832
+Lung cancer,female,All ages ,16089
+Lung cancer,female,Under 35,14
+Lung cancer,female,35-44,86
+Lung cancer,female,45-54,561
+Lung cancer,female,55-64,2157
+Lung cancer,female,65-74,4923
+Lung cancer,female,75-84,5477
+Lung cancer,female,85+,2871
+Breast cancer,male,All ages ,79
+Breast cancer,male,Under 35,0
+Breast cancer,male,35-44,1
+Breast cancer,male,45-54,2
+Breast cancer,male,55-64,11
+Breast cancer,male,65-74,26
+Breast cancer,male,75-84,27
+Breast cancer,male,85+,12
+Breast cancer,female,All ages ,11375
+Breast cancer,female,Under 35,95
+Breast cancer,female,35-44,429
+Breast cancer,female,45-54,1281
+Breast cancer,female,55-64,1816
+Breast cancer,female,65-74,2310
+Breast cancer,female,75-84,2764
+Breast cancer,female,85+,2680
+Respiratory disease,male,All ages ,39847
+Respiratory disease,male,Under 35,204
+Respiratory disease,male,35-44,238
+Respiratory disease,male,45-54,861
+Respiratory disease,male,55-64,2586
+Respiratory disease,male,65-74,7420
+Respiratory disease,male,75-84,13381
+Respiratory disease,male,85+,15157
+Respiratory disease,female,All ages ,41115
+Respiratory disease,female,Under 35,189
+Respiratory disease,female,35-44,185
+Respiratory disease,female,45-54,693
+Respiratory disease,female,55-64,2008
+Respiratory disease,female,65-74,6020
+Respiratory disease,female,75-84,11886
+Respiratory disease,female,85+,20134
+Lower respiratory disease ,male,All ages ,17408
+Lower respiratory disease ,male,Under 35,37
+Lower respiratory disease ,male,35-44,55
+Lower respiratory disease ,male,45-54,353
+Lower respiratory disease ,male,55-64,1372
+Lower respiratory disease ,male,65-74,4294
+Lower respiratory disease ,male,75-84,6564
+Lower respiratory disease ,male,85+,4733
+Lower respiratory disease ,female,All ages ,18014
+Lower respiratory disease ,female,Under 35,23
+Lower respiratory disease ,female,35-44,47
+Lower respiratory disease ,female,45-54,318
+Lower respiratory disease ,female,55-64,1247
+Lower respiratory disease ,female,65-74,4023
+Lower respiratory disease ,female,75-84,6539
+Lower respiratory disease ,female,85+,5817
+Diabetes,male,All ages ,4038
+Diabetes,male,Under 35,67
+Diabetes,male,35-44,95
+Diabetes,male,45-54,186
+Diabetes,male,55-64,401
+Diabetes,male,65-74,720
+Diabetes,male,75-84,1278
+Diabetes,male,85+,1291
+Diabetes,female,All ages ,3789
+Diabetes,female,Under 35,37
+Diabetes,female,35-44,39
+Diabetes,female,45-54,119
+Diabetes,female,55-64,261
+Diabetes,female,65-74,476
+Diabetes,female,75-84,1044
+Diabetes,female,85+,1813
+Unspecified dementia and Alzheimer's,male,All ages ,20237
+Unspecified dementia and Alzheimer's,male,Under 35,0
+Unspecified dementia and Alzheimer's,male,35-44,0
+Unspecified dementia and Alzheimer's,male,45-54,9
+Unspecified dementia and Alzheimer's,male,55-64,113
+Unspecified dementia and Alzheimer's,male,65-74,1142
+Unspecified dementia and Alzheimer's,male,75-84,6483
+Unspecified dementia and Alzheimer's,male,85+,12490
+Unspecified dementia and Alzheimer's,female,All ages ,39115
+Unspecified dementia and Alzheimer's,female,Under 35,0
+Unspecified dementia and Alzheimer's,female,35-44,4
+Unspecified dementia and Alzheimer's,female,45-54,6
+Unspecified dementia and Alzheimer's,female,55-64,142
+Unspecified dementia and Alzheimer's,female,65-74,1355
+Unspecified dementia and Alzheimer's,female,75-84,8911
+Unspecified dementia and Alzheimer's,female,85+,28697

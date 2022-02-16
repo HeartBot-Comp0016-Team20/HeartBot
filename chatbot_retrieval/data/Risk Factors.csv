@@ -1,0 +1,847 @@
+Nation,Year,Age,Sex,Risk Factors,Prevalence (000s),Prevalence (%)
+England,2019,16-24,Male,High blood pressure,x,x
+England,2019,25-34,Male,High blood pressure,300.4826474733649,7.845499934030414
+England,2019,35-44,Male,High blood pressure,480,13.395568365940662
+England,2019,45-54,Male,High blood pressure,1080,28.674757471204785
+England,2019,55-64,Male,High blood pressure,1600,48.043679662531304
+England,2019,65-74,Male,High blood pressure,1560,58.170579963734504
+England,2019,75+,Male,High blood pressure,1390,67.64387657187518
+England,2019,All Adults,Male,High blood pressure,6400,30.376304925700122
+England,2019,16-24,Female,High blood pressure,x,x
+England,2019,25-34,Female,High blood pressure,240,6.246972946420341
+England,2019,35-44,Female,High blood pressure,310,8.622589183076087
+England,2019,45-54,Female,High blood pressure,850,21.932106530084916
+England,2019,55-64,Female,High blood pressure,1100,32.58345196112779
+England,2019,65-74,Female,High blood pressure,1500,50.58811298798253
+England,2019,75+,Female,High blood pressure,1800,65.40837914774083
+England,2019,All Adults,Female,High blood pressure,5800,25.428710597922866
+England,2019,16-24,All,High blood pressure,x,x
+England,2019,25-34,All,High blood pressure,540,7.041102904637818
+England,2019,35-44,All,High blood pressure,790,11.114953845820878
+England,2019,45-54,All,High blood pressure,1900,25.32404388395078
+England,2019,55-64,All,High blood pressure,2700,40.30835611477488
+England,2019,65-74,All,High blood pressure,3000,54.129871336280836
+England,2019,75+,All,High blood pressure,3200,66.39256459586139
+England,2019,All Adults,All,High blood pressure,12200,27.877906668139047
+Scotland,2018/19,16-24,Male,High blood pressure,5.84,2
+Scotland,2018/19,25-34,Male,High blood pressure,29.92,8
+Scotland,2018/19,35-44,Male,High blood pressure,29.61,9
+Scotland,2018/19,45-54,Male,High blood pressure,120,33
+Scotland,2018/19,55-64,Male,High blood pressure,180,49
+Scotland,2018/19,65-74,Male,High blood pressure,170,62
+Scotland,2018/19,75+,Male,High blood pressure,120,63
+Scotland,2018/19,All Adults,Male,High blood pressure,660,31
+Scotland,2018/19,16-24,Female,High blood pressure,0,0
+Scotland,2018/19,25-34,Female,High blood pressure,20,5
+Scotland,2018/19,35-44,Female,High blood pressure,40,12
+Scotland,2018/19,45-54,Female,High blood pressure,70,18
+Scotland,2018/19,55-64,Female,High blood pressure,159.6,42
+Scotland,2018/19,65-74,Female,High blood pressure,180,58
+Scotland,2018/19,75+,Female,High blood pressure,210,78
+Scotland,2018/19,All Adults,Female,High blood pressure,680,29
+Scotland,2018/19,16-24,All,High blood pressure,5.84,7
+Scotland,2018/19,25-34,All,High blood pressure,50,5
+Scotland,2018/19,35-44,All,High blood pressure,70,12
+Scotland,2018/19,45-54,All,High blood pressure,190,29
+Scotland,2018/19,55-64,All,High blood pressure,340,45
+Scotland,2018/19,65-74,All,High blood pressure,350,59
+Scotland,2018/19,75+,All,High blood pressure,330,70
+Scotland,2018/19,All Adults,All,High blood pressure,1330,31
+England,2019,16-24,Male,Untreated high blood pressure,x,x
+England,2019,25-34,Male,Untreated high blood pressure,240,6.346342740520783
+England,2019,35-44,Male,Untreated high blood pressure,360,10.04571630194163
+England,2019,45-54,Male,Untreated high blood pressure,680,18.164178415553977
+England,2019,55-64,Male,Untreated high blood pressure,720,21.522351114157782
+England,2019,65-74,Male,Untreated high blood pressure,540,20.250104751687665
+England,2019,75+,Male,Untreated high blood pressure,290,14.328917985465196
+England,2019,All Adults,Male,Untreated high blood pressure,2830,13.955111990229728
+England,2019,16-24,Female,Untreated high blood pressure,30,1.1104302862071014
+England,2019,25-34,Female,Untreated high blood pressure,180,4.793635118117027
+England,2019,35-44,Female,Untreated high blood pressure,230,6.407654050462657
+England,2019,45-54,Female,Untreated high blood pressure,480,12.423617620456136
+England,2019,55-64,Female,Untreated high blood pressure,460,13.239861912622885
+England,2019,65-74,Female,Untreated high blood pressure,560,19.247942259170763
+England,2019,75+,Female,Untreated high blood pressure,530,19.293737884307404
+England,2019,All Adults,Female,Untreated high blood pressure,2460,10.75407898660698
+England,2019,16-24,All,Untreated high blood pressure,x,2.3731028025269736
+England,2019,25-34,All,Untreated high blood pressure,420,6.212591608738436
+England,2019,35-44,All,Untreated high blood pressure,590,10.381855082491171
+England,2019,45-54,All,Untreated high blood pressure,1160,11.051806908407606
+England,2019,55-64,All,Untreated high blood pressure,1170,18.32617821503004
+England,2019,65-74,All,Untreated high blood pressure,1100,18.028787213645842
+England,2019,75+,All,Untreated high blood pressure,820,16.110392977928978
+England,2019,All Adults,All,Untreated high blood pressure,5300.244917159515,11.617694555888981
+Scotland,2018/19,16-24,Male,Untreated high blood pressure,5.84,2
+Scotland,2018/19,25-34,Male,Untreated high blood pressure,29.92,8
+Scotland,2018/19,35-44,Male,Untreated high blood pressure,30,8
+Scotland,2018/19,45-54,Male,Untreated high blood pressure,80,22
+Scotland,2018/19,55-64,Male,Untreated high blood pressure,130,35
+Scotland,2018/19,65-74,Male,Untreated high blood pressure,60,23
+Scotland,2018/19,75+,Male,Untreated high blood pressure,50,24
+Scotland,2018/19,All Adults,Male,Untreated high blood pressure,380,18
+Scotland,2018/19,16-24,Female,Untreated high blood pressure,x,x
+Scotland,2018/19,25-34,Female,Untreated high blood pressure,15.120000000000001,4
+Scotland,2018/19,35-44,Female,Untreated high blood pressure,30,10
+Scotland,2018/19,45-54,Female,Untreated high blood pressure,60,15
+Scotland,2018/19,55-64,Female,Untreated high blood pressure,90,23
+Scotland,2018/19,65-74,Female,Untreated high blood pressure,80,27
+Scotland,2018/19,75+,Female,Untreated high blood pressure,100,35
+Scotland,2018/19,All Adults,Female,Untreated high blood pressure,370,16
+Scotland,2018/19,16-24,All,Untreated high blood pressure,5.84,1
+Scotland,2018/19,25-34,All,Untreated high blood pressure,50,6
+Scotland,2018/19,35-44,All,Untreated high blood pressure,60,9
+Scotland,2018/19,45-54,All,Untreated high blood pressure,140,19
+Scotland,2018/19,55-64,All,Untreated high blood pressure,210,28
+Scotland,2018/19,65-74,All,Untreated high blood pressure,150,25
+Scotland,2018/19,75+,All,Untreated high blood pressure,140,30
+Scotland,2018/19,All Adults,All,Untreated high blood pressure,750,17
+England,2019,16-24,Male,Diabetes,30,0.993981760238572
+England,2019,25-34,Male,Diabetes,50,1.3213552297742452
+England,2019,35-44,Male,Diabetes,120,3.303085967535141
+England,2019,45-54,Male,Diabetes,350,9.160621334159606
+England,2019,55-64,Male,Diabetes,430,12.921956979187103
+England,2019,65-74,Male,Diabetes,550,20.518402447297728
+England,2019,75+,Male,Diabetes,370,18.1964994642464
+England,2019,All Adults,Male,Diabetes,1900,8.554437456170154
+England,2019,16-24,Female,Diabetes,9.747062493326125,0.33691885562827945
+England,2019,25-34,Female,Diabetes,30,0.7748984171410612
+England,2019,35-44,Female,Diabetes,94.6903037189281,2.6317482968017814
+England,2019,45-54,Female,Diabetes,140,3.6078115555660117
+England,2019,55-64,Female,Diabetes,310,9.063634502443389
+England,2019,65-74,Female,Diabetes,340,11.642390925741509
+England,2019,75+,Female,Diabetes,420,15.316730977711138
+England,2019,All Adults,Female,Diabetes,1340,5.671790620960889
+England,2019,16-24,All,Diabetes,40.16290435662643,0.2855817775287292
+England,2019,25-34,All,Diabetes,79.86032054742866,0.6142135147691499
+England,2019,35-44,All,Diabetes,210,2.3984592593151066
+England,2019,45-54,All,Diabetes,480,7.899037727887069
+England,2019,55-64,All,Diabetes,740,10.477856619304573
+England,2019,65-74,All,Diabetes,890,14.672512414466105
+England,2019,75+,All,Diabetes,790,17.607601515078006
+England,2019,All Adults,All,Diabetes,3240,6.954723934454152
+Scotland,2018/19,16-24,Male,Diabetes,8.76,3
+Scotland,2018/19,25-34,Male,Diabetes,x,x
+Scotland,2018/19,35-44,Male,Diabetes,9.87,3
+Scotland,2018/19,45-54,Male,Diabetes,29.52,8
+Scotland,2018/19,55-64,Male,Diabetes,50,15
+Scotland,2018/19,65-74,Male,Diabetes,50,17
+Scotland,2018/19,75+,Male,Diabetes,40,18
+Scotland,2018/19,All Adults,Male,Diabetes,180,9
+Scotland,2018/19,16-24,Female,Diabetes,x,x
+Scotland,2018/19,25-34,Female,Diabetes,7.5600000000000005,2
+Scotland,2018/19,35-44,Female,Diabetes,10.26,3
+Scotland,2018/19,45-54,Female,Diabetes,15.72,4
+Scotland,2018/19,55-64,Female,Diabetes,22.8,6
+Scotland,2018/19,65-74,Female,Diabetes,27.18,9
+Scotland,2018/19,75+,Female,Diabetes,35.49,13
+Scotland,2018/19,All Adults,Female,Diabetes,120,5
+Scotland,2018/19,16-24,All,Diabetes,8.76,2
+Scotland,2018/19,25-34,All,Diabetes,7.5600000000000005,1
+Scotland,2018/19,35-44,All,Diabetes,20.13,3
+Scotland,2018/19,45-54,All,Diabetes,45.24,6
+Scotland,2018/19,55-64,All,Diabetes,80,11
+Scotland,2018/19,65-74,All,Diabetes,75,13
+Scotland,2018/19,75+,All,Diabetes,70,15
+Scotland,2018/19,All Adults,All,Diabetes,300,7
+England,2018,16-24,Male,Raised cholesterol,540,17.529113833796636
+England,2018,25-34,Male,Raised cholesterol,1300,33.78111796336448
+England,2018,35-44,Male,Raised cholesterol,1900,52.686240261195806
+England,2018,45-54,Male,Raised cholesterol,2000,54.53187689301832
+England,2018,55-64,Male,Raised cholesterol,1700,51.54796871125613
+England,2018,65-74,Male,Raised cholesterol,980,36.79503844365759
+England,2018,75+,Male,Raised cholesterol,390,18.794234123922774
+England,2018,All Adults,Male,Raised cholesterol,8800,39.96167896780683
+England,2018,16-24,Female,Raised cholesterol,490,16.978728396371082
+England,2018,25-34,Female,Raised cholesterol,970,25.66973669833306
+England,2018,35-44,Female,Raised cholesterol,1300,36.86900863246178
+England,2018,45-54,Female,Raised cholesterol,2300,59.15506475155802
+England,2018,55-64,Female,Raised cholesterol,2300,66.40343601895462
+England,2018,65-74,Female,Raised cholesterol,1800,62.319721676512536
+England,2018,75+,Female,Raised cholesterol,1300,48.624944611585136
+England,2018,All Adults,Female,Raised cholesterol,10500,45.03505656969905
+England,2018,16-24,All,Raised cholesterol,1030,17
+England,2018,25-34,All,Raised cholesterol,2300,29
+England,2018,35-44,All,Raised cholesterol,3200,45
+England,2018,45-54,All,Raised cholesterol,4300,57
+England,2018,55-64,All,Raised cholesterol,4000,59
+England,2018,65-74,All,Raised cholesterol,2800,50
+England,2018,75+,All,Raised cholesterol,1700,35
+England,2018,All Adults,All,Raised cholesterol,19300,43
+England,2019,16-24,Male,Overweight (including obese),1100,37
+England,2019,25-34,Male,Overweight (including obese),2300,60
+England,2019,35-44,Male,Overweight (including obese),2400,68
+England,2019,45-54,Male,Overweight (including obese),3000,79
+England,2019,55-64,Male,Overweight (including obese),2600,79
+England,2019,65-74,Male,Overweight (including obese),2200,81
+England,2019,75+,Male,Overweight (including obese),1500,74
+England,2019,All Adults,Male,Overweight (including obese),15100,68
+England,2019,16-24,Female,Overweight (including obese),1100,37
+England,2019,25-34,Female,Overweight (including obese),2000,54
+England,2019,35-44,Female,Overweight (including obese),2200,61
+England,2019,45-54,Female,Overweight (including obese),2600,67
+England,2019,55-64,Female,Overweight (including obese),2300,66
+England,2019,65-74,Female,Overweight (including obese),2000,69
+England,2019,75+,Female,Overweight (including obese),1900,69
+England,2019,All Adults,Female,Overweight (including obese),14100,60
+England,2019,16-24,All,Overweight (including obese),2200,37
+England,2019,25-34,All,Overweight (including obese),4300,57
+England,2019,35-44,All,Overweight (including obese),4600,64
+England,2019,45-54,All,Overweight (including obese),5600,73
+England,2019,55-64,All,Overweight (including obese),4900,72
+England,2019,65-74,All,Overweight (including obese),4200,75
+England,2019,75+,All,Overweight (including obese),3400,71
+England,2019,All Adults,All,Overweight (including obese),29200,64
+Scotland,2019,16-24,Male,Overweight (including obese),100,35
+Scotland,2019,25-34,Male,Overweight (including obese),250,66
+Scotland,2019,35-44,Male,Overweight (including obese),230.29999999999998,70
+Scotland,2019,45-54,Male,Overweight (including obese),270,74
+Scotland,2019,55-64,Male,Overweight (including obese),280,78
+Scotland,2019,65-74,Male,Overweight (including obese),240,85
+Scotland,2019,75+,Male,Overweight (including obese),150,77
+Scotland,2019,All Adults,Male,Overweight (including obese),1520,69
+Scotland,2019,16-24,Female,Overweight (including obese),130,45
+Scotland,2019,25-34,Female,Overweight (including obese),220,58
+Scotland,2019,35-44,Female,Overweight (including obese),220,64
+Scotland,2019,45-54,Female,Overweight (including obese),260,65
+Scotland,2019,55-64,Female,Overweight (including obese),260,69
+Scotland,2019,65-74,Female,Overweight (including obese),220,73
+Scotland,2019,75+,Female,Overweight (including obese),180,66
+Scotland,2019,All Adults,Female,Overweight (including obese),1480,63
+Scotland,2019,16-24,All,Overweight (including obese),230,40
+Scotland,2019,25-34,All,Overweight (including obese),470,62
+Scotland,2019,35-44,All,Overweight (including obese),450,67
+Scotland,2019,45-54,All,Overweight (including obese),530,69
+Scotland,2019,55-64,All,Overweight (including obese),540,73
+Scotland,2019,65-74,All,Overweight (including obese),460,79
+Scotland,2019,75+,All,Overweight (including obese),330,71
+Scotland,2019,All Adults,All,Overweight (including obese),3000,66
+Wales,2019/20,16-24,Male,Overweight (including obese),70,42
+Wales,2019/20,25-34,Male,Overweight (including obese),130,62
+Wales,2019/20,35-44,Male,Overweight (including obese),120,70
+Wales,2019/20,45-54,Male,Overweight (including obese),160,76
+Wales,2019/20,55-64,Male,Overweight (including obese),150,76
+Wales,2019/20,65-74,Male,Overweight (including obese),120,69
+Wales,2019/20,75+,Male,Overweight (including obese),80,62
+Wales,2019/20,All Adults,Male,Overweight (including obese),830,67
+Wales,2019/20,16-24,Female,Overweight (including obese),50,31
+Wales,2019/20,25-34,Female,Overweight (including obese),110,55
+Wales,2019/20,35-44,Female,Overweight (including obese),100.24000000000001,56
+Wales,2019/20,45-54,Female,Overweight (including obese),139.75,65
+Wales,2019/20,55-64,Female,Overweight (including obese),130,60
+Wales,2019/20,65-74,Female,Overweight (including obese),100,56
+Wales,2019/20,75+,Female,Overweight (including obese),90,51
+Wales,2019/20,All Adults,Female,Overweight (including obese),720,55
+Wales,2019/20,16-24,All,Overweight (including obese),120,37
+Wales,2019/20,25-34,All,Overweight (including obese),240,58
+Wales,2019/20,35-44,All,Overweight (including obese),220,63
+Wales,2019/20,45-54,All,Overweight (including obese),300,70
+Wales,2019/20,55-64,All,Overweight (including obese),280,68
+Wales,2019/20,65-74,All,Overweight (including obese),220,63
+Wales,2019/20,75+,All,Overweight (including obese),170,56
+Wales,2019/20,All Adults,All,Overweight (including obese),1550,61
+Northern Ireland,2019/20,16-24,Male,Overweight (including obese),40,36
+Northern Ireland,2019/20,25-34,Male,Overweight (including obese),80,66
+Northern Ireland,2019/20,35-44,Male,Overweight (including obese),90,76
+Northern Ireland,2019/20,45-54,Male,Overweight (including obese),100,82
+Northern Ireland,2019/20,55-64,Male,Overweight (including obese),90,82
+Northern Ireland,2019/20,65-74,Male,Overweight (including obese),70,84
+Northern Ireland,2019/20,75+,Male,Overweight (including obese),40,69
+Northern Ireland,2019/20,All Adults,Male,Overweight (including obese),520,71
+Northern Ireland,2019/20,16-24,Female,Overweight (including obese),40,39
+Northern Ireland,2019/20,25-34,Female,Overweight (including obese),70,59
+Northern Ireland,2019/20,35-44,Female,Overweight (including obese),70,56.00000000000001
+Northern Ireland,2019/20,45-54,Female,Overweight (including obese),90,70
+Northern Ireland,2019/20,55-64,Female,Overweight (including obese),70,62
+Northern Ireland,2019/20,65-74,Female,Overweight (including obese),60,72
+Northern Ireland,2019/20,75+,Female,Overweight (including obese),50,57.99999999999999
+Northern Ireland,2019/20,All Adults,Female,Overweight (including obese),460,60
+Northern Ireland,2019/20,16-24,All,Overweight (including obese),80,37
+Northern Ireland,2019/20,25-34,All,Overweight (including obese),150,63
+Northern Ireland,2019/20,35-44,All,Overweight (including obese),160,66
+Northern Ireland,2019/20,45-54,All,Overweight (including obese),190,76
+Northern Ireland,2019/20,55-64,All,Overweight (including obese),160,72
+Northern Ireland,2019/20,65-74,All,Overweight (including obese),130,78
+Northern Ireland,2019/20,75+,All,Overweight (including obese),90,63
+Northern Ireland,2019/20,All Adults,All,Overweight (including obese),970,65
+UK,2019/20,16-24,Male,Overweight (including obese),1310,37
+UK,2019/20,25-34,Male,Overweight (including obese),2760,61
+UK,2019/20,35-44,Male,Overweight (including obese),2840.3,69
+UK,2019/20,45-54,Male,Overweight (including obese),3530,79
+UK,2019/20,55-64,Male,Overweight (including obese),3120,79
+UK,2019/20,65-74,Male,Overweight (including obese),2630,81
+UK,2019/20,75+,Male,Overweight (including obese),1770,74
+UK,2019/20,All Adults,Male,Overweight (including obese),18000,68
+UK,2019/20,16-24,Female,Overweight (including obese),1320,37
+UK,2019/20,25-34,Female,Overweight (including obese),2400,55
+UK,2019/20,35-44,Female,Overweight (including obese),2590.24,61
+UK,2019/20,45-54,Female,Overweight (including obese),3089.75,67
+UK,2019/20,55-64,Female,Overweight (including obese),2760,66
+UK,2019/20,65-74,Female,Overweight (including obese),2380,69
+UK,2019/20,75+,Female,Overweight (including obese),2220,68
+UK,2019/20,All Adults,Female,Overweight (including obese),16800,60
+UK,2019/20,16-24,All,Overweight (including obese),2600,37
+UK,2019/20,25-34,All,Overweight (including obese),5200,57
+UK,2019/20,35-44,All,Overweight (including obese),5400,64.19125119865507
+UK,2019/20,45-54,All,Overweight (including obese),6600,72
+UK,2019/20,55-64,All,Overweight (including obese),5900,72
+UK,2019/20,65-74,All,Overweight (including obese),5000,74
+UK,2019/20,75+,All,Overweight (including obese),4000,69
+UK,2019/20,All Adults,All,Overweight (including obese),34700,64
+England,2019,16-24,Male,Obese,430,14
+England,2019,25-34,Male,Obese,730,19
+England,2019,35-44,Male,Obese,960,27
+England,2019,45-54,Male,Obese,1200,32
+England,2019,55-64,Male,Obese,1130,34
+England,2019,65-74,Male,Obese,1020,38
+England,2019,75+,Male,Obese,470,23
+England,2019,All Adults,Male,Obese,5940,27
+England,2019,16-24,Female,Obese,350,12
+England,2019,25-34,Female,Obese,980,26
+England,2019,35-44,Female,Obese,1200,33
+England,2019,45-54,Female,Obese,1349.95,35
+England,2019,55-64,Female,Obese,1150,33
+England,2019,65-74,Female,Obese,980,34
+England,2019,75+,Female,Obese,760,28
+England,2019,All Adults,Female,Obese,6750,29
+England,2019,16-24,All,Obese,780,13
+England,2019,25-34,All,Obese,1700,23
+England,2019,35-44,All,Obese,2100,30
+England,2019,45-54,All,Obese,2600,33
+England,2019,55-64,All,Obese,2300,34
+England,2019,65-74,All,Obese,2000,36
+England,2019,75+,All,Obese,1200,26
+England,2019,All Adults,All,Obese,12700,28
+Scotland,2019,16-24,Male,Obese,40,14
+Scotland,2019,25-34,Male,Obese,80,21
+Scotland,2019,35-44,Male,Obese,100,30
+Scotland,2019,45-54,Male,Obese,125.46000000000001,34
+Scotland,2019,55-64,Male,Obese,120,33
+Scotland,2019,65-74,Male,Obese,120,42
+Scotland,2019,75+,Male,Obese,60,30
+Scotland,2019,All Adults,Male,Obese,640,29
+Scotland,2019,16-24,Female,Obese,60,21
+Scotland,2019,25-34,Female,Obese,109.61999999999999,29
+Scotland,2019,35-44,Female,Obese,110,32
+Scotland,2019,45-54,Female,Obese,110,29
+Scotland,2019,55-64,Female,Obese,120,32
+Scotland,2019,65-74,Female,Obese,100,32
+Scotland,2019,75+,Female,Obese,90.09,33
+Scotland,2019,All Adults,Female,Obese,700,30
+Scotland,2019,16-24,All,Obese,100.1,17
+Scotland,2019,25-34,All,Obese,190,25
+Scotland,2019,35-44,All,Obese,210,31
+Scotland,2019,45-54,All,Obese,240,31
+Scotland,2019,55-64,All,Obese,239.74,32
+Scotland,2019,65-74,All,Obese,210,37
+Scotland,2019,75+,All,Obese,150,32
+Scotland,2019,All Adults,All,Obese,1340,29
+Wales,2019/20,16-24,Male,Obese,30,15
+Wales,2019/20,25-34,Male,Obese,60,29
+Wales,2019/20,35-44,Male,Obese,50,26
+Wales,2019/20,45-54,Male,Obese,55.080000000000005,27
+Wales,2019/20,55-64,Male,Obese,70,35
+Wales,2019/20,65-74,Male,Obese,50,28
+Wales,2019/20,75+,Male,Obese,24.7,19
+Wales,2019/20,All Adults,Male,Obese,329.84999999999997,26
+Wales,2019/20,16-24,Female,Obese,20,11
+Wales,2019/20,25-34,Female,Obese,55.440000000000005,28
+Wales,2019/20,35-44,Female,Obese,50,26
+Wales,2019/20,45-54,Female,Obese,60,27
+Wales,2019/20,55-64,Female,Obese,60,28
+Wales,2019/20,65-74,Female,Obese,50,25
+Wales,2019/20,75+,Female,Obese,30,18
+Wales,2019/20,All Adults,Female,Obese,320,24
+Wales,2019/20,16-24,All,Obese,50,13
+Wales,2019/20,25-34,All,Obese,110,28
+Wales,2019/20,35-44,All,Obese,90,26
+Wales,2019/20,45-54,All,Obese,110,27
+Wales,2019/20,55-64,All,Obese,130,32
+Wales,2019/20,65-74,All,Obese,100,26
+Wales,2019/20,75+,All,Obese,60,18
+Wales,2019/20,All Adults,All,Obese,650,25
+Northern Ireland,2019/20,16-24,Male,Obese,12.719999999999999,12
+Northern Ireland,2019/20,25-34,Male,Obese,26.04,21
+Northern Ireland,2019/20,35-44,Male,Obese,35.1,30
+Northern Ireland,2019/20,45-54,Male,Obese,44.099999999999994,35
+Northern Ireland,2019/20,55-64,Male,Obese,36.160000000000004,32
+Northern Ireland,2019/20,65-74,Male,Obese,31.54,38
+Northern Ireland,2019/20,75+,Male,Obese,16.200000000000003,27
+Northern Ireland,2019/20,All Adults,Male,Obese,200,27.757704570143275
+Northern Ireland,2019/20,16-24,Female,Obese,15.296190478191193,15.450697452718376
+Northern Ireland,2019/20,25-34,Female,Obese,35.31525715269302,28.252205722154418
+Northern Ireland,2019/20,35-44,Female,Obese,29.52601736344764,23.811304325361
+Northern Ireland,2019/20,45-54,Female,Obese,44.31952486906225,33.57539762807746
+Northern Ireland,2019/20,55-64,Female,Obese,33.16228635350507,28.34383449017527
+Northern Ireland,2019/20,65-74,Female,Obese,27.92800838818553,31.736373168392646
+Northern Ireland,2019/20,75+,Female,Obese,22.61851261079701,27.251220013008442
+Northern Ireland,2019/20,All Adults,Female,Obese,208.1657972158817,27.10904816344489
+Northern Ireland,2019/20,16-24,All,Obese,28.01619047819119,14.000000000000002
+Northern Ireland,2019/20,25-34,All,Obese,61.35525715269302,25
+Northern Ireland,2019/20,35-44,All,Obese,64.62601736344764,27
+Northern Ireland,2019/20,45-54,All,Obese,88.41952486906224,34
+Northern Ireland,2019/20,55-64,All,Obese,69.32228635350506,30
+Northern Ireland,2019/20,65-74,All,Obese,59.468008388185524,35
+Northern Ireland,2019/20,75+,All,Obese,38.818512610797015,27
+Northern Ireland,2019/20,All Adults,All,Obese,410.0257972158817,27
+UK,2019/20,16-24,Male,Obese,510,14
+UK,2019/20,25-34,Male,Obese,900,20
+UK,2019/20,35-44,Male,Obese,1200,27
+UK,2019/20,45-54,Male,Obese,1400,32
+UK,2019/20,55-64,Male,Obese,1400,34
+UK,2019/20,65-74,Male,Obese,1200,38
+UK,2019/20,75+,Male,Obese,570,24
+UK,2019/20,All Adults,Male,Obese,7200,27
+UK,2019/20,16-24,Female,Obese,450,13
+UK,2019/20,25-34,Female,Obese,1200,26
+UK,2019/20,35-44,Female,Obese,1400,32
+UK,2019/20,45-54,Female,Obese,1600,34
+UK,2019/20,55-64,Female,Obese,1400,33
+UK,2019/20,65-74,Female,Obese,1200,33
+UK,2019/20,75+,Female,Obese,900,28
+UK,2019/20,All Adults,Female,Obese,8000,28.664769917386167
+UK,2019/20,16-24,All,Obese,960,13
+UK,2019/20,25-34,All,Obese,2100,23
+UK,2019/20,35-44,All,Obese,2500,29
+UK,2019/20,45-54,All,Obese,3000,33
+UK,2019/20,55-64,All,Obese,2700,34
+UK,2019/20,65-74,All,Obese,2400,36
+UK,2019/20,75+,All,Obese,1400,26
+UK,2019/20,All Adults,All,Obese,15100.025797215882,28
+England,2019/20,All Adults,Male,Not meeting physical activity recommendations,7900,35.4
+England,2019/20,All Adults,Female,Not meeting physical activity recommendations,9100,39
+England,2019/20,16-24,All,Not meeting physical activity recommendations,1600,27.500000000000004
+England,2019/20,25-34,All,Not meeting physical activity recommendations,2600,33.699999999999996
+England,2019/20,35-44,All,Not meeting physical activity recommendations,2400,33.9
+England,2019/20,45-54,All,Not meeting physical activity recommendations,2500,33.3
+England,2019/20,55-64,All,Not meeting physical activity recommendations,2600,38
+England,2019/20,65-74,All,Not meeting physical activity recommendations,2300,41.300000000000004
+England,2019/20,75+,All,Not meeting physical activity recommendations,3000,62.22916666666667
+England,2019/20,All Adults,All,Not meeting physical activity recommendations,17000,38
+Scotland,2019,16-24,Male,Not meeting physical activity recommendations,70,23
+Scotland,2019,25-34,Male,Not meeting physical activity recommendations,60,17
+Scotland,2019,35-44,Male,Not meeting physical activity recommendations,80,23
+Scotland,2019,45-54,Male,Not meeting physical activity recommendations,100,26
+Scotland,2019,55-64,Male,Not meeting physical activity recommendations,120,33
+Scotland,2019,65-74,Male,Not meeting physical activity recommendations,110,38
+Scotland,2019,75+,Male,Not meeting physical activity recommendations,110,59
+Scotland,2019,All Adults,Male,Not meeting physical activity recommendations,639.62,29
+Scotland,2019,16-24,Female,Not meeting physical activity recommendations,100,34
+Scotland,2019,25-34,Female,Not meeting physical activity recommendations,109.61999999999999,29
+Scotland,2019,35-44,Female,Not meeting physical activity recommendations,100,30
+Scotland,2019,45-54,Female,Not meeting physical activity recommendations,120,31
+Scotland,2019,55-64,Female,Not meeting physical activity recommendations,160,41
+Scotland,2019,65-74,Female,Not meeting physical activity recommendations,160,52
+Scotland,2019,75+,Female,Not meeting physical activity recommendations,190,69
+Scotland,2019,All Adults,Female,Not meeting physical activity recommendations,930,39
+Scotland,2019,16-24,All,Not meeting physical activity recommendations,160,28
+Scotland,2019,25-34,All,Not meeting physical activity recommendations,170,23
+Scotland,2019,35-44,All,Not meeting physical activity recommendations,180,26
+Scotland,2019,45-54,All,Not meeting physical activity recommendations,220,29
+Scotland,2019,55-64,All,Not meeting physical activity recommendations,270,37
+Scotland,2019,65-74,All,Not meeting physical activity recommendations,260,45
+Scotland,2019,75+,All,Not meeting physical activity recommendations,300,65
+Scotland,2019,All Adults,All,Not meeting physical activity recommendations,1570,34
+Wales,2019/20,16-24,Male,Not meeting physical activity recommendations,60,33
+Wales,2019/20,25-34,Male,Not meeting physical activity recommendations,70,36
+Wales,2019/20,35-44,Male,Not meeting physical activity recommendations,70,37
+Wales,2019/20,45-54,Male,Not meeting physical activity recommendations,75,36
+Wales,2019/20,55-64,Male,Not meeting physical activity recommendations,100,49
+Wales,2019/20,65-74,Male,Not meeting physical activity recommendations,75.25,43
+Wales,2019/20,75+,Male,Not meeting physical activity recommendations,80,64
+Wales,2019/20,All Adults,Male,Not meeting physical activity recommendations,530,42
+Wales,2019/20,16-24,Female,Not meeting physical activity recommendations,70,45
+Wales,2019/20,25-34,Female,Not meeting physical activity recommendations,100,48
+Wales,2019/20,35-44,Female,Not meeting physical activity recommendations,80,45
+Wales,2019/20,45-54,Female,Not meeting physical activity recommendations,100,48
+Wales,2019/20,55-64,Female,Not meeting physical activity recommendations,110,50
+Wales,2019/20,65-74,Female,Not meeting physical activity recommendations,100,51
+Wales,2019/20,75+,Female,Not meeting physical activity recommendations,120,73
+Wales,2019/20,All Adults,Female,Not meeting physical activity recommendations,680,51
+Wales,2019/20,16-24,All,Not meeting physical activity recommendations,130,39
+Wales,2019/20,25-34,All,Not meeting physical activity recommendations,170,43
+Wales,2019/20,35-44,All,Not meeting physical activity recommendations,150,41
+Wales,2019/20,45-54,All,Not meeting physical activity recommendations,180,42
+Wales,2019/20,55-64,All,Not meeting physical activity recommendations,200,49
+Wales,2019/20,65-74,All,Not meeting physical activity recommendations,170.11,48
+Wales,2019/20,75+,All,Not meeting physical activity recommendations,210,69
+Wales,2019/20,All Adults,All,Not meeting physical activity recommendations,1200,47
+Northern Ireland,2019/20,19-24,Male,Not meeting physical activity recommendations,20,22.504501455097028
+Northern Ireland,2019/20,25-34,Male,Not meeting physical activity recommendations,40,33.759317910755286
+Northern Ireland,2019/20,35-44,Male,Not meeting physical activity recommendations,30,25.213627527582688
+Northern Ireland,2019/20,45-54,Male,Not meeting physical activity recommendations,40,32.072633846694
+Northern Ireland,2019/20,55-64,Male,Not meeting physical activity recommendations,60,51.17625176170249
+Northern Ireland,2019/20,65-74,Male,Not meeting physical activity recommendations,40,50.53174821317843
+Northern Ireland,2019/20,75+,Male,Not meeting physical activity recommendations,50,86.40732644973549
+Northern Ireland,2019/20,All Adults,Male,Not meeting physical activity recommendations,280,39.39917917831687
+Northern Ireland,2019/20,19-24,Female,Not meeting physical activity recommendations,30,40.317594696600324
+Northern Ireland,2019/20,25-34,Female,Not meeting physical activity recommendations,40,32.49062881661797
+Northern Ireland,2019/20,35-44,Female,Not meeting physical activity recommendations,40,33.23594699464053
+Northern Ireland,2019/20,45-54,Female,Not meeting physical activity recommendations,60,41.6691617149068
+Northern Ireland,2019/20,55-64,Female,Not meeting physical activity recommendations,60,55.063301034877206
+Northern Ireland,2019/20,65-74,Female,Not meeting physical activity recommendations,60,65.24507073380049
+Northern Ireland,2019/20,75+,Female,Not meeting physical activity recommendations,70,92.23321661345362
+Northern Ireland,2019/20,All Adults,Female,Not meeting physical activity recommendations,360,48.62830448705956
+Northern Ireland,2019/20,19-24,All,Not meeting physical activity recommendations,50,32.73113531186232
+Northern Ireland,2019/20,25-34,All,Not meeting physical activity recommendations,80,33.006821094051716
+Northern Ireland,2019/20,35-44,All,Not meeting physical activity recommendations,70,30.02130744668125
+Northern Ireland,2019/20,45-54,All,Not meeting physical activity recommendations,100,37.78225456089036
+Northern Ireland,2019/20,55-64,All,Not meeting physical activity recommendations,120,53.46930202918268
+Northern Ireland,2019/20,65-74,All,Not meeting physical activity recommendations,100,59.46779608285821
+Northern Ireland,2019/20,75+,All,Not meeting physical activity recommendations,120,90.3450809289316
+Northern Ireland,2019/20,All Adults,All,Not meeting physical activity recommendations,640,44.95199303893557
+UK,2019/20,All Adults,Male,Not meeting physical activity recommendations,9400,35
+UK,2019/20,All Adults,Female,Not meeting physical activity recommendations,11000,39
+UK,2019/20,16-24,All,Not meeting physical activity recommendations,1900,28
+UK,2019/20,25-34,All,Not meeting physical activity recommendations,3000,33
+UK,2019/20,35-44,All,Not meeting physical activity recommendations,2800,33
+UK,2019/20,45-54,All,Not meeting physical activity recommendations,3000,33
+UK,2019/20,55-64,All,Not meeting physical activity recommendations,3200,38
+UK,2019/20,65-74,All,Not meeting physical activity recommendations,2800,41
+UK,2019/20,75+,All,Not meeting physical activity recommendations,3600,62
+UK,2019/20,All Adults,All,Not meeting physical activity recommendations,20400,37.705785269808494
+England,2019,16-24,Male,Smoking,700,22.76571863719133
+England,2019,25-34,Male,Smoking,1100,27.93660720504908
+England,2019,35-44,Male,Smoking,730,20.66565588884525
+England,2019,45-54,Male,Smoking,750,19.857057800291553
+England,2019,55-64,Male,Smoking,490,14.792989871048512
+England,2019,65-74,Male,Smoking,250,9.188813317719562
+England,2019,75+,Male,Smoking,130,6.303756735122958
+England,2019,All Adults,Male,Smoking,4100,18.406669616092973
+England,2019,16-24,Female,Smoking,550,18.997128295175607
+England,2019,25-34,Female,Smoking,820,21.797232400170056
+England,2019,35-44,Female,Smoking,570,15.958400754879436
+England,2019,45-54,Female,Smoking,450,11.75061493677792
+England,2019,55-64,Female,Smoking,500,14.541978203871322
+England,2019,65-74,Female,Smoking,330,11.256223357241247
+England,2019,75+,Female,Smoking,150,5.563390591040774
+England,2019,All Adults,Female,Smoking,3400,14.648206956951086
+England,2019,16-24,All,Smoking,1250,20.889551600797738
+England,2019,25-34,All,Smoking,1900,24.80840446231561
+England,2019,35-44,All,Smoking,1300,18.286428484596687
+England,2019,45-54,All,Smoking,1200,15.74830773194196
+England,2019,55-64,All,Smoking,1000,14.665267465130594
+England,2019,65-74,All,Smoking,570,10.263418291681615
+England,2019,75+,All,Smoking,280,5.891036436457353
+England,2019,All Adults,All,Smoking,7500,16.479070623324905
+Scotland,2019,16-24,Male,Smoking,40,14
+Scotland,2019,25-34,Male,Smoking,90,24
+Scotland,2019,35-44,Male,Smoking,80,24
+Scotland,2019,45-54,Male,Smoking,90,23
+Scotland,2019,55-64,Male,Smoking,70,19
+Scotland,2019,65-74,Male,Smoking,30,10
+Scotland,2019,75+,Male,Smoking,15.44,8
+Scotland,2019,All Adults,Male,Smoking,410,19
+Scotland,2019,16-24,Female,Smoking,40,15
+Scotland,2019,25-34,Female,Smoking,70,19
+Scotland,2019,35-44,Female,Smoking,70,20
+Scotland,2019,45-54,Female,Smoking,80,20
+Scotland,2019,55-64,Female,Smoking,60,15
+Scotland,2019,65-74,Female,Smoking,40,14
+Scotland,2019,75+,Female,Smoking,20,7
+Scotland,2019,All Adults,Female,Smoking,379.51,16
+Scotland,2019,16-24,All,Smoking,80,14
+Scotland,2019,25-34,All,Smoking,160,22
+Scotland,2019,35-44,All,Smoking,150,22
+Scotland,2019,45-54,All,Smoking,160,21
+Scotland,2019,55-64,All,Smoking,130,17
+Scotland,2019,65-74,All,Smoking,70,12
+Scotland,2019,75+,All,Smoking,34.550000000000004,7
+Scotland,2019,All Adults,All,Smoking,785.1399999999999,17
+Wales,2019/20,16-24,Male,Smoking,43,24
+Wales,2019/20,25-34,Male,Smoking,40.6,20
+Wales,2019/20,35-44,Male,Smoking,42,24
+Wales,2019/20,45-54,Male,Smoking,42.839999999999996,21
+Wales,2019/20,55-64,Male,Smoking,36,18
+Wales,2019/20,65-74,Male,Smoking,22.75,13
+Wales,2019/20,75+,Male,Smoking,7.8,6
+Wales,2019/20,All Adults,Male,Smoking,230,18
+Wales,2019/20,16-24,Female,Smoking,26.080000000000002,16
+Wales,2019/20,25-34,Female,Smoking,47.519999999999996,24
+Wales,2019/20,35-44,Female,Smoking,32.22,18
+Wales,2019/20,45-54,Female,Smoking,43,20
+Wales,2019/20,55-64,Female,Smoking,31.65,15
+Wales,2019/20,65-74,Female,Smoking,24.18,13
+Wales,2019/20,75+,Female,Smoking,13.68,8
+Wales,2019/20,All Adults,Female,Smoking,220,17
+Wales,2019/20,16-24,All,Smoking,70,20
+Wales,2019/20,25-34,All,Smoking,90,22
+Wales,2019/20,35-44,All,Smoking,70,21
+Wales,2019/20,45-54,All,Smoking,90,20
+Wales,2019/20,55-64,All,Smoking,70,17
+Wales,2019/20,65-74,All,Smoking,50,13
+Wales,2019/20,75+,All,Smoking,20,7
+Wales,2019/20,All Adults,All,Smoking,450,18
+Northern Ireland,2019/20,16-24,Male,Smoking,16.96,16
+Northern Ireland,2019/20,25-34,Male,Smoking,28.52,23
+Northern Ireland,2019/20,35-44,Male,Smoking,23.400000000000002,20
+Northern Ireland,2019/20,45-54,Male,Smoking,27.72,22
+Northern Ireland,2019/20,55-64,Male,Smoking,21.47,19
+Northern Ireland,2019/20,65-74,Male,Smoking,9.959999999999999,12
+Northern Ireland,2019/20,75+,Male,Smoking,7.199999999999999,12
+Northern Ireland,2019/20,All Adults,Male,Smoking,140,18
+Northern Ireland,2019/20,16-24,Female,Smoking,16.830000000000002,17
+Northern Ireland,2019/20,25-34,Female,Smoking,26.25,21
+Northern Ireland,2019/20,35-44,Female,Smoking,22.32,18
+Northern Ireland,2019/20,45-54,Female,Smoking,22.44,17
+Northern Ireland,2019/20,55-64,Female,Smoking,21.06,18
+Northern Ireland,2019/20,65-74,Female,Smoking,11.440000000000001,13
+Northern Ireland,2019/20,75+,Female,Smoking,5.8100000000000005,7.000000000000001
+Northern Ireland,2019/20,All Adults,Female,Smoking,130,16
+Northern Ireland,2019/20,16-24,All,Smoking,30,17
+Northern Ireland,2019/20,25-34,All,Smoking,60,22
+Northern Ireland,2019/20,35-44,All,Smoking,50,19
+Northern Ireland,2019/20,45-54,All,Smoking,50,19
+Northern Ireland,2019/20,55-64,All,Smoking,40,18
+Northern Ireland,2019/20,65-74,All,Smoking,21,13
+Northern Ireland,2019/20,75+,All,Smoking,13,9
+Northern Ireland,2019/20,All Adults,All,Smoking,265,17
+UK,2019/20,16-24,Male,Smoking,800,22
+UK,2019/20,25-34,Male,Smoking,1250,27
+UK,2019/20,35-44,Male,Smoking,880,21
+UK,2019/20,45-54,Male,Smoking,910,20
+UK,2019/20,55-64,Male,Smoking,620,16
+UK,2019/20,65-74,Male,Smoking,310,9
+UK,2019/20,75+,Male,Smoking,160,6
+UK,2019/20,All Adults,Male,Smoking,4900,18
+UK,2019/20,16-24,Female,Smoking,630,19
+UK,2019/20,25-34,Female,Smoking,960,22
+UK,2019/20,35-44,Female,Smoking,700,17
+UK,2019/20,45-54,Female,Smoking,600,17
+UK,2019/20,55-64,Female,Smoking,610,15
+UK,2019/20,65-74,Female,Smoking,410,10
+UK,2019/20,75+,Female,Smoking,190,6
+UK,2019/20,All Adults,Female,Smoking,4100,15
+UK,2019/20,16-24,All,Smoking,1400,20
+UK,2019/20,25-34,All,Smoking,2200,25
+UK,2019/20,35-44,All,Smoking,1600,19
+UK,2019/20,45-54,All,Smoking,1500,17
+UK,2019/20,55-64,All,Smoking,1200,15
+UK,2019/20,65-74,All,Smoking,700,10
+UK,2019/20,75+,All,Smoking,350,6
+UK,2019/20,All Adults,All,Smoking,9000.14,16
+England,2019,16-24,Male,Exceeding weekly alcohol consumption,,19.449925669465685
+England,2019,25-34,Male,Exceeding weekly alcohol consumption,,27.08656347838414
+England,2019,35-44,Male,Exceeding weekly alcohol consumption,,25.201875409204355
+England,2019,45-54,Male,Exceeding weekly alcohol consumption,,34.70202092793359
+England,2019,55-64,Male,Exceeding weekly alcohol consumption,,39.40761546117814
+England,2019,65-74,Male,Exceeding weekly alcohol consumption,,38.92988717150784
+England,2019,75+,Male,Exceeding weekly alcohol consumption,,24.956137470600783
+England,2019,All Adults,Male,Exceeding weekly alcohol consumption,,30.320812162005353
+England,2019,16-24,Female,Exceeding weekly alcohol consumption,,10.677568061979139
+England,2019,25-34,Female,Exceeding weekly alcohol consumption,,14.56526524773374
+England,2019,35-44,Female,Exceeding weekly alcohol consumption,,14.741197577066014
+England,2019,45-54,Female,Exceeding weekly alcohol consumption,,18.51037814121915
+England,2019,55-64,Female,Exceeding weekly alcohol consumption,,19.887112246740628
+England,2019,65-74,Female,Exceeding weekly alcohol consumption,,17.408839935135354
+England,2019,75+,Female,Exceeding weekly alcohol consumption,,9.831982583144578
+England,2019,All Adults,Female,Exceeding weekly alcohol consumption,,15.480538733605497
+England,2019,16-24,All,Exceeding weekly alcohol consumption,,15.141384816897762
+England,2019,25-34,All,Exceeding weekly alcohol consumption,,20.730174732418455
+England,2019,35-44,All,Exceeding weekly alcohol consumption,,19.91560875739648
+England,2019,45-54,All,Exceeding weekly alcohol consumption,,26.494504892751266
+England,2019,55-64,All,Exceeding weekly alcohol consumption,,29.500308283370885
+England,2019,65-74,All,Exceeding weekly alcohol consumption,,27.704446993417243
+England,2019,75+,All,Exceeding weekly alcohol consumption,,16.539287480032634
+England,2019,All Adults,All,Exceeding weekly alcohol consumption,,22.72535185141757
+Scotland,2019,16-24,Male,Exceeding weekly alcohol consumption,,28
+Scotland,2019,25-34,Male,Exceeding weekly alcohol consumption,,27
+Scotland,2019,35-44,Male,Exceeding weekly alcohol consumption,,31
+Scotland,2019,45-54,Male,Exceeding weekly alcohol consumption,,30
+Scotland,2019,55-64,Male,Exceeding weekly alcohol consumption,,39
+Scotland,2019,65-74,Male,Exceeding weekly alcohol consumption,,37
+Scotland,2019,75+,Male,Exceeding weekly alcohol consumption,,26
+Scotland,2019,All Adults,Male,Exceeding weekly alcohol consumption,,32
+Scotland,2019,16-24,Female,Exceeding weekly alcohol consumption,,13
+Scotland,2019,25-34,Female,Exceeding weekly alcohol consumption,,16
+Scotland,2019,35-44,Female,Exceeding weekly alcohol consumption,,17
+Scotland,2019,45-54,Female,Exceeding weekly alcohol consumption,,24
+Scotland,2019,55-64,Female,Exceeding weekly alcohol consumption,,18
+Scotland,2019,65-74,Female,Exceeding weekly alcohol consumption,,16
+Scotland,2019,75+,Female,Exceeding weekly alcohol consumption,,6
+Scotland,2019,All Adults,Female,Exceeding weekly alcohol consumption,,16
+Scotland,2019,16-24,All,Exceeding weekly alcohol consumption,,20
+Scotland,2019,25-34,All,Exceeding weekly alcohol consumption,,21
+Scotland,2019,35-44,All,Exceeding weekly alcohol consumption,,24
+Scotland,2019,45-54,All,Exceeding weekly alcohol consumption,,27
+Scotland,2019,55-64,All,Exceeding weekly alcohol consumption,,28
+Scotland,2019,65-74,All,Exceeding weekly alcohol consumption,,26
+Scotland,2019,75+,All,Exceeding weekly alcohol consumption,,14
+Scotland,2019,All Adults,All,Exceeding weekly alcohol consumption,,24
+Wales,2019/20,16-24,Male,Exceeding weekly alcohol consumption,,18
+Wales,2019/20,25-34,Male,Exceeding weekly alcohol consumption,,14
+Wales,2019/20,35-44,Male,Exceeding weekly alcohol consumption,,24
+Wales,2019/20,45-54,Male,Exceeding weekly alcohol consumption,,34
+Wales,2019/20,55-64,Male,Exceeding weekly alcohol consumption,,28
+Wales,2019/20,65-74,Male,Exceeding weekly alcohol consumption,,30
+Wales,2019/20,75+,Male,Exceeding weekly alcohol consumption,,20
+Wales,2019/20,All Adults,Male,Exceeding weekly alcohol consumption,,25
+Wales,2019/20,16-24,Female,Exceeding weekly alcohol consumption,,12
+Wales,2019/20,25-34,Female,Exceeding weekly alcohol consumption,,10
+Wales,2019/20,35-44,Female,Exceeding weekly alcohol consumption,,15
+Wales,2019/20,45-54,Female,Exceeding weekly alcohol consumption,,22
+Wales,2019/20,55-64,Female,Exceeding weekly alcohol consumption,,13
+Wales,2019/20,65-74,Female,Exceeding weekly alcohol consumption,,13
+Wales,2019/20,75+,Female,Exceeding weekly alcohol consumption,,6
+Wales,2019/20,All Adults,Female,Exceeding weekly alcohol consumption,,14
+Wales,2019/20,16-24,All,Exceeding weekly alcohol consumption,,15
+Wales,2019/20,25-34,All,Exceeding weekly alcohol consumption,,12
+Wales,2019/20,35-44,All,Exceeding weekly alcohol consumption,,20
+Wales,2019/20,45-54,All,Exceeding weekly alcohol consumption,,28
+Wales,2019/20,55-64,All,Exceeding weekly alcohol consumption,,21
+Wales,2019/20,65-74,All,Exceeding weekly alcohol consumption,,21
+Wales,2019/20,75+,All,Exceeding weekly alcohol consumption,,12
+Wales,2019/20,All Adults,All,Exceeding weekly alcohol consumption,,19
+Northern Ireland,2019/20,All Adults,Male,Exceeding weekly alcohol consumption,,26
+Northern Ireland,2019/20,All Adults,Female,Exceeding weekly alcohol consumption,,9
+Northern Ireland,2019/20,18-24,All,Exceeding weekly alcohol consumption,,18
+Northern Ireland,2019/20,25-34,All,Exceeding weekly alcohol consumption,,16
+Northern Ireland,2019/20,35-44,All,Exceeding weekly alcohol consumption,,15
+Northern Ireland,2019/20,45-54,All,Exceeding weekly alcohol consumption,,21
+Northern Ireland,2019/20,55-64,All,Exceeding weekly alcohol consumption,,22
+Northern Ireland,2019/20,65-74,All,Exceeding weekly alcohol consumption,,15
+Northern Ireland,2019/20,75+,All,Exceeding weekly alcohol consumption,,8
+Northern Ireland,2019/20,All Adults,All,Exceeding weekly alcohol consumption,,17.05888412418889
+UK,2019/20,16-24,Male,Exceeding weekly alcohol consumption,,20
+UK,2019/20,25-34,Male,Exceeding weekly alcohol consumption,,26
+UK,2019/20,35-44,Male,Exceeding weekly alcohol consumption,,25
+UK,2019/20,45-54,Male,Exceeding weekly alcohol consumption,,35
+UK,2019/20,55-64,Male,Exceeding weekly alcohol consumption,,39
+UK,2019/20,65-74,Male,Exceeding weekly alcohol consumption,,38
+UK,2019/20,75+,Male,Exceeding weekly alcohol consumption,,25
+UK,2019/20,All Adults,Male,Exceeding weekly alcohol consumption,,30
+UK,2019/20,16-24,Female,Exceeding weekly alcohol consumption,,11
+UK,2019/20,25-34,Female,Exceeding weekly alcohol consumption,,15
+UK,2019/20,35-44,Female,Exceeding weekly alcohol consumption,,15
+UK,2019/20,45-54,Female,Exceeding weekly alcohol consumption,,19
+UK,2019/20,55-64,Female,Exceeding weekly alcohol consumption,,20
+UK,2019/20,65-74,Female,Exceeding weekly alcohol consumption,,17
+UK,2019/20,75+,Female,Exceeding weekly alcohol consumption,,9
+UK,2019/20,All Adults,Female,Exceeding weekly alcohol consumption,,15
+UK,2019/20,16-24,All,Exceeding weekly alcohol consumption,,16
+UK,2019/20,25-34,All,Exceeding weekly alcohol consumption,,20
+UK,2019/20,35-44,All,Exceeding weekly alcohol consumption,,20
+UK,2019/20,45-54,All,Exceeding weekly alcohol consumption,,27
+UK,2019/20,55-64,All,Exceeding weekly alcohol consumption,,29
+UK,2019/20,65-74,All,Exceeding weekly alcohol consumption,,27
+UK,2019/20,75+,All,Exceeding weekly alcohol consumption,,17
+UK,2019/20,All Adults,All,Exceeding weekly alcohol consumption,,23
+England,2018,16-24,Male,Not meeting 5-a-day fruit and vegetable recommendations,,81.94130485113624
+England,2018,25-34,Male,Not meeting 5-a-day fruit and vegetable recommendations,,77.14839778381707
+England,2018,35-44,Male,Not meeting 5-a-day fruit and vegetable recommendations,,72.16191045861679
+England,2018,45-54,Male,Not meeting 5-a-day fruit and vegetable recommendations,,74.82319683008181
+England,2018,55-64,Male,Not meeting 5-a-day fruit and vegetable recommendations,,72.2694195798757
+England,2018,65-74,Male,Not meeting 5-a-day fruit and vegetable recommendations,,73.34631280698355
+England,2018,75+,Male,Not meeting 5-a-day fruit and vegetable recommendations,,74.24908221314554
+England,2018,All Adults,Male,Not meeting 5-a-day fruit and vegetable recommendations,,75.16349483802821
+England,2018,16-24,Female,Not meeting 5-a-day fruit and vegetable recommendations,,74.25239661276228
+England,2018,25-34,Female,Not meeting 5-a-day fruit and vegetable recommendations,,70.93906393371961
+England,2018,35-44,Female,Not meeting 5-a-day fruit and vegetable recommendations,,63.25014840527693
+England,2018,45-54,Female,Not meeting 5-a-day fruit and vegetable recommendations,,70.83732674207194
+England,2018,55-64,Female,Not meeting 5-a-day fruit and vegetable recommendations,,67.23317881800142
+England,2018,65-74,Female,Not meeting 5-a-day fruit and vegetable recommendations,,70.38729303115475
+England,2018,75+,Female,Not meeting 5-a-day fruit and vegetable recommendations,,74.7567056577847
+England,2018,All Adults,Female,Not meeting 5-a-day fruit and vegetable recommendations,,69.92265246060148
+England,2018,16-24,All,Not meeting 5-a-day fruit and vegetable recommendations,,78.19934667996685
+England,2018,25-34,All,Not meeting 5-a-day fruit and vegetable recommendations,,74.00813199863218
+England,2018,35-44,All,Not meeting 5-a-day fruit and vegetable recommendations,,67.68878549649489
+England,2018,45-54,All,Not meeting 5-a-day fruit and vegetable recommendations,,72.80764537925359
+England,2018,55-64,All,Not meeting 5-a-day fruit and vegetable recommendations,,69.70693315384352
+England,2018,65-74,All,Not meeting 5-a-day fruit and vegetable recommendations,,71.81128605651095
+England,2018,75+,All,Not meeting 5-a-day fruit and vegetable recommendations,,74.53355349337784
+England,2018,All Adults,All,Not meeting 5-a-day fruit and vegetable recommendations,,72.49098389886768
+Scotland,2019,16-24,Male,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Scotland,2019,25-34,Male,Not meeting 5-a-day fruit and vegetable recommendations,,76
+Scotland,2019,35-44,Male,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,45-54,Male,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Scotland,2019,55-64,Male,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,65-74,Male,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,75+,Male,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Scotland,2019,All Adults,Male,Not meeting 5-a-day fruit and vegetable recommendations,,79
+Scotland,2019,16-24,Female,Not meeting 5-a-day fruit and vegetable recommendations,,84
+Scotland,2019,25-34,Female,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Scotland,2019,35-44,Female,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Scotland,2019,45-54,Female,Not meeting 5-a-day fruit and vegetable recommendations,,74
+Scotland,2019,55-64,Female,Not meeting 5-a-day fruit and vegetable recommendations,,73
+Scotland,2019,65-74,Female,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,75+,Female,Not meeting 5-a-day fruit and vegetable recommendations,,79
+Scotland,2019,All Adults,Female,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Scotland,2019,16-24,All,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,25-34,All,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Scotland,2019,35-44,All,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Scotland,2019,45-54,All,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Scotland,2019,55-64,All,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Scotland,2019,65-74,All,Not meeting 5-a-day fruit and vegetable recommendations,,81
+Scotland,2019,75+,All,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Scotland,2019,All Adults,All,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Wales,2019/20,16-24,Male,Not meeting 5-a-day fruit and vegetable recommendations,,79
+Wales,2019/20,25-34,Male,Not meeting 5-a-day fruit and vegetable recommendations,,76
+Wales,2019/20,35-44,Male,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Wales,2019/20,45-54,Male,Not meeting 5-a-day fruit and vegetable recommendations,,76
+Wales,2019/20,55-64,Male,Not meeting 5-a-day fruit and vegetable recommendations,,80
+Wales,2019/20,65-74,Male,Not meeting 5-a-day fruit and vegetable recommendations,,76
+Wales,2019/20,75+,Male,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Wales,2019/20,All Adults,Male,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Wales,2019/20,16-24,Female,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Wales,2019/20,25-34,Female,Not meeting 5-a-day fruit and vegetable recommendations,,72
+Wales,2019/20,35-44,Female,Not meeting 5-a-day fruit and vegetable recommendations,,69
+Wales,2019/20,45-54,Female,Not meeting 5-a-day fruit and vegetable recommendations,,73
+Wales,2019/20,55-64,Female,Not meeting 5-a-day fruit and vegetable recommendations,,73
+Wales,2019/20,65-74,Female,Not meeting 5-a-day fruit and vegetable recommendations,,74
+Wales,2019/20,75+,Female,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Wales,2019/20,All Adults,Female,Not meeting 5-a-day fruit and vegetable recommendations,,73
+Wales,2019/20,16-24,All,Not meeting 5-a-day fruit and vegetable recommendations,,77
+Wales,2019/20,25-34,All,Not meeting 5-a-day fruit and vegetable recommendations,,74
+Wales,2019/20,35-44,All,Not meeting 5-a-day fruit and vegetable recommendations,,73
+Wales,2019/20,45-54,All,Not meeting 5-a-day fruit and vegetable recommendations,,74
+Wales,2019/20,55-64,All,Not meeting 5-a-day fruit and vegetable recommendations,,76
+Wales,2019/20,65-74,All,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Wales,2019/20,75+,All,Not meeting 5-a-day fruit and vegetable recommendations,,78
+Wales,2019/20,All Adults,All,Not meeting 5-a-day fruit and vegetable recommendations,,75
+Northern Ireland,2019/20,16-24,Male,Not meeting 5-a-day fruit and vegetable recommendations,,65.68079697957236
+Northern Ireland,2019/20,25-34,Male,Not meeting 5-a-day fruit and vegetable recommendations,,61.989330611144275
+Northern Ireland,2019/20,35-44,Male,Not meeting 5-a-day fruit and vegetable recommendations,,62.53057682883385
+Northern Ireland,2019/20,45-54,Male,Not meeting 5-a-day fruit and vegetable recommendations,,61.90413977652334
+Northern Ireland,2019/20,55-64,Male,Not meeting 5-a-day fruit and vegetable recommendations,,61.601229602809894
+Northern Ireland,2019/20,65-74,Male,Not meeting 5-a-day fruit and vegetable recommendations,,56.46424053623951
+Northern Ireland,2019/20,75+,Male,Not meeting 5-a-day fruit and vegetable recommendations,,61.85594419196676
+Northern Ireland,2019/20,All Adults,Male,Not meeting 5-a-day fruit and vegetable recommendations,,61.89890349461987
+Northern Ireland,2019/20,16-24,Female,Not meeting 5-a-day fruit and vegetable recommendations,,55.62501531977777
+Northern Ireland,2019/20,25-34,Female,Not meeting 5-a-day fruit and vegetable recommendations,,54.99781509655488
+Northern Ireland,2019/20,35-44,Female,Not meeting 5-a-day fruit and vegetable recommendations,,48.435493932482906
+Northern Ireland,2019/20,45-54,Female,Not meeting 5-a-day fruit and vegetable recommendations,,47.310335178409325
+Northern Ireland,2019/20,55-64,Female,Not meeting 5-a-day fruit and vegetable recommendations,,43.11232674390185
+Northern Ireland,2019/20,65-74,Female,Not meeting 5-a-day fruit and vegetable recommendations,,46.37516914034664
+Northern Ireland,2019/20,75+,Female,Not meeting 5-a-day fruit and vegetable recommendations,,57.25767385311522
+Northern Ireland,2019/20,All Adults,Female,Not meeting 5-a-day fruit and vegetable recommendations,,50.11664369016291
+Northern Ireland,2019/20,16-24,All,Not meeting 5-a-day fruit and vegetable recommendations,,60.85673504932976
+Northern Ireland,2019/20,25-34,All,Not meeting 5-a-day fruit and vegetable recommendations,,58.49180603333479
+Northern Ireland,2019/20,35-44,All,Not meeting 5-a-day fruit and vegetable recommendations,,55.25293433479137
+Northern Ireland,2019/20,45-54,All,Not meeting 5-a-day fruit and vegetable recommendations,,54.3813539904684
+Northern Ireland,2019/20,55-64,All,Not meeting 5-a-day fruit and vegetable recommendations,,52.25512433262545
+Northern Ireland,2019/20,65-74,All,Not meeting 5-a-day fruit and vegetable recommendations,,51.21333748865622
+Northern Ireland,2019/20,75+,All,Not meeting 5-a-day fruit and vegetable recommendations,,59.22304920074932
+Northern Ireland,2019/20,All Adults,All,Not meeting 5-a-day fruit and vegetable recommendations,,55.85764734019266
+UK,2019/20,16-24,Male,Not meeting 5-a-day fruit and vegetable recommendations,,81
+UK,2019/20,25-34,Male,Not meeting 5-a-day fruit and vegetable recommendations,,77
+UK,2019/20,35-44,Male,Not meeting 5-a-day fruit and vegetable recommendations,,72
+UK,2019/20,45-54,Male,Not meeting 5-a-day fruit and vegetable recommendations,,75
+UK,2019/20,55-64,Male,Not meeting 5-a-day fruit and vegetable recommendations,,72
+UK,2019/20,65-74,Male,Not meeting 5-a-day fruit and vegetable recommendations,,73
+UK,2019/20,75+,Male,Not meeting 5-a-day fruit and vegetable recommendations,,74
+UK,2019/20,All Adults,Male,Not meeting 5-a-day fruit and vegetable recommendations,,75
+UK,2019/20,16-24,Female,Not meeting 5-a-day fruit and vegetable recommendations,,74
+UK,2019/20,25-34,Female,Not meeting 5-a-day fruit and vegetable recommendations,,71
+UK,2019/20,35-44,Female,Not meeting 5-a-day fruit and vegetable recommendations,,63
+UK,2019/20,45-54,Female,Not meeting 5-a-day fruit and vegetable recommendations,,71
+UK,2019/20,55-64,Female,Not meeting 5-a-day fruit and vegetable recommendations,,67
+UK,2019/20,65-74,Female,Not meeting 5-a-day fruit and vegetable recommendations,,70
+UK,2019/20,75+,Female,Not meeting 5-a-day fruit and vegetable recommendations,,75
+UK,2019/20,All Adults,Female,Not meeting 5-a-day fruit and vegetable recommendations,,70
+UK,2019/20,16-24,All,Not meeting 5-a-day fruit and vegetable recommendations,,78
+UK,2019/20,25-34,All,Not meeting 5-a-day fruit and vegetable recommendations,,74
+UK,2019/20,35-44,All,Not meeting 5-a-day fruit and vegetable recommendations,,68
+UK,2019/20,45-54,All,Not meeting 5-a-day fruit and vegetable recommendations,,73
+UK,2019/20,55-64,All,Not meeting 5-a-day fruit and vegetable recommendations,,70
+UK,2019/20,65-74,All,Not meeting 5-a-day fruit and vegetable recommendations,,72
+UK,2019/20,75+,All,Not meeting 5-a-day fruit and vegetable recommendations,,75
+UK,2019/20,All Adults,All,Not meeting 5-a-day fruit and vegetable recommendations,,72

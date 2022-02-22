@@ -181,39 +181,55 @@ if __name__=="__main__":
 
   ### TESTING ###
 
+  with open('data/table_names.json') as json_file:
+      data = json.load(json_file)
+  table_names = list(data.keys())
+
   # 1) FUNCTION TO CREATE THE DATA
   # Given a table name, find a list of tuples, i.e. [(column names for the table name, set of items in that column)]
   # e.g. for asdr all ages -> ('nation', {'England', 'Wales', 'Northern Ireland', 'United Kingdom', 'Scotland'}) and etc
   # And also add this into a json file
-  table_name = "ASDR all ages"
-  data = pd.read_csv("data/{}.csv".format(table_name))
-  column_names = list(data.columns)
-  column_names_and_associated_values = dict()
-  for column_name in column_names:
-    # OPTIONAL CODE
-    # # But this list will also include some other things users may type, we get this from the alternative_column_names.json
-    # with open("data/alternative_column_names.json", 'r') as f:
-    #   data = json.load(f)
-    # extra = data[column_name]
-    # # Extend below list with this list
-    column_names_and_associated_values[column_name] = list(set(data[column_name].tolist()))
-  json_object = json.dumps(column_names_and_associated_values)
-  with open("data/{}.json".format(table_name), "w") as f:
-    f.write(json_object)
+  for table_name in table_names:
+    data = pd.read_csv("data/{}.csv".format(table_name))
+    column_names = list(data.columns)
+    column_names_and_associated_values = dict()
+    for column_name in column_names:
+      # OPTIONAL CODE
+      # # But this list will also include some other things users may type, we get this from the alternative_column_names.json
+      # with open("data/alternative_column_names.json", 'r') as f:
+      #   data = json.load(f)
+      # extra = data[column_name]
+      # # Extend below list with this list
+      column_names_and_associated_values[column_name] = list(set(data[column_name].tolist()))
+    json_object = json.dumps(column_names_and_associated_values)
+    with open("data/{}.json".format(table_name), "w") as f:
+      f.write(json_object)
 
   # 2) Read the json file for the given table into a list of tuples where tuple is in the form: [(column name, [possible values of items in the column])]
   col_names = []
+  just_column_names = []
   with open("data/{}.json".format(table_name)) as json_file:
       data = json.load(json_file)
       i = 0
       keys = list(data.keys())
+      just_column_names = keys
       values = list(data.values())
       while i < len(keys):
         col_names.append((keys[i],values[i]))
         i = i + 1
 
-  # 3) Direct Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
-  str2Match = "cvd"
+  # 3) Direct Check for column names
+  str2Match = "nation"
+  per_match = 0
+  best_match_col_name = None
+  closest_match = process.extractOne(str2Match, just_column_names)
+  if closest_match[1] < 75:
+    print(0)
+  else:
+    print(closest_match[0])
+
+  # 4) Direct Check for column names and values - finding the best match for the str2Match with the list of col possible names from list in 2)
+  str2Match = "uk"
   per_match = 0
   best_match_col_name = None
   best_match_item = None
@@ -228,10 +244,10 @@ if __name__=="__main__":
   else:
     print(best_match_col_name, best_match_item)
 
-  # 4) n-grams Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
+  # 5) n-grams Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
     # Take the tokens, and find the n-grams, then do a direct check
 
-  # 5) Synonyms Check - finding the best match for the str2Match with the list of col alternative possible names from alternative_column_names.json
+  # 6) Synonyms Check - finding the best match for the str2Match with the list of col alternative possible names from alternative_column_names.json
 
   ### TESTING ###
 

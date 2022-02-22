@@ -118,17 +118,6 @@ class Classifier():
         best_match = possible_name
     return per_match, best_match
 
-  # def nGramsCheck():
-  #   pass
-
-  # def hypernymsCheck(self, token):
-  #   syn = wordnet.synsets('hello')[0]
-  #   print ("Synset name :  ", syn.name())
-  #   print ("\nSynset abstract term :  ", syn.hypernyms())
-  #   print ("\nSynset specific term :  ", syn.hypernyms()[0].hyponyms()) 
-  #   syn.root_hypernyms()
-  #   print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
-
   # Try different checks to find the best match of table name from the list of tokens
   def get_table_name(self, str2Match):
     res = self.direct_table_name(str2Match)
@@ -150,96 +139,95 @@ class Classifier():
         break
     return table_name
 
-  def find_column_names(self):
-    table_name = self.find_table_name()
-    column_names_for_table = self.get_tables_columns(table_name)
+  def read_col_name_json_files(self, table_name):
+    # Read the json file for the given table into a list of tuples where tuple is in the form: [(column name, [possible values of items in the column])]
+    col_names = []
+    just_column_names = []
+    with open("data/{}.json".format(table_name)) as json_file:
+        data = json.load(json_file)
+        i = 0
+        keys = list(data.keys())
+        just_column_names = keys
+        values = list(data.values())
+        while i < len(keys):
+          col_names.append((keys[i],values[i]))
+          i = i + 1
+    return col_names, just_column_names
+  
+  def direct_check_for_just_col_names(self, str2Match, just_column_names):
+    # Direct Check for column names
+    closest_match = process.extractOne(str2Match, just_column_names)
+    if closest_match[1] < 75:
+      return 0
+    else:
+      return closest_match[0]
+
+  def direct_check_for_col_names_and_values(self, str2Match, col_names):
+    # Direct Check for column names and values - finding the best match for the str2Match with the list of col possible names from list in 2)
+    per_match = 0
+    best_match_col_name = None
+    best_match_item = None
+    for possible_col_name in col_names:
+      closest_match = process.extractOne(str2Match, possible_col_name[1])
+      if closest_match[1] > per_match:
+        per_match = closest_match[1]
+        best_match_col_name = possible_col_name[0]
+        best_match_item = closest_match[0]
+    if per_match < 75:
+      return 0, 0
+    else:
+      return best_match_col_name, best_match_item
+
+  def n_grams_check_for_col_names(self):
+    # 5) n-grams Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
+    # Take the tokens, and find the n-grams, then do a direct check
+    pass
+
+  def synonyms_check_for_col_names(self):
+    # 6) Synonyms Check - finding the best match for the str2Match with the list of col alternative possible names from alternative_column_names.json
+    pass
+
+  def find_column_names(self, table_name):
+    cols,just_cols = self.read_col_name_json_files(table_name)
+
+    # Find best matching col_name
+    best_match_col_names = []
+    best_match_col_vals = []
     for token in self.tokens:
-      if token[0].isnumeric():
-        pass
-        # token is a year
+      token = token[0]
+      res = self.direct_check_for_just_col_names(token, just_cols)
+      if res != 0:
+        if res not in best_match_col_names:
+          best_match_col_names.append(res)
+          best_match_col_vals.append("")
+        continue
+      # Find best matching value
       else:
-        pass
-        # Check if its other column names
-
-    # Search the sentence tokens for the colums names:
-    #   directCheck
-    #   n-gramsCheck
-    #   synonymCheck
-    # After getting the column name then use HypernymCheck to get general column name
-    # For example find 'UK', this is converted into 'nation'
-    # Also could be directly found, "nation"
-    return column_names_for_table
-
-  def get_tables_columns(self, table_name):
-    # Note: the case of the filename does not seem to matter
-    data = pd.read_csv("data/{}.csv".format(table_name))
-    return list(data.columns.values)
+        res2, res3 = self.direct_check_for_col_names_and_values(token, cols)
+        if res2 != 0 and res3 != 0:
+          best_match_col_names.append(res2)
+          best_match_col_vals.append(res3)
+          continue
+        else:
+          # Call synonym and n-grams
+          pass
+    return list(zip(best_match_col_names, best_match_col_vals))
 
 
       
 if __name__=="__main__":
-
-  ### TESTING ###
-
-  table_name = "ASDR all ages"
-
-  # 2) Read the json file for the given table into a list of tuples where tuple is in the form: [(column name, [possible values of items in the column])]
-  col_names = []
-  just_column_names = []
-  with open("data/{}.json".format(table_name)) as json_file:
-      data = json.load(json_file)
-      i = 0
-      keys = list(data.keys())
-      just_column_names = keys
-      values = list(data.values())
-      while i < len(keys):
-        col_names.append((keys[i],values[i]))
-        i = i + 1
-
-  # 3) Direct Check for column names
-  str2Match = "nation"
-  per_match = 0
-  best_match_col_name = None
-  closest_match = process.extractOne(str2Match, just_column_names)
-  if closest_match[1] < 75:
-    print(0)
-  else:
-    print(closest_match[0])
-
-  # 4) Direct Check for column names and values - finding the best match for the str2Match with the list of col possible names from list in 2)
-  str2Match = "uk"
-  per_match = 0
-  best_match_col_name = None
-  best_match_item = None
-  for possible_col_name in col_names:
-    closest_match = process.extractOne(str2Match, possible_col_name[1])
-    if closest_match[1] > per_match:
-      per_match = closest_match[1]
-      best_match_col_name = possible_col_name[0]
-      best_match_item = closest_match[0]
-  if per_match < 75:
-    print(0)
-  else:
-    print(best_match_col_name, best_match_item)
-
-  # 5) n-grams Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
-    # Take the tokens, and find the n-grams, then do a direct check
-
-  # 6) Synonyms Check - finding the best match for the str2Match with the list of col alternative possible names from alternative_column_names.json
-
-  ### TESTING ###
-
-
-
-  # Note: Add a check so if there is no table_name or column_name then return invalid question,
-  # the code now assumes that the questions are in valid format
+  # TODO Delete csv files at end
+  # Note: Add a check so if there is no table_name or column_name then return invalid question, the code now assumes that the questions are in valid format
   q = input("Please enter the question: ")
   tokens = ProcessQ(q).getProcessedQ()
-  print(tokens)
+  print("Tokens: ", tokens)
   table_name = Classifier(tokens).find_table_name()
-  print(table_name)
-  column_names = Classifier(tokens).find_column_names()
-  print(column_names)
+  print("Table Name: ", table_name)
+  col_name_val_pairs  = Classifier(tokens).find_column_names(table_name)
+  print("Col Name And Val Pairs: ", col_name_val_pairs)
+
+  # First try returning one value i.e. risk factors with specific conditions
+  # Else return the rows from database where the condition matches
 
 
 

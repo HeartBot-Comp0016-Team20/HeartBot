@@ -13,6 +13,7 @@ from nltk import ngrams
 import pandas as pd
 import json
 import os
+import pandas as pd
 
 class ProcessQ():
   def __init__(self, userQ):
@@ -49,7 +50,7 @@ class Classifier():
 
   # Create dictionary for tables_names using the json file details
   def create_table_names_json(self, table_names):
-    with open('table_names.json') as json_file:
+    with open('data/table_names.json') as json_file:
       data = json.load(json_file)
     i = 0
     keys = list(data.keys())
@@ -152,6 +153,14 @@ class Classifier():
   def find_column_names(self):
     table_name = self.find_table_name()
     column_names_for_table = self.get_tables_columns(table_name)
+    for token in self.tokens:
+      if token[0].isnumeric():
+        pass
+        # token is a year
+      else:
+        pass
+        # Check if its other column names
+
     # Search the sentence tokens for the colums names:
     #   directCheck
     #   n-gramsCheck
@@ -162,14 +171,74 @@ class Classifier():
     return column_names_for_table
 
   def get_tables_columns(self, table_name):
+    # Note: the case of the filename does not seem to matter
     data = pd.read_csv("data/{}.csv".format(table_name))
     return list(data.columns.values)
 
 
       
 if __name__=="__main__":
-  # Add a check so if there is no table_name or column_name then return invalid question
-  # Code now assumes that the questions are in valid format
+
+  ### TESTING ###
+
+  # 1) FUNCTION TO CREATE THE DATA
+  # Given a table name, find a list of tuples, i.e. [(column names for the table name, set of items in that column)]
+  # e.g. for asdr all ages -> ('nation', {'England', 'Wales', 'Northern Ireland', 'United Kingdom', 'Scotland'}) and etc
+  # And also add this into a json file
+  table_name = "ASDR all ages"
+  data = pd.read_csv("data/{}.csv".format(table_name))
+  column_names = list(data.columns)
+  column_names_and_associated_values = dict()
+  for column_name in column_names:
+    # OPTIONAL CODE
+    # # But this list will also include some other things users may type, we get this from the alternative_column_names.json
+    # with open("data/alternative_column_names.json", 'r') as f:
+    #   data = json.load(f)
+    # extra = data[column_name]
+    # # Extend below list with this list
+    column_names_and_associated_values[column_name] = list(set(data[column_name].tolist()))
+  json_object = json.dumps(column_names_and_associated_values)
+  with open("data/{}.json".format(table_name), "w") as f:
+    f.write(json_object)
+
+  # 2) Read the json file for the given table into a list of tuples where tuple is in the form: [(column name, [possible values of items in the column])]
+  col_names = []
+  with open("data/{}.json".format(table_name)) as json_file:
+      data = json.load(json_file)
+      i = 0
+      keys = list(data.keys())
+      values = list(data.values())
+      while i < len(keys):
+        col_names.append((keys[i],values[i]))
+        i = i + 1
+
+  # 3) Direct Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
+  str2Match = "cvd"
+  per_match = 0
+  best_match_col_name = None
+  best_match_item = None
+  for possible_col_name in col_names:
+    closest_match = process.extractOne(str2Match, possible_col_name[1])
+    if closest_match[1] > per_match:
+      per_match = closest_match[1]
+      best_match_col_name = possible_col_name[0]
+      best_match_item = closest_match[0]
+  if per_match < 75:
+    print(0)
+  else:
+    print(best_match_col_name, best_match_item)
+
+  # 4) n-grams Check for column names - finding the best match for the str2Match with the list of col possible names from list in 2)
+    # Take the tokens, and find the n-grams, then do a direct check
+
+  # 5) Synonyms Check - finding the best match for the str2Match with the list of col alternative possible names from alternative_column_names.json
+
+  ### TESTING ###
+
+
+
+  # Note: Add a check so if there is no table_name or column_name then return invalid question,
+  # the code now assumes that the questions are in valid format
   q = input("Please enter the question: ")
   tokens = ProcessQ(q).getProcessedQ()
   print(tokens)
@@ -192,3 +261,6 @@ if __name__=="__main__":
 #   https://www.guru99.com/wordnet-nltk.html
 #   https://www.geeksforgeeks.org/nlp-synsets-for-a-word-in-wordnet/
 #   https://www.geeksforgeeks.org/convert-json-to-dictionary-in-python/
+#   https://www.geeksforgeeks.org/python-read-csv-columns-into-list/
+#   https://www.geeksforgeeks.org/get-column-names-from-csv-using-python/
+#   https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/

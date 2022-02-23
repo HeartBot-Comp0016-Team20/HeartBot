@@ -1,7 +1,40 @@
+from dis import dis
 from process_questions import ProcessQ
 from classifier_tab import Classifier_Tab
 from classifier_col import Classifier_Col
-from nltk import ngrams
+from collections import defaultdict
+import pandas as pd
+from IPython.display import display
+
+def from_csv_to_dataframe(filename):
+  data = pd.read_csv(filename)   
+  return pd.DataFrame(data)
+
+def create_dataframe(tablename):
+  return from_csv_to_dataframe("data/{}.csv".format(tablename))
+
+def restructure(col_name_val_pairs):
+  pairs = defaultdict(list)
+  for name_val in col_name_val_pairs:
+    if name_val[1] == '':
+      continue
+    pairs[name_val[0]].append(name_val[1]) 
+  
+  return pairs
+def filter_dataframe(df, pairs_dict):
+  display(df)
+  output = []
+  for key in  pairs_dict.keys():
+    temp=[]
+    for value in pairs_dict[key]:
+      temp.append("df.{} == \"{}\"".format(key,value))
+    output.append('|'.join(temp))
+  query = '&'.join(output)
+  
+  display(df.query(query.strip()))
+  display(df[df.eval(query)])
+  return query
+  
 
 if __name__=="__main__":
 
@@ -24,19 +57,20 @@ if __name__=="__main__":
     processor = ProcessQ(q)
     # Get tokens from the question
     tokens = processor.getProcessedQ()
-    print("Tokens: ", tokens)
-    
+
     # Find the table name from list of tokens
     table_name = Classifier_Tab(tokens).run()
-    print("Table Name: ", table_name)
 
     # Find column names from the list of tokens
     if table_name is None:
       print("I dont understand")
     else:
-
       col_name_val_pairs  = Classifier_Col(tokens).run(table_name)
-      print("Col Name And Val Pairs: ", col_name_val_pairs)
+    
+    # print(restructure(col_name_val_pairs))
+
+    df = create_dataframe(table_name)
+    print(filter_dataframe(df,restructure(col_name_val_pairs)))
 
 '''
 TODO & Notes:

@@ -10,30 +10,31 @@ if __name__=="__main__":
   # what is the risk factors in wales in 2018
   # what are the admits in wales in 2010
   # what are the number of prescriptions in 2019 in scotland
-  # how many medicines were given in 2019 in scotland                      NOT WORKING - Says None
-  # how many drugs were given in 2015 in england                           NOT WORKING - Says None
-  # what is the value of ohca in east of england in 2015 where number discharged alive     ************
-  # What is the estimated burden - deaths in 2009 in the uk                                ************
+  # how many medicines were given in 2019 in scotland
+  # how many drugs were given in 2015 in england
+  # what is the value of ohca in east of england in 2015 where number discharged alive - fix by using n-grams check
+  # What is the estimated burden - deaths in 2009 in the uk
   # What is the estimated burden - DALYS in 2009 in the uk
-  # in what nation was there cvd                                      WORKING - Says None
+  # in what nation was there cvd
 
-  # Get users question to query the database
-  q = input("Please enter the question: ")
+  while True:
+    # Get users question to query the database
+    q = input("Please enter the question: ")
 
-  # Get tokens from the question
-  tokens = ProcessQ(q).getProcessedQ()
-  print("Tokens: ", tokens)
+    # Get tokens from the question
+    tokens = ProcessQ(q).getProcessedQ()
+    print("Tokens: ", tokens)
 
-  # Find the table name from list of tokens
-  table_name = Classifier_Tab(tokens).run()
-  print("Table Name: ", table_name)
+    # Find the table name from list of tokens
+    table_name = Classifier_Tab(tokens).run()
+    print("Table Name: ", table_name)
 
-  # Find column names from the list of tokens
-  if table_name is None:
-    print("I dont understand")
-  else:
-    col_name_val_pairs  = Classifier_Col(tokens).run2(table_name)
-    print("Col Name And Val Pairs: ", col_name_val_pairs)
+    # Find column names from the list of tokens
+    if table_name is None:
+      print("I dont understand")
+    else:
+      col_name_val_pairs  = Classifier_Col(tokens).run(table_name)
+      print("Col Name And Val Pairs: ", col_name_val_pairs)
 
 '''
 TODO & Notes:

@@ -23,22 +23,6 @@ class Classifier_Col():
       i = i + 1
     return col_names
 
-  # Given a str2Match and a list of things to match from, the functions finds and returns the best match
-  # Helper Method - Used in syn_check
-  def get_match(self, str2Match, possible_names):
-    per_match = 0
-    best_match = None
-    for possible_name in possible_names:
-      match = process.extractOne(str2Match, possible_name)
-      if match[1] == 100:
-        per_match = match[1]
-        best_match = possible_name
-        break
-      elif match[1] > per_match:
-        per_match = match[1]
-        best_match = possible_name
-    return per_match, best_match
-
   # Creates a list of tuples in the form: [(col_name, [synonyms for col_name])]
   def syn_tup(self, actual_names):
     synonym_tuples = []
@@ -54,22 +38,23 @@ class Classifier_Col():
   def syn_check(self, token, actual_names):
     # Get the actual col_names and synonyms for each col_name
     synonym_tuples = self.syn_tup(actual_names)
-    # Find the best_match synonymn for the col_name
+    # Find the best_match synonymn for given col_name
     per_match = 0
     best_match = None
     for tuple in synonym_tuples:
       # If no synonyms for a certain table name
       if len(tuple[1]) == 0:
-        pass
+        continue
       else:
-        new_per_match, new_best_match = self.get_match(token, [tuple[1]])
-        if new_per_match > per_match:
-          per_match = new_per_match
-          best_match = tuple
-    if per_match < 70:
+        syn = tuple[1]
+        match = process.extractOne(token, syn)
+        if match[1] > per_match:
+          per_match = match[1]
+          best_match = tuple[0]
+    if per_match < 80:
       return 0
     else:
-      return best_match[0]
+      return best_match
 
   # col_name json files contain key,val pairs. Keys are the col_names for a table_name. Vals are alternative vals col_name could take.
   def read_json(self, table_name):

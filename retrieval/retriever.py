@@ -4,8 +4,6 @@ from classifier_tab import Classifier_Tab
 from classifier_col import Classifier_Col
 from collections import defaultdict
 import pandas as pd
-from IPython.display import display
-import string
 
 def from_csv_to_dataframe(filename):
   data = pd.read_csv(filename)   

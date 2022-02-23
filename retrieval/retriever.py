@@ -5,6 +5,7 @@ from classifier_col import Classifier_Col
 from collections import defaultdict
 import pandas as pd
 from IPython.display import display
+import string
 
 def from_csv_to_dataframe(filename):
   data = pd.read_csv(filename)   
@@ -22,18 +23,19 @@ def restructure(col_name_val_pairs):
   
   return pairs
 def filter_dataframe(df, pairs_dict):
-  display(df)
   output = []
   for key in  pairs_dict.keys():
     temp=[]
     for value in pairs_dict[key]:
-      temp.append("df.{} == \"{}\"".format(key,value))
-    output.append('|'.join(temp))
+      if str(value).isnumeric():
+        temp.append("{} == {}".format(key,value))
+      else:
+        temp.append("{} == \"{}\"".format(key,value))
+    output.append('('+'|'.join(temp)+')')
   query = '&'.join(output)
+  print(query)
   
-  display(df.query(query.strip()))
-  display(df[df.eval(query)])
-  return query
+  return df.query(query)
   
 
 if __name__=="__main__":

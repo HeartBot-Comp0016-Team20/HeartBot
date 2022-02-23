@@ -11,7 +11,7 @@ def get_sheet_names(filename):
     return xls.sheet_names
 
 def from_csv_to_dataframe(filename):
-    data = pd.read_csv (filename)   
+    data = pd.read_csv(filename)   
     return pd.DataFrame(data)
 
 def connect_dataframe_to_database(dfs, conn):

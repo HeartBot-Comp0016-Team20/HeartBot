@@ -29,6 +29,9 @@ class Classifier_Tab():
     actual_names = self.table_names.keys()
     closest_match = process.extractOne(str2Match, actual_names)
 
+    if closest_match[1] < 75:
+      return -1
+
     # The token is one of the actual table names, we need to find which one
     possible_names = self.table_names[closest_match[0]]
     # Find best match from possible things the user could have typed
@@ -94,6 +97,8 @@ class Classifier_Tab():
     if res == 0:
       actual_names = self.table_names.keys()
       res = self.syn_check(str2Match, actual_names)
+    elif res == -1:
+      return 0
     return res
 
   # Uses the methods in the class to get the table name from the list of tokens

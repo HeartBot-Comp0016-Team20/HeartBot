@@ -1,6 +1,7 @@
 from process_questions import ProcessQ
 from classifier_tab import Classifier_Tab
 from classifier_col import Classifier_Col
+from nltk import ngrams
 
 if __name__=="__main__":
 
@@ -20,11 +21,11 @@ if __name__=="__main__":
   while True:
     # Get users question to query the database
     q = input("Please enter the question: ")
-
+    processor = ProcessQ(q)
     # Get tokens from the question
-    tokens = ProcessQ(q).getProcessedQ()
+    tokens = processor.getProcessedQ()
     print("Tokens: ", tokens)
-
+    
     # Find the table name from list of tokens
     table_name = Classifier_Tab(tokens).run()
     print("Table Name: ", table_name)
@@ -33,6 +34,7 @@ if __name__=="__main__":
     if table_name is None:
       print("I dont understand")
     else:
+
       col_name_val_pairs  = Classifier_Col(tokens).run(table_name)
       print("Col Name And Val Pairs: ", col_name_val_pairs)
 

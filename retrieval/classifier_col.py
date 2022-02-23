@@ -23,6 +23,22 @@ class Classifier_Col():
       i = i + 1
     return col_names
 
+  def pre_process_n_grams(self, tokens):
+    aux = []
+    for token in tokens:
+      aux.append(token[0])
+    return aux
+
+  def create_n_grams(self, n):
+    dgrams = []
+    tokens = self.pre_process_n_grams(self.tokens)
+    n_grams = list(ngrams(tokens, n))
+    for grams in n_grams:
+        grams = ' '.join(grams)
+        dgrams.append((grams,''))
+
+    return dgrams
+
   # Creates a list of tuples in the form: [(col_name, [synonyms for col_name])]
   def syn_tup(self, actual_names):
     synonym_tuples = []
@@ -97,43 +113,45 @@ class Classifier_Col():
     else:
       return best_match_col, best_match_item
 
-  # n-grams check to find the closest match
-  # def n_grams_check(self):
-  #   # finding the best match for the str2Match with the list of col possible names from list
-  #   # Take the tokens, and find the n-grams, then do a direct check
-
+  def run_checks(self, tokens, table_name):
+      # Get col_names and col_names_vals for a given tablename
+      col_names_vals, col_names = self.read_json(table_name)
+      # Set (to avoid duplicates) of tuples i.e. pairs of col_names and related col_vals found from tokens
+      # Note: Some tuples may not include the col_val value, since this is just a col_name
+      # Try finding best match for each token - Try checks in order, if one works add tuple into set and continue onto next token
+      col_name_val_pairs = set()
+      for token in tokens:
+        token = token[0]
+        # Check 1 - Direct Check 1 for col_names
+        res = self.direct_check1(token, col_names)
+        if res != 0 and res is not None:
+          col_name_val_pairs.add((res,""))
+          continue
+        # Check 2 - Direct Check 2 for col_vals
+        res, res2 = self.direct_check2(token, col_names_vals)
+        if res != 0 and res2 != 0:
+          col_name_val_pairs.add((res,res2))
+          continue
+        # Check 3 - Synonym Check for col_names
+        res = self.syn_check(token, col_names)
+        if res != 0:
+          col_name_val_pairs.add((res,""))
+          continue
+      return col_name_val_pairs
+   
   # Returns all col_names and col_vals found from list of tokens
   def run(self, table_name):
-    # Get col_names and col_names_vals for a given tablename
-    col_names_vals, col_names = self.read_json(table_name)
-    # Set (to avoid duplicates) of tuples i.e. pairs of col_names and related col_vals found from tokens
-    # Note: Some tuples may not include the col_val value, since this is just a col_name
-    col_name_val_pairs = set()
-    # Try finding best match for each token - Try checks in order, if one works add tuple into set and continue onto next token
-    for token in self.tokens:
-      token = token[0]
-      # Check 1 - Direct Check 1 for col_names
-      res = self.direct_check1(token, col_names)
-      if res != 0 and res is not None:
-        col_name_val_pairs.add((res,""))
-        continue
-      # Check 2 - Direct Check 2 for col_vals
-      res, res2 = self.direct_check2(token, col_names_vals)
-      if res != 0 and res2 != 0:
-        col_name_val_pairs.add((res,res2))
-        continue
-      # Check 3 - Synonym Check for col_names
-      res = self.syn_check(token, col_names)
-      if res != 0:
-        col_name_val_pairs.add((res,""))
-        continue
-      # TODO Add extra checks:
-      # # Check 4 - Synonym Check for col_vals
-      # res5, res6 = self.syn_check(token, col_names_vals)
-      # if res5 != 0 and res6 != 0:
-      #   col_name_val_pairs.add((res5,res6))
-      #   continue
-      # # Check 5 - n-grams Check for col_names
-      # # Check 6 - n-grams Check for col_vals
-    return list(col_name_val_pairs)
+    match_set = set()
+    
+    # check ngrams, regular tokens
+    two_grams  = self.create_n_grams(2)
+    three_grams = self.create_n_grams(5)
+    tokens  = self.tokens
+ 
+    match_set = match_set.union(self.run_checks(tokens, table_name))
+    match_set = match_set.union(self.run_checks(two_grams, table_name))
+    match_set = match_set.union(self.run_checks(three_grams, table_name))
+  
+    
+    return list(match_set)
 

@@ -14,7 +14,7 @@ class ProcessQ():
     self.userQ = re.sub("[^A-Z0-9\s]", "", self.userQ)
 
   def remove_stopWords_tokenize(self):
-    exceptions = {"how"}
+    exceptions = {"how","of"}
     stopWords = set(stopwords.words('english'))
     stop_words = stopWords.difference(exceptions)
     word_tokens = N.word_tokenize(self.userQ)
@@ -29,3 +29,4 @@ class ProcessQ():
     self.remove_stopWords_tokenize()
     self.pos_tagging()
     return self.userQ
+  

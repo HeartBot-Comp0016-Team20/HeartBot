@@ -13,7 +13,7 @@ class Classifier_Col():
   # Create col_names dictionary initialised in __init__ method using json file; json file 
   # contains the actual col_names as keys and list of alternative names for col_names as values
   def create_dict(self, col_names):
-    with open('data/col_names.json') as json_file:
+    with open('Retrieval/data/col_names.json') as json_file:
       data = json.load(json_file)
     i = 0
     keys = list(data.keys())
@@ -79,7 +79,7 @@ class Classifier_Col():
     # Read the json file for a given table into a list of tuples where tuple is in the form: [(column name, [possible values of items in the column])]
     col_names_vals = []
     just_col_names = []
-    with open("data/{}.json".format(table_name)) as json_file:
+    with open("Retrieval/data/{}.json".format(table_name)) as json_file:
         data = json.load(json_file)
         i = 0
         keys = list(data.keys())

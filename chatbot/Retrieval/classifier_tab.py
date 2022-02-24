@@ -13,7 +13,7 @@ class Classifier_Tab():
   # Method to create table_names dictionary in constructor using json file
   # Json file hold the table_names as keys and values are alternative names for tables
   def create_dict(self, table_names):
-    with open('data/table_names.json') as json_file:
+    with open('Retrieval/data/table_names.json') as json_file:
       data = json.load(json_file)
     i = 0
     keys = list(data.keys())

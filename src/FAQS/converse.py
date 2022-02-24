@@ -74,11 +74,7 @@ class Chat:
     # above that will used for the website chatbot interface:
 
     # Same as converse() but without while loop
-    def web_converse(self):
-        try:
-            user_input = input(">")
-        except EOFError:
-            return(user_input)
+    def web_converse(self, user_input):
         return self.web_check_input(user_input)
 
     # Same as check_input() but without prints

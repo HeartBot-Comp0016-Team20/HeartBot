@@ -1,7 +1,6 @@
 # Check Licenses
 import nltk as N
 from nltk.corpus import stopwords
-import string
 import re
 
 class ProcessQ():
@@ -10,12 +9,12 @@ class ProcessQ():
 
   def cleanInput(self):
     self.userQ = self.userQ.upper()
-    self.userQ = self.userQ.translate(string.punctuation)
-    self.userQ = re.sub("[^A-Z0-9\s]", "", self.userQ)
+    self.userQ = re.sub("[^A-Z0-9-/\s]", "", self.userQ)
 
   def remove_stopWords_tokenize(self):
     exceptions = {"how","of"}
-    stopWords = set(stopwords.words('english'))
+    # Unions the "-" and "/" to remove any tokens where the first part is just "-" or "/"
+    stopWords = set(stopwords.words('english')).union({"-","/"})
     stop_words = stopWords.difference(exceptions)
     word_tokens = N.word_tokenize(self.userQ)
     filtered = [w for w in word_tokens if not w.lower() in stop_words]

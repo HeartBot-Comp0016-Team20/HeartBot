@@ -33,10 +33,10 @@ def filter_dataframe(df, pairs_dict):
     temp=[]
     for value in pairs_dict[key]:
       if str(value).isnumeric():
-        temp.append("{} == {}".format(key,value))
+        temp.append("`{}` == {}".format(key,value))
       else:
         # Str vals must be surrounded by double quotes in query
-        temp.append("{} == \"{}\"".format(key,value))
+        temp.append("`{}` == \"{}\"".format(key,value))
     output.append('('+'|'.join(temp)+')')
   final_query = '&'.join(output)
   # Query the dataframe and return the relevent data
@@ -65,34 +65,7 @@ def run(q):
     if result.empty:
       return "No data found for your question\n"
     else:
-      return (result,"\n")
+      return result
 
 if __name__=="__main__":
   print(run())
-
-'''
-Testing - Example Questions:
-  what is the asdr in england in 1977
-  what is the asdr in countries england and scotland in 1977
-  what are the risk factors in wales in 2018                          - DONT WORK
-  what are the risk factors in wales in 2019 for females              - DONT WORK
-  what are the risk factors in england in 2019 for males              - DONT WORK
-  what are the admits in wales in 2010
-  what are the number of prescriptions in 2019 in scotland
-  how many medicines were given in 2019 in scotland
-  how many drugs were given in 2015 in england
-  what is the value of ohca in east of england in 2015 where number discharged alive
-  What is the estimated burden - deaths in 2009 in the uk
-  What is the estimated burden - DALYS in 2009 in the uk
-  in what nation was there cvd
-
-Sources:
-  https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
-  https://www.datacamp.com/community/tutorials/fuzzy-string-python
-  https://www.guru99.com/wordnet-nltk.html
-  https://www.geeksforgeeks.org/nlp-synsets-for-a-word-in-wordnet/
-  https://www.geeksforgeeks.org/convert-json-to-dictionary-in-python/
-  https://www.geeksforgeeks.org/python-read-csv-columns-into-list/
-  https://www.geeksforgeeks.org/get-column-names-from-csv-using-python/
-  https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
-'''

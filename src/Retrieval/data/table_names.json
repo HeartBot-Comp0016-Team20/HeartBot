@@ -1,7 +1,7 @@
 {
     "admissions" : ["admissions", "admits"],
     "asdr all ages" : ["asdr all ages", "age specific death rate all ages"],
-    "asdr under75" : ["asdr under75", "asdr 75 and under"],
+    "asdr under75" : ["asdr under75", "asdr 75 and under", "asdr under 75"],
     "burden" : ["burden"],
     "deaths by cause age sex uk" : ["deaths by cause age sex uk", "deaths", "deaths by cause", "deaths by age", "deceased", "death by sex"],
     "ohca" : ["ohca", "out of hospital cardiac arrest", "cardiac arrest"],

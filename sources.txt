@@ -1,0 +1,14 @@
+retriever.py:
+    https://www.geeksforgeeks.org/removing-stop-words-nltk-python/
+    https://www.datacamp.com/community/tutorials/fuzzy-string-python
+    https://www.guru99.com/wordnet-nltk.html
+    https://www.geeksforgeeks.org/nlp-synsets-for-a-word-in-wordnet/
+    https://www.geeksforgeeks.org/convert-json-to-dictionary-in-python/
+    https://www.geeksforgeeks.org/python-read-csv-columns-into-list/
+    https://www.geeksforgeeks.org/get-column-names-from-csv-using-python/
+    https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
+
+FAQs.py:
+    https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
+    https://www.geeksforgeeks.org/python-measure-similarity-between-two-sentences-using-cosine-similarity/
+    https://www.nltk.org/_modules/nltk/chat/util.html#Chat

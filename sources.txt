@@ -12,3 +12,5 @@ FAQs.py:
     https://www.analyticsvidhya.com/blog/2021/07/build-a-simple-chatbot-using-python-and-nltk/
     https://www.geeksforgeeks.org/python-measure-similarity-between-two-sentences-using-cosine-similarity/
     https://www.nltk.org/_modules/nltk/chat/util.html#Chat
+
+Images for Website:

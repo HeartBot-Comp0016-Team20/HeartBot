@@ -10,8 +10,8 @@ class Classifier_Col():
     self.tokens = tokens
     self.col_names = self.create_dict(defaultdict(list))
 
-  # Create col_names dictionary inistialesed in __init__ method using json file;
-  # json file contains the actual col_names as keys and list of alternative names for col_names as values
+  # Create col_names dictionary initialised in __init__ method using json file; json file 
+  # contains the actual col_names as keys and list of alternative names for col_names as values
   def create_dict(self, col_names):
     with open('data/col_names.json') as json_file:
       data = json.load(json_file)
@@ -23,12 +23,15 @@ class Classifier_Col():
       i = i + 1
     return col_names
 
+  # Create a set of tokens same as self.tokens but
+  # without the pos-tags; used to create n-grams
   def pre_process_n_grams(self, tokens):
     aux = []
     for token in tokens:
       aux.append(token[0])
     return aux
 
+  # Create a list of n-grams from list of tokens
   def create_n_grams(self, n):
     dgrams = []
     tokens = self.pre_process_n_grams(self.tokens)
@@ -36,7 +39,6 @@ class Classifier_Col():
     for grams in n_grams:
         grams = ' '.join(grams)
         dgrams.append((grams,''))
-
     return dgrams
 
   # Creates a list of tuples in the form: [(col_name, [synonyms for col_name])]
@@ -113,11 +115,12 @@ class Classifier_Col():
     else:
       return best_match_col, best_match_item
 
+  # Run the different checks in given order on a given list of tokens and tablename
   def run_checks(self, tokens, table_name):
-      # Get col_names and col_names_vals for a given tablename
+      # Get col_names (column names in table) and col_names_vals (col names and values col_names could take) for a given tablename
       col_names_vals, col_names = self.read_json(table_name)
-      # Set (to avoid duplicates) of tuples i.e. pairs of col_names and related col_vals found from tokens
-      # Note: Some tuples may not include the col_val value, since this is just a col_name
+      # Set (to avoid duplicates) of tuples i.e. set of pairs of col_names and related col_vals found from list of tokens
+      # Note: Some tuples may not include the col_val part of tuple, since this is just a col_name without col_val
       # Try finding best match for each token - Try checks in order, if one works add tuple into set and continue onto next token
       col_name_val_pairs = set()
       for token in tokens:
@@ -141,17 +144,18 @@ class Classifier_Col():
    
   # Returns all col_names and col_vals found from list of tokens
   def run(self, table_name):
+    # Set to store all the col_name and col_val pairs found
     match_set = set()
-    
-    # check ngrams, regular tokens
+
+    # Initialize the ngrams and tokens lists
     two_grams  = self.create_n_grams(2)
-    three_grams = self.create_n_grams(5)
+    three_grams = self.create_n_grams(3)
     tokens  = self.tokens
  
+    # Check ngrams and regular tokens, add any matches found into set
     match_set = match_set.union(self.run_checks(tokens, table_name))
     match_set = match_set.union(self.run_checks(two_grams, table_name))
     match_set = match_set.union(self.run_checks(three_grams, table_name))
   
-    
     return list(match_set)
 

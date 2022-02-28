@@ -3,7 +3,6 @@ from Retrieval import retriever
 from FAQS import converse
 from FAQS import aux_functions
 from flask import Flask, render_template, request
-import pandas as pd
 
 def run_chatbot(user_input):
     pairs = aux_functions.create_pairs()

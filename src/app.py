@@ -17,8 +17,7 @@ def run_chatbot(user_input):
         if isinstance(res,str) and res == "I don't understand\n":
             return "No data found for your question\n"
         else:
-            return res.to_html()
-
+            return res.to_html(index=False)
 
 app = Flask(__name__)
 app.static_folder = 'static'

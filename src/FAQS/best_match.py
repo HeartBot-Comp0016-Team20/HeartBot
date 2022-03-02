@@ -6,6 +6,7 @@ class BestMatch:
         self.data = []
         self.cosineSimValsList = []
 
+    # Read the actual questions from FAQs_q.txt
     def take_data(self, filename='FAQS/FAQs_q.txt'):
         with open(filename) as f:
             lines = f.readlines()
@@ -13,9 +14,8 @@ class BestMatch:
                 self.data.append(line.strip('\n'))
 
     def tokenize(self, X, Y):
-        X_list = word_tokenize(X) 
+        X_list = word_tokenize(X)
         Y_list = word_tokenize(Y)
-
         return X_list, Y_list
 
     def remove_stopwords(self,X_list,Y_list):

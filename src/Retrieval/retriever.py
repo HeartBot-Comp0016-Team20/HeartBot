@@ -28,6 +28,7 @@ def restructure(col_name_val_pairs):
 # dataframe then extract data from dataframe using this 
 # query; uses the dictionary created in the restructure()
 def filter_dataframe(df, pairs_dict):
+  result = 0
   output = []
   for key in pairs_dict.keys():
     temp=[]
@@ -40,7 +41,8 @@ def filter_dataframe(df, pairs_dict):
     output.append('('+'|'.join(temp)+')')
   final_query = '&'.join(output)
   # Query the dataframe and return the relevent data
-  result = df.query(final_query)
+  if final_query != "":
+    result = df.query(final_query)
   return result
 
 # Given a users questions, finds and returns the relevent data
@@ -62,7 +64,9 @@ def run(q):
     filter_info = restructure(col_name_val_pairs)
     result = filter_dataframe(df,filter_info)
     # Check if the result (i.e. filtered dataframe) is empty
-    if result.empty:
+    if isinstance(result,int) and result==0:
+      return "No data found for your question\n"
+    elif result.empty:
       return "No data found for your question\n"
     else:
       return result

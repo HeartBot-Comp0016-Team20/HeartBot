@@ -16,6 +16,8 @@ How many women aged 65+ die from stroke in the UK?
 In 2019, 18,157 women in the UK aged 65 and over died from stroke.
 How many people die from heart and circulatory diseases in Camden?
 From 2017 to 2019, the average number of annual deaths in Camden from all heart and circulatory diseases was 296. 
+How many people have diabetes in the UK?
+More than 4 million adults in the UK have been diagnosed with diabetes. And it is expected that more than 4.9 million people have diabetes in the UK
 How many people die from smoking in the UK?
 In the UK it's estimated that at least 80,000 deaths each year can be attributed to smoking. It's estimated that at least 15,000 deaths in the UK each year from heart and circulatory diseases can be attributed to smoking. 
 What percentage of men in England are classified as obese?
@@ -25,4 +27,8 @@ In Wales, 25% of women aged 65-74 and 18% of women aged 75+ are classified as ob
 What percentage of women in Northern Ireland are physically inactive?
 In Northern Ireland, 49% of women do not meet the recommended levels of weekly physical activity.  
 What local authority is worst affected by heart and circulatory diseases in the UK?
-West Dunbartonshire in Scotland has the highest rate of age standardised deaths from Heart and Circulatory Diseases in the UK. 
+West Dunbartonshire in Scotland has the highest rate of age standardised deaths from Heart and Circulatory Diseases in the UK.
+What is the prevalence of obesity in the UK?
+Around 28 per cent of adults in the UK have obesity and in addition more than a third (36 per cent) have a body-mass index (BMI) defined as overweight
+What is the prevalence of smoking in the UK?
+At least 1 in 7 adults smoke cigarettes in the UK – or 7-9 million adults.

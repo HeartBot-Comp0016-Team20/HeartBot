@@ -15,6 +15,8 @@ def run_chatbot(user_input):
     else:
         res = retriever.run(output[1])
         if isinstance(res,str) and res == "I don't understand\n":
+            return "I don't understand\n"
+        elif isinstance(res,str) and res == "No data found for your question\n":
             return "No data found for your question\n"
         else:
             return res.to_html(index=False)

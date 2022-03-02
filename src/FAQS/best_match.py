@@ -33,11 +33,10 @@ class BestMatch:
         # form a set containing keywords of both strings 
         rvector = X_set.union(Y_set) 
         for w in rvector:
-                if w in X_set: l1.append(1) # create a vector
-                else: l1.append(0)
-                if w in Y_set: l2.append(1)
-                else: l2.append(0)
-
+            if w in X_set: l1.append(1) # create a vector
+            else: l1.append(0)
+            if w in Y_set: l2.append(1)
+            else: l2.append(0)
         return l1, l2, rvector
 
     def cosine_formula (self, l1, l2, rvector, cosineSimValsList):
@@ -61,7 +60,6 @@ class BestMatch:
         self.take_data()
 
         for q in data:
-        
             X_list, Y_list = self.tokenize(userQ, q)
             l1,l2, X_set,Y_set = self.remove_stopwords(X_list,Y_list)
             l1,l2, rvector = self.form_vector(X_set, Y_set, l1, l2)

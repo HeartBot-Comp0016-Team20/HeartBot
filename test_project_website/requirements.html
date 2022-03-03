@@ -21,7 +21,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html#page-top"> <img src="assets/img/navbar-logo.png" alt="" class="d-inline-block align-text-center"> HeartBOT</a>
+                <a class="navbar-brand" href="index.html"> <img src="assets/img/navbar-logo.png" alt="" class="d-inline-block align-text-center"> HeartBOT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -44,11 +44,31 @@
 
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Home > Requirements</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#start">Explore</a>
-            </div>
-        </header>
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-sm">
+                      <div class="masthead-subheading"><a href="index.html">Home</a> > Requirements</div>
+                  </div>
+                  <div class="col-sm">
+                      <!-- Explore Button - https://www.w3schools.com/howto/howto_css_dropdown.asp -->
+                      <div class="dropdown">
+                          <button class="btn btn-primary btn-xl text-uppercase" href="#" style="min-width: 186px;">
+                          Explore
+                          </button>
+                          <div class="dropdown-content">
+                          <a class="dropdown-item" href="#start">Project Background</a>
+                          <a class="dropdown-item" href="#client_req">Client Requirements</a>
+                          <a class="dropdown-item" href="#project_goal">Project Goal</a>
+                          <a class="dropdown-item" href="#user_interviews">User Interviews</a>
+                          <a class="dropdown-item" href="#personas">Personas</a>
+                          <a class="dropdown-item" href="#use_cases">Use Cases</a>
+                          <a class="dropdown-item" href="#moscow_list">MoSCoW List</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
 
         <!-- Project Background -->
         <section class="page-section bg-light" id="start">
@@ -62,7 +82,7 @@
           </section>
 
         <!-- Client Requirements-->
-        <section class="page-section">
+        <section class="page-section" id="client_req">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Client Requirements</h2>
@@ -98,13 +118,126 @@
         </section>
 
         <!-- Project Goal -->
-        <section class="page-section bg-light">
+        <section class="page-section bg-light" id="project_goal">
             <div class="container">
                 <div class="text-center">
                     <h1 class="text-center p-2">Project Goal</h1>
                     <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
                 </div>
           </section>
+
+        <!-- User Interviews -->
+        <section class="page-section" id="user_interviews">
+          <div class="container">
+              <div class="text-center">
+                  <h1 class="text-center p-2">User Interviews</h1>
+                  <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
+              </div>
+        </section>
+
+        <!-- Personas -->
+        <section class="page-section bg-light" id="personas">
+          <div class="container">
+              <div class="text-center">
+                  <h1 class="text-center p-2">Personas</h1>
+                  <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
+                  <!-- Bootstrap Carousel for personas -->
+                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-color: #ffffff;">
+                          <p class="text-center bg-light">Persona 1</p>
+                          <img src="assets/img/persona1.png" style="width:70%; height:160%" alt="...">
+                        </div>
+                        <div class="carousel-item" style="background-color: #ffffff;">
+                          <p class="text-center bg-light">Persona 2</p>
+                          <img src="assets/img/persona2.png" style="width:70%; height:160%" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon btn-dark" aria-hidden="true"></span>
+                      <span class="visually-hidden btn-dark">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon btn-dark" aria-hidden="true"></span>
+                      <span class="visually-hidden btn-dark">Next</span>
+                    </button>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <!-- Use Cases -->
+        <section class="page-section" id="use_cases">
+          <div class="container">
+              <div class="text-center">
+                  <h1 class="text-center p-2">Use Cases</h1>
+                  <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
+              </div>
+        </section>
+
+        <!-- MoSCoW List -->
+        <section class="page-section bg-light" id="moscow_list">
+          <div class="container">
+              <div class="text-center">
+                  <h1 class="text-center p-2">MoSCoW List</h1>
+                  <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
+                  <!-- Bootstrap Accordion for moscow list -->
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Must Have
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Should Have
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Could Have
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                          Would Have
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                          <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
 
         <!-- Footer-->
         <footer class="footer placeholder-wave py-4" style="background-color: #212529">
@@ -117,6 +250,7 @@
                   </div>
                   <div class="col">
                     <p style="color: #ffffff;"> This is the project portfolio website for UCL Year 2 2021/2022 COMP0016 Team 20</p>
+                    <p style="color: #ffffff;"> Website Template: https://github.com/StartBootstrap/startbootstrap-agency</p>
                     <p style="color: #ffffff;">&copy; 2022 All Rights Reserved</p>
                   </div>
                   <div class="text-center">
@@ -134,8 +268,8 @@
                   <div class="row-fluid row align-items-start">
                     <div class="col">
                       <ul class="nav flex-column">
-                          <li class="nav-item"><a href="#" class="nav-link" style="color: #ffffff;">Home</a></li>
-                          <li class="nav-item"><a href="#" class="nav-link" style="color: #ffffff;">Requirements</a></li>
+                          <li class="nav-item"><a href="index.html" class="nav-link" style="color: #ffffff;">Home</a></li>
+                          <li class="nav-item"><a href="requirements.html" class="nav-link" style="color: #ffffff;">Requirements</a></li>
                           <li class="nav-item"><a href="#" class="nav-link" style="color: #ffffff;">Research</a></li>
                           <li class="nav-item"><a href="#" class="nav-link" style="color: #ffffff;">HCI</a></li>
                           <li class="nav-item"><a href="#" class="nav-link" style="color: #ffffff;">System Design</a></li>
@@ -165,7 +299,28 @@
                     </div>
                   </div>
             </div>
-          </footer>
+        </footer>
+
+        <!-- HTML and JS for Scroll Button - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+        <script>
+        //Get the button:
+            mybutton = document.getElementById("myBtn");
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

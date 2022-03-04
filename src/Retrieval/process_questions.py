@@ -1,4 +1,3 @@
-# Check Licenses
 import nltk as N
 from nltk.corpus import stopwords
 import re

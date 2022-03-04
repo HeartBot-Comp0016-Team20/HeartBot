@@ -1,7 +1,7 @@
 from collections import defaultdict
 from fuzzywuzzy import process
 from nltk.corpus import wordnet
-# nltk.download('omw-1.4')
+nltk.download('omw-1.4')
 from nltk import ngrams
 import json
 

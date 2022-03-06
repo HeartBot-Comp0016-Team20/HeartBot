@@ -4,6 +4,9 @@ from FAQS import converse
 from FAQS import aux_functions
 from flask import Flask, render_template, request
 
+
+# Takes the user query and runs the FAQ algorithm on it, if an answer is found, it is output, otherwise the retrieval algorithm is run
+# friendly error messages are output in case no result is found
 def run_chatbot(user_input):
     pairs = aux_functions.create_pairs()
     chat = converse.Chat(pairs, reflections)

@@ -17,7 +17,7 @@ class TestBot(unittest.TestCase):
 
     def test_find_closest(self):
         Q = "How many people are diabetics?"
-        res = best_match.BestMatch().findClosestQuestion(Q)
+        res = best_match.BestMatch().find_closest_q(Q)
         self.assertEqual("How many people have diabetes in the UK?",res)
 
     # Following Tests are for classifier_tab.py:
@@ -45,7 +45,7 @@ class TestBot(unittest.TestCase):
     def test_n_grams(self):
         res = classifier_col.Classifier_Col([('They', 'PRP'), ('refuse', 'VBP'), ('to', 'TO')]).create_n_grams(2)
         self.assertEquals(res,[('They refuse', ''), ('refuse to', '')])
-        
+
     def test_run(self):
         processed = process_questions.ProcessQ('what is the value of ohca in scotland ').getProcessedQ()
         print(processed)

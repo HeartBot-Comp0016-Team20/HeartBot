@@ -48,7 +48,6 @@ class TestBot(unittest.TestCase):
 
     def test_run(self):
         processed = process_questions.ProcessQ('what is the value of ohca in scotland ').getProcessedQ()
-        print(processed)
         res = classifier_col.Classifier_Col(processed).run('prevalence')
         self.assertEquals(res,[('nation', 'Scotland')])
 

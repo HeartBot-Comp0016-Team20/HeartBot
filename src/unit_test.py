@@ -1,6 +1,6 @@
 import unittest
 from FAQS import best_match
-from Retrieval import classifier_tab, classifier_col
+from Retrieval import classifier_tab, classifier_col, process_questions
 
 class TestBot(unittest.TestCase):
 
@@ -15,11 +15,42 @@ class TestBot(unittest.TestCase):
         self.assertEqual(expected_X_list,X_list)
         self.assertEqual(expected_Y_list,Y_list)
 
-    # Following Tests are for classifier_tab.py:
+    def test_find_closest(self):
+        Q = "How many people are diabetics?"
+        res = best_match.BestMatch().findClosestQuestion(Q)
+        self.assertEqual("How many people have diabetes in the UK?",res)
 
+    # Following Tests are for classifier_tab.py:
+    def test_find_closest_tab(self):
+        Q = "preverence"
+        res = classifier_tab.Classifier_Tab('').direct_check(Q)
+        self.assertEquals(res,"prevalence")
+
+    def test_find_closest_tab_negative(self):
+        Q = "padgvcbcce"
+        res = classifier_tab.Classifier_Tab('').direct_check(Q)
+        self.assertEquals(res,0)
+    
+    def test_get_table_name(self):
+        Q = "out of hospital cardiac arrest"
+        res = classifier_tab.Classifier_Tab('').get_table_name(Q)
+        self.assertEquals(res,"ohca")
+
+    def test_get_table_name_negative(self):
+        Q = "heart attack"
+        res = classifier_tab.Classifier_Tab('').get_table_name(Q)
+        self.assertEquals(res,0)
 
     # Following Tests are for classifier_col.py:
-
+    def test_n_grams(self):
+        res = classifier_col.Classifier_Col([('They', 'PRP'), ('refuse', 'VBP'), ('to', 'TO')]).create_n_grams(2)
+        self.assertEquals(res,[('They refuse', ''), ('refuse to', '')])
+        
+    def test_run(self):
+        processed = process_questions.ProcessQ('what is the value of ohca in scotland ').getProcessedQ()
+        print(processed)
+        res = classifier_col.Classifier_Col(processed).run('prevalence')
+        self.assertEquals(res,[('nation', 'Scotland')])
 
 if __name__ == "__main__":
     unittest.main()

@@ -4,14 +4,16 @@ from nltk.corpus import wordnet
 import json
 
 class Classifier_Tab():
+
   def __init__(self, tokens):
     self.tokens = tokens
-    # Create a dictionary with actual table names as in database + other possible
-    # words that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
+    # Creates a dictionary with actual table names as in database + other possible
+    # words/variations that could be used. For example admissions : ["admissions", "admisions" ,"admits", ...]
     self.table_names = self.create_dict(defaultdict(list))
 
   # Method to create table_names dictionary in constructor using json file
-  # Json file hold the table_names as keys and values are alternative names for tables
+  # Json file holds the actual table_names as keys and the values are alternative names for tables
+  # For example "admissions" : ["admissions", "admits"]
   def create_dict(self, table_names):
     with open('Retrieval/data/table_names.json') as json_file:
       data = json.load(json_file)
@@ -31,7 +33,7 @@ class Classifier_Tab():
 
     # The token is similar to one of the actual table names, we need to find which one
     possible_names = self.table_names[closest_match[0]]
-    # Find best match from possible things the user could have typed
+    # Find best match from the possible things the user could have typed
     best_match = process.extractOne(str2Match, possible_names)
     if best_match[1] < 75:
       return 0
@@ -72,7 +74,7 @@ class Classifier_Tab():
     else:
       return best_match
 
-  # Try different checks to find the best match of table name from the list of tokens
+  # Runs the different checks to find the best match of table name from the list of tokens
   def get_table_name(self, str2Match):
     res = self.direct_check(str2Match)
     # proceed if direct check failed

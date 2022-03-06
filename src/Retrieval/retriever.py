@@ -4,17 +4,17 @@ from Retrieval import classifier_col
 from collections import defaultdict
 import pandas as pd
 
-# Read a csv file into a pandas dataframe
+# Reads a csv file into a pandas dataframe
 def from_csv_to_dataframe(filename):
   data = pd.read_csv(filename)  
   return pd.DataFrame(data)
 
-# Create and return dataframe for a given csv file
+# Creates and returns a dataframe for a given csv file
 def create_dataframe(tablename):
   filename = "Retrieval/data/{}.csv".format(tablename)
   return from_csv_to_dataframe(filename)
 
-# Reformat col_name_val_pairs (returned by classifier_col) into,
+# Reformats col_name_val_pairs (returned by classifier_col) into,
 # a dictionary. This dictionary is used by filter_dataframe()
 def restructure(col_name_val_pairs):
   pairs = defaultdict(list)
@@ -24,8 +24,8 @@ def restructure(col_name_val_pairs):
     pairs[name_val[0]].append(name_val[1])
   return pairs
 
-# Create query to extract/filter required data from the 
-# dataframe then extract data from dataframe using this 
+# Creates a query to extract/filter required data from the 
+# dataframe and then extracts data from the dataframe using this 
 # query; uses the dictionary created in the restructure()
 def filter_dataframe(df, pairs_dict):
   result = 0
@@ -45,25 +45,25 @@ def filter_dataframe(df, pairs_dict):
     result = df.query(final_query)
   return result
 
-# Given a users questions, finds and returns the relevent data
+# Given a user question, finds and returns the relevent data
 def run(q):
   processor = process_questions.ProcessQ(q)
-  # Split question into tokens
+  # Splits question into tokens
   tokens = processor.getProcessedQ()
-  # Find the table_name from list of tokens
+  # Finds the table_name from list of tokens
   table_name = classifier_tab.Classifier_Tab(tokens).run()
   if table_name is None:
-    # If valid table_name not found, then data does not exist
+    # If a valid table_name is not found, then data does not exist
     return "I don't understand\n"
   else:
-    # If table_name found then data exists, try to return required data
+    # If table_name is found then data exists, try to return required data
     # Find column_names and column_vals from the list of tokens
     col_name_val_pairs  = classifier_col.Classifier_Col(tokens).run(table_name)
     # Create, query, retrieve and output the required data
     df = create_dataframe(table_name)
     filter_info = restructure(col_name_val_pairs)
     result = filter_dataframe(df,filter_info)
-    # Check if the result (i.e. filtered dataframe) is empty
+    # Checks if the result (i.e. filtered dataframe) is empty
     if isinstance(result,int) and result==0:
       return "No data found for your question\n"
     elif result.empty:

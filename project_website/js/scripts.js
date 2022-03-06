@@ -7,6 +7,21 @@
 // Scripts
 // 
 
+// Start - Code for Preloader
+// https://subhasishlive.com/AllBlogs/how-to-make-a-preloader-with-minimum-html-css-and-jquery/
+function preloaderFadeOutInit(){
+    $('.preloader').fadeOut(600);
+    $('body').attr('id','');
+}
+
+// Window load function
+jQuery(window).on('load', function () {
+(function ($) {
+preloaderFadeOutInit();
+})(jQuery);
+});
+// End - Code for Preloader
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function

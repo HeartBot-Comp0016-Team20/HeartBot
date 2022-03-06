@@ -11519,7 +11519,7 @@ header.masthead .masthead-heading {
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #f29fb5; /* Add a dark-grey background on hover */
 }
 /* End - CSS for Scroll Button - https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
@@ -11850,4 +11850,26 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* https://subhasishlive.com/AllBlogs/how-to-make-a-preloader-with-minimum-html-css-and-jquery/ */
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:0;
+  right:0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999999;
+  background-image: url('load.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
+}
+
+#stop-scrolling {
+  height: 100% !important;
+  overflow: hidden !important;
 }

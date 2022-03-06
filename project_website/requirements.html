@@ -15,12 +15,18 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- JavaScript for Preloader -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
 
-    <body id="page-top">
-
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
+    <body id="stop-scrolling">
+      <div id="page-top">
+          <!-- Preloader -->
+          <div class="preloader"></div>
+          
+          <!-- Navigation-->
+          <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="mainNav">
             <div class="container">
                 <a class="navbar-brand" href="index.html"> <img src="assets/img/navbar-logo.png" alt="" class="d-inline-block align-text-center"> HeartBOT</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -270,7 +276,7 @@
                           <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                       </div>
                   </div>
-  
+
                   <!-- Site Menu Column -->
                   <div class="col">
                       <div class="col">
@@ -296,7 +302,7 @@
                           </div>
                       </div>
                   </div>
-  
+
                   <!-- Supporters -->
                   <div class="col">
                       <div class="col">
@@ -343,5 +349,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+      </div>
     </body>
 </html>

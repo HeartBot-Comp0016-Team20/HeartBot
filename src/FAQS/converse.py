@@ -2,6 +2,7 @@ import re
 import random
 from FAQS import best_match
 
+# Class Chat is part of the nltk library
 class Chat:
     def __init__(self, pairs, reflections={}):
         self._pairs = [(re.compile(x, re.IGNORECASE), y) for (x, y) in pairs]
@@ -44,14 +45,14 @@ class Chat:
                     resp = resp[:-2] + "?"
                 return resp
 
-
+    # Check the user input and try to process it, in order to match it to a question from the compendium
     def check_input(self, user_input):
         matcher = best_match.BestMatch()
         if user_input:
             while user_input[-1] in "!.":
                 user_input = user_input[:-1]
             try:
-                user_input = matcher.findClosestQuestion(user_input)
+                user_input = matcher.find_closest_q(user_input)
                 if (self.respond(user_input)!= None):
                     print(self.respond(user_input))
                 else:
@@ -84,7 +85,7 @@ class Chat:
             while user_input[-1] in "!.":
                 user_input = user_input[:-1]
             try:
-                user_input = matcher.findClosestQuestion(user_input)
+                user_input = matcher.find_closest_q(user_input)
                 if (self.respond(user_input)!= None):
                     return (1,self.respond(user_input))
                 else:

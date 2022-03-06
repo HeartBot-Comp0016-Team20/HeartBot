@@ -1,3 +1,4 @@
+# Take the list of FAQs provided by the BHF and create question-answer pairs
 def append_data (pairs, filename='FAQS/FAQs.txt'):
     with open(filename) as f:
         lines = f.readlines()
@@ -10,6 +11,7 @@ def append_data (pairs, filename='FAQS/FAQs.txt'):
         i = i + 2
     return pairs
 
+# Establish an initial list of pairs and responses and append the ones from the compendium
 def create_pairs (): 
     pairs = [
     [
@@ -47,4 +49,3 @@ def create_pairs ():
     ],
     ]
     return append_data(pairs)
-    

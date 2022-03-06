@@ -13,6 +13,7 @@ class BestMatch:
             for line in lines:
                 self.data.append(line.strip('\n'))
 
+    # Split a sentence into the words it is composed of
     def tokenize(self, X, Y):
         X_list = word_tokenize(X)
         Y_list = word_tokenize(Y)
@@ -46,6 +47,7 @@ class BestMatch:
         cosine = c / float((sum(l1)*sum(l2))**0.5)
         cosineSimValsList.append(cosine)
 
+    # Calculate and return the item with the maximum similarity percentage from a list of values
     def calculate_maxSim(self, userQ, data, cosineSimValsList):
         maxSim = max(cosineSimValsList)
         if maxSim < 0.55:
@@ -53,8 +55,9 @@ class BestMatch:
         else:
             index = cosineSimValsList.index(maxSim)
             return(data[index])
-        
-    def findClosestQuestion(self, userQ):
+    
+    # Find which question from the data produces the highest simillarity percentage 
+    def find_closest_q(self, userQ):
         data = self.data
         cosineSimValsList = self.cosineSimValsList
         self.take_data()

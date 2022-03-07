@@ -10,7 +10,7 @@
 // Start - Code for Preloader
 // https://subhasishlive.com/AllBlogs/how-to-make-a-preloader-with-minimum-html-css-and-jquery/
 function preloaderFadeOutInit(){
-    $('.preloader').fadeOut(50);
+    $('.preloader').fadeOut(100);
     $('body').attr('id','');
 }
 

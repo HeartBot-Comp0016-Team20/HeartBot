@@ -26,6 +26,7 @@ python app.py
 5) This will open your browser with the chatbot web application
 6) Interact with the chatbot using the web interface
 7) Hover over help button in web interface if help is needed
+8) To shutdown the chatbot/web application, in your terminal press ```CTRL+C``` to quit
 8) Please refer to the user manual for further guidance
 
 ## List of Files

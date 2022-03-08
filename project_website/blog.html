@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMP0016 Team 20 - Development Blog</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="comp0016-team-20">COMP0016 Team 20 - Development Blog</h1>
+<p>
+BHF Key Statistics Chatbot - This is a development blog for Team 20 as a part of UCL’s COMP0016 Systems Engineering module 2021-22. We are building a chatbot for the British Heart Foundation (BHF).  The chatbot is going to assist researchers, policy makers and the BHF team to find statistical data easily from the excel sheets of BHF’s data.</p>
+<h1 id="week-1-18th-oct---25th-oct">Week 1 (18th Oct - 25th Oct)</h1>
+<p>We met within our team, had introductions, outlined the problem, contacted the client, had our first meeting with them, reviewed key statistics, asked about their expectations and requirements (semi-structured interview), agreed check in days/times for weekly meetings. We also set up our GitHub repository and started planning and creating templates to gather user requirements.</p>
+<h1 id="week-2-25th-oct---1st-nov">Week 2 (25th Oct - 1st Nov)</h1>
+<p>This week, we sent out a form to our classmates, who acted as pseudo users in the situation and helped us gather user requirements for the chatbot. We also interviewed our clients and the BHF team. After gathering user requirements, we came up with a set of key requirements using the MoSCoW technique. Using these requirements we then made some personas and scenarios to help us understand the users better.</p>
+<h1 id="week-3-1st-nov---8th-nov">Week 3 (1st Nov - 8th Nov)</h1>
+<p>This week we started working on sketches. We sketched out some possible user interfaces that we could have and then showed them to our classmates/pseudo users. They preferred one of them over the others. We used that sketch (sketch number 3) to make a prototype using Balsamiq. We then showed this to our pseudo users and our client and then used their feedback and heuristics to improve our prototype.</p>
+<h1 id="week-4-8th-nov---15th-nov">Week 4 (8th Nov - 15th Nov)</h1>
+<p>This week we worked on our HCI (Human Computer Interaction) report.</p>
+<h1 id="week-5-8th-nov---15th-nov">Week 5 (8th Nov - 15th Nov)</h1>
+<p>We made a trello board to keep track of tasks and roles within the team, we started our blog website and we researched libraries, websites and chatbots.</p>
+<h1 id="week-6-15th-nov---22nd-nov">Week 6 (15th Nov - 22nd Nov)</h1>
+<p>We made a Gantt chart to plan our project ahead and make the most of the time we have by splitting it up into different tasks we have to do. This helped us determine how long to give each task, to effectively split up tasks and manage dependencies between different tasks.</p>
+<h1 id="week-7-22nd-nov---29th-nov">Week 7 (22nd Nov - 29th Nov)</h1>
+<p>This week we started writing pseudocode and making flowcharts for the different functions/parts of the chatbot. This helped us visualise our code and how the data will flow through the program, determine some potential problem points and better understand the code.</p>
+<h1 id="week-8-29th-nov---6th-dec">Week 8 (29th Nov - 6th Dec)</h1>
+<p>We started to analyse the data that our chatbot would use to better understand it. During this process, we found that the data was not standardised and this meant we could not parse the data into our code. We experimented and researched different techniques to standardise the data but could not find a straightforward solution in the time we have. Therefore, we decided to contact our client.</p>
+<h1 id="week-9-6th-dec---13th-dec">Week 9 (6th Dec - 13th Dec)</h1>
+<p>We had a meeting with our client about the data and fortunately they said they have all the data in a standardised table format which solved our problem. They provided us with some sample data and FAQs for us to start working on.<br>
+Since now we have all the things we needed, we started to work on an architecture diagram. This will help abstract our system and show us the relationships, constraints and boundaries between different components in our code.</p>
+<h1 id="week-10-13th-dec---20th-dec">Week 10 (13th Dec - 20th Dec)</h1>
+<p>Since, we had the sample data from our client now, we started working on data extraction. We implemented this by converting the excel data into csv files. Then we converted these csv files into a pandas data frame. We then added the information from the data frame to a sqlite3 database. We can now retrieve data from this database using SQL queries.</p>
+<h1 id="week-11-12--13-20th-dec---10th-jan">Week 11, 12 &amp; 13 (20th Dec - 10th Jan)</h1>
+<p>We started working on our elevator pitch to present what we’ve done so far in this project.</p>
+<h1 id="week-14-10th-jan---17th-jan">Week 14 (10th Jan - 17th Jan)</h1>
+<p>We finished our elevator pitch presentation slides and video. We started writing the chatbot algorithm and experimenting with Chatterbot. We made slides for our monthly video to show progress we’ve made this month and what we’re planning to do next month.</p>
+<h1 id="week-15-17th-jan---24th-jan">Week 15 (17th Jan - 24th Jan)</h1>
+<p>We figured out that the chatterbot library was not the best match for our project and specifically the FAQs chatbot algorithm that we were planning to create. Therefore, we created a modified version of the chat class in the nltk library for our algorithm. We have started planning and implementing our FAQ algorithm using natural language processing.</p>
+<h1 id="week-16-24th-jan---31st-jan">Week 16 (24th Jan - 31st Jan)</h1>
+<p>We finished implementing the FAQ chatbot algorithm using nltk and the details mentioned above in week 15. In addition to the nltk Chat class, we created a best match class that finds the best matching FAQ using cosine similarity since users may ask questions in alternative ways. Next week we plan to start designing a model to answer data specific questions.</p>
+<h1 id="week-17-31st-jan---7th-feb">Week 17 (31st Jan - 7th Feb)</h1>
+<p>We researched different methods that could be used to convert questions written in natural language to SQL queries in order to build on our chatbot.</p>
+<h1 id="week-18-7th-feb---14th-feb">Week 18 (7th Feb - 14th Feb)</h1>
+<p>After extensive research, we came up with a model to convert users’ questions into SQL queries. We refactored the code we had for the FAQs section and added different classes in order to organise our code better.</p>
+<h1 id="week-19-14th-feb---21st-feb">Week 19 (14th Feb - 21st Feb)</h1>
+<p>We started implementing the model we created. This week we began by taking the user query and pre-processing the input data to standardise it and split it into different tokens, after which we deleted stop words and punctuation which are uninformative. Additionally we added POS tagging to each token to identify the individual token types. While we do not plan to use this in our current implementation, it might be useful for future development and hence is included in the code to make our project extendable.</p>
+<p>We continued implementing the model by extracting a table name from the tokens so that we can filter through the tables in our data. To do this, we created a classifier which uses a library called fuzzywuzzy to find the best match table name. In addition to this, the classifier also checks for synonyms.</p>
+<p>We also implemented a classifier similar to the table names extractor for the column names and column values in the tokens in order to identify what the user has specified. In addition to best match and synonyms we also added a n-gram check to ensure column names/values which have more than one word, match to the right token. We refactored all of this code into separate classes.</p>
+<h1 id="week-20-21st-feb---28th-feb">Week 20 (21st Feb - 28th Feb)</h1>
+<p>This week, since we had extracted the key information from our tokens we were ready to construct the query. Originally we planned to use SQL queries and the SQL lite database from the start of the project. However, we found that it would be better to use the data frames in the pandas library along with pandas queries. Hence, we took this key information extracted from the user question, constructed a pandas query which returned a filtered pandas data frame with the information the user asked for.</p>
+<p>After we had both the FAQs and retrieval algorithms working correctly, we integrated them together. Now, the program works by first checking if the query is a FAQ/general greeting and if it is not, it runs the retrieval algorithm. If no match is found by the retrieval algorithm, a friendly error message is printed. If a match is found, a filtered data frame is printed.</p>
+<p>Once all the code was completed, we started implementing the front end of our project, which is a website which runs the chatbot. This is important because it allows users to easily interact with our chatbot.</p>
+<p>We did research on website chatbot implementations and found a template to follow. We emailed the owner  and got permissions to use and modify the template for our project. Modifications we made include:</p>
+<ul>
+<li>Added css styling and restructured the python code to allow us to print the data frames</li>
+<li>Modified the html to add icons and pictures</li>
+</ul>
+<h1 id="references">References</h1>
+<ol>
+<li>
+<p>Preece, J., Sharp, H., &amp; Rogers, Y 2015. Interaction design: beyond<br>
+human-computer interaction. 4th ed. West Sussex: Wiley.</p>
+</li>
+<li>
+<p><a href="http://Pixilart.com">Pixilart.com</a>. 2021. Make pixel art online - Pixilart. [online]<br>
+Available at: <a href="https://www.pixilart.com/draw?ref=home-page#">https://www.pixilart.com/draw?ref=home-page#</a><br>
+[Accessed 6 November 2021].</p>
+</li>
+<li>
+<p>BHF logo. [image] Available at:<br>
+<a href="https://www.dpag.ox.ac.uk/images/logos/bhf-logo/view">https://www.dpag.ox.ac.uk/images/logos/bhf-logo/view</a> [Accessed 6<br>
+November 2021].</p>
+</li>
+<li>
+<p>Down House, Kent, UK/Bridgeman Art Library, 2021. Charles Darwin<br>
+(1840) by George Richmond… [image] Available at:<br>
+<a href="https://www.neh.gov/humanities/2009/mayjune/feature/darwin-the-young-adventurer%E2%80%8B">https://www.neh.gov/humanities/2009/mayjune/feature/darwin-the-young-adventurer​</a><br>
+[Accessed 6 November 2021].</p>
+</li>
+<li>
+<p>traveler1116 / Getty Images, 2021. Engraving of Michael Faraday,<br>
+1873. [image] Available at: <a href="https://www.thoughtco.com/michael-faraday-inventor-4059933">https://www.thoughtco.com/michael-faraday-inventor-4059933</a><br>
+[Accessed 6 November 2021].</p>
+</li>
+<li>
+<p>Balsamiq.cloud. 2021. Balsamiq Cloud. [online] Available at:<br>
+<a href="https://balsamiq.cloud">https://balsamiq.cloud</a> [Accessed 6 November 2021].</p>
+</li>
+<li>
+<p><a href="http://bhf.org">bhf.org</a>. 2021. BHF Statistical Compendium. [online] Available at:<br>
+<a href="https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2021%E2%80%8B">https://www.bhf.org.uk/what-we-do/our-research/heart-statistics/heart-statistics-publications/cardiovascular-disease-statistics-2021​</a><br>
+[Accessed 6 November 2021].</p>
+</li>
+<li>
+<p>Alibaba Cloud Community. 2021. <em>How to Create an Effective Technical Architectural Diagram?</em>. [online] Available at: <a href="https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100">https://www.alibabacloud.com/blog/how-to-create-an-effective-technical-architectural-diagram_596100</a> [Accessed 7 December 2021].</p>
+</li>
+<li>
+<p>.2021. <em>Programming Flow Charts: Types, Advantages &amp; Examples</em>. [online] Available at: <a href="https://study.com/academy/lesson/programming-flowcharts-types-advantages-examples.html">https://study.com/academy/lesson/programming-flowcharts-types-advantages-examples.html</a> [Accessed 7 December 2021].</p>
+</li>
+<li>
+<p><a href="http://Mindtools.com">Mindtools.com</a>. 2021. <em>Gantt Charts: Planning and Scheduling Team Projects</em>. [online] Available at: <a href="https://www.mindtools.com/pages/article/newPPM_03.htm">https://www.mindtools.com/pages/article/newPPM_03.htm</a> [Accessed 7 December 2021].</p>
+</li>
+<li>
+<p><a href="http://En.wikipedia.org">En.wikipedia.org</a>. 2021. <em>Pseudocode - Wikipedia</em>. [online] Available at: <a href="https://en.wikipedia.org/wiki/Pseudocode">https://en.wikipedia.org/wiki/Pseudocode</a> [Accessed 7 December 2021].</p>
+</li>
+<li>
+<p>StackEdit. 2021. [online] Available at: <a href="https://stackedit.io/">https://stackedit.io/</a> [Accessed 7 December 2021].</p>
+</li>
+</ol>
+</div>
+</body>
+
+</html>

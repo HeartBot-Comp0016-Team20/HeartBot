@@ -48,6 +48,11 @@ Bootstrap Icons Used (in Appendix):
 
 Images Used:
 1) https://www.clipartmax.com/max/m2i8b1N4Z5A0A0A0/
+2) Background image used for intro video section - background1.jpg - Picture from Microsoft Powerpoint Design Ideas
+3) Background image used for intro video section - background2.png - https://media.istockphoto.com/photos/red-felt-plush-carpet-or-velvet-background-picture-id155144417?b=1&k=20&m=155144417&s=170667a&w=0&h=L2OgczceuXHyi1ZGNgh-JgYd8GlZKRHqfu1jQ0U57lM=
+4) bhf.png - 2021. BHF logo. [image] Available at: <https://www.dpag.ox.ac.uk/images/logos/bhf-logo/view> [Accessed 6 November 2021].
+5) ucl.jpeg - https://www.ucl.ac.uk/academic-manual/sites/academic_manual/files/chapter-1-button.jpg
+6) red-hearbeat.png - https://clipart.world/wp-content/uploads/2020/08/red-heartbeat-line-transparent.png
 
 ## Libraries
 1) Flask==2.0.3

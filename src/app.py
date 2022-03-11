@@ -17,8 +17,8 @@ def run_chatbot(user_input):
     # Result is NOT found in FAQ so try querying the database
     else:
         res = retriever.run(output[1])
-        if isinstance(res,str) and res == "I don't understand\n":
-            return "I don't understand\n"
+        if isinstance(res,str) and res == "I don't understand. Please include a table name in your query\n":
+            return "I don't understand. Please include a table name in your query\n"
         elif isinstance(res,str) and res == "No data found for your question\n":
             return "No data found for your question\n"
         else:

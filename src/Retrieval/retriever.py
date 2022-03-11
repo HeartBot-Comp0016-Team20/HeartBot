@@ -54,7 +54,7 @@ def run(q):
   table_name = classifier_tab.Classifier_Tab(tokens).run()
   if table_name is None:
     # If a valid table_name is not found, then data does not exist
-    return "I don't understand\n"
+    return "I don't understand. Please include a table name in your query\n"
   else:
     # If table_name is found then data exists, try to return required data
     # Find column_names and column_vals from the list of tokens

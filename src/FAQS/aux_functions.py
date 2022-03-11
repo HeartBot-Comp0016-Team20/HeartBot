@@ -15,19 +15,19 @@ def append_data (pairs, filename='FAQS/FAQs.txt'):
 def create_pairs (): 
     pairs = [
     [
-        r"hi|hey|hello",
-        ["Hello", "Hey there",]
+        r"hi|hey|hello|my name is (.*)",
+        ["Hello", "Hey there", "hello, how are you today?"]
     ], 
     [
-        r"what is your name ?",
+        r"what is your name|who are you|your name",
         ["I am HeartBot. you can call me crazy!",]
     ],
     [
-        r"how are you",
-        ["I'm doing good. How about You ?",]
+        r"how are you|how are you feeling",
+        ["I'm doing good. How about you?",]
     ],
     [
-        r"I am fine",
+        r"I am fine|I am okay|I am good",
         ["Great to hear that, How can I help you?",]
     ],
     [
@@ -35,16 +35,19 @@ def create_pairs ():
         ["How can I help you?:)",]
     ],
     [
-        r"(.*) created ?",
+        r"(.*) created",
         ["UCL CS created me using Python's NLTK library for BHF","top secret ;)",]
     ],
-
     [
         r"NA",
         ["i dont understand the question"]
     ],
     [
-        r"quit",
+        r"sorry",
+        ["It's alright", "It's okay","Nevermind"]
+    ],
+    [
+        r"quit|bye|goodbye",
         ["Bye take care. See you soon :) ","It was nice talking to you. See you soon :)","Thank you for using HeartBot FAQ"]
     ],
     ]

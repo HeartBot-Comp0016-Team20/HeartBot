@@ -23,8 +23,8 @@ def create_pairs ():
         ["I am HeartBot. you can call me crazy!",]
     ],
     [
-        r"how are you ?",
-        ["I'm doing goodnHow about You ?",]
+        r"how are you",
+        ["I'm doing good. How about You ?",]
     ],
     [
         r"I am fine",

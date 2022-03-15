@@ -24,32 +24,32 @@ class TestBot(unittest.TestCase):
     def test_find_closest_tab(self):
         Q = "preverence"
         res = classifier_tab.Classifier_Tab('').direct_check(Q)
-        self.assertEquals(res,"prevalence")
+        self.assertEqual(res,"prevalence")
 
     def test_find_closest_tab_negative(self):
         Q = "padgvcbcce"
         res = classifier_tab.Classifier_Tab('').direct_check(Q)
-        self.assertEquals(res,0)
+        self.assertEqual(res,0)
     
     def test_get_table_name(self):
-        Q = "out of hospital cardiac arrest"
+        Q = "deaths"
         res = classifier_tab.Classifier_Tab('').get_table_name(Q)
-        self.assertEquals(res,"ohca")
+        self.assertEqual(res,"deaths by cause age sex uk")
 
     def test_get_table_name_negative(self):
         Q = "heart attack"
         res = classifier_tab.Classifier_Tab('').get_table_name(Q)
-        self.assertEquals(res,0)
+        self.assertEqual(res,0)
 
     # Following Tests are for classifier_col.py:
     def test_n_grams(self):
         res = classifier_col.Classifier_Col([('They', 'PRP'), ('refuse', 'VBP'), ('to', 'TO')]).create_n_grams(2)
-        self.assertEquals(res,[('They refuse', ''), ('refuse to', '')])
+        self.assertEqual(res,[('They refuse', ''), ('refuse to', '')])
 
     def test_run(self):
         processed = process_questions.ProcessQ('what is the value of ohca in scotland ').getProcessedQ()
         res = classifier_col.Classifier_Col(processed).run('prevalence')
-        self.assertEquals(res,[('nation', 'Scotland')])
+        self.assertEqual(res,[('nation', 'Scotland')])
 
 if __name__ == "__main__":
     unittest.main()

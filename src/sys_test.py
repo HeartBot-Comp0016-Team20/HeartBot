@@ -111,7 +111,7 @@ class TestSystem(unittest.TestCase):
     def test_randominput(self):
         input = "%%%#"
         output = run_chatbot(input)
-        expected_output = "I don't understand\n"
+        expected_output = "I don't understand. Please include a table name in your query\n"
         self.assertEqual(expected_output,output)
         
 

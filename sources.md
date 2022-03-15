@@ -45,6 +45,7 @@ Bootstrap Icons Used (in Appendix):
 4) https://icons.getbootstrap.com/icons/files/
 5) https://icons.getbootstrap.com/icons/file-earmark-text/
 6) https://icons.getbootstrap.com/icons/card-checklist/
+7) https://icons.getbootstrap.com/icons/camera-video/
 
 Images Used:
 1) https://www.clipartmax.com/max/m2i8b1N4Z5A0A0A0/

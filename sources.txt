@@ -45,6 +45,7 @@ Portfolio Website:
         https://icons.getbootstrap.com/icons/files/
         https://icons.getbootstrap.com/icons/file-earmark-text/
         https://icons.getbootstrap.com/icons/card-checklist/
+        https://icons.getbootstrap.com/icons/camera-video/
 
     Images Used:
         https://www.clipartmax.com/max/m2i8b1N4Z5A0A0A0/

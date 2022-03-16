@@ -1,0 +1,21 @@
+Testing - Example Questions:
+  what is the asdr in england in 1977
+  what is the asdr under 75 in scotland in 2005
+  what is the asdr under75 in scotland in 2005
+  what is the asdr_under75 in scotland in 2005
+  how many deaths were there of people aged 75-84 from circulatory diseases
+  what is the prevelence for england in 2014/15
+  how many procedures in 1982 for CABG
+  what is the asdr in countries england and scotland in 1977
+  what are the risk factors in wales in 2018
+  what are the risk factors in wales in 2019/20 for ages 16-24
+  what are the risk factors in wales in 2019 for females
+  what are the risk factors in england in 2019 for males
+  what are the admits in wales in 2010
+  what are the number of prescriptions in 2019 in scotland
+  how many medicines were given in 2019 in scotland
+  how many drugs were given in 2015 in england
+  what is the value of ohca in east of england in 2015 where number discharged alive
+  What is the estimated burden - deaths in 2009 in the uk
+  What is the estimated burden - DALYS in 2009 in the uk
+  in what nation was there cvd

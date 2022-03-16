@@ -1,0 +1,337 @@
+Nation,Year,Modifiable Risk Factors,Disease,Estimated burden - deaths (%),Estimated burden - DALYS (disability and deaths) (%)
+UK,2009,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.809819506594709,0.822361326916473
+UK,2009,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.454337054005795,0.47711677721441
+UK,2009,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.348446214184802,0.360625264150976
+UK,2009,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.237468984380681,0.221002835010842
+UK,2009,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.269589644521698,0.28332272308307
+UK,2009,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.164224152155454,0.219473657866362
+UK,2009,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.188474014592913,0.247650736610208
+UK,2009,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0796818450662613,0.067426801634077
+UK,2009,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0780002744132504,0.0684386750150359
+UK,2009,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0593243291681067,0.0476777529952318
+UK,2009,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0557325437628162,0.0661186977905829
+UK,2009,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0137063885062284,0.0129557284825146
+UK,2009,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.00275390757414443,0.00998169442107349
+UK,2009,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.19018049340529097,0.177638673083527
+UK,2009,All modifiable risk factors,Coronary Heart Disease (CHD),0.940460454306907,0.95225559744595
+UK,2009,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.497081108573647,0.520502851480303
+UK,2009,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.56383607999174,0.589324587748486
+UK,2009,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.319200857282529,0.300946700636013
+UK,2009,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.445690138332317,0.491304294380007
+UK,2009,High body-mass index (obesity),Coronary Heart Disease (CHD),0.205010008186132,0.259779463585204
+UK,2009,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.242707795747643,0.323289495684895
+UK,2009,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.127279633942738,0.105844386173279
+UK,2009,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0738014872995461,0.0714598149054081
+UK,2009,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0862357871699117,0.073063686699643
+UK,2009,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.071785919686246,0.0875028912652906
+UK,2009,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0156730689751747,0.0148231804330013
+UK,2009,Alcohol misuse,Coronary Heart Disease (CHD),-0.0422518333020399,-0.0386822360231385
+UK,2009,Other risk factors/unknown,Coronary Heart Disease (CHD),0.059539545693093054,0.04774440255404999
+UK,2009,All modifiable risk factors,Stroke (CBVD),0.808504438667345,0.839454881919983
+UK,2009,High systolic blood pressure (hypertension),Stroke (CBVD),0.443126849760479,0.480859736163104
+UK,2009,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.193198742708795,0.221492643649961
+UK,2009,High fasting plasma glucose (diabetes),Stroke (CBVD),0.255536334304485,0.256587689592947
+UK,2009,High LDL (bad) cholesterol ,Stroke (CBVD),0.144987786927084,0.135140727732371
+UK,2009,High body-mass index (obesity),Stroke (CBVD),0.141025060069852,0.240552004838721
+UK,2009,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.151391541244702,0.21886215601214
+UK,2009,Impaired kidney function (renal failure),Stroke (CBVD),0.0475585664117304,0.0495919529839801
+UK,2009,Non-optimal (low/high) temperature,Stroke (CBVD),0.13887671543765,0.119204951017798
+UK,2009,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0541802968846214,0.0417060915397131
+UK,2009,Air pollution (particulate matter),Stroke (CBVD),0.0681890276571393,0.0850884866239238
+UK,2009,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0131651387235842,0.012940650262762
+UK,2009,Alcohol misuse,Stroke (CBVD),0.0324260505142728,0.0494369357786118
+UK,2009,Other risk factors/unknown,Stroke (CBVD),0.191495561332655,0.16054511808001704
+UK ,2014,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.789316161758024,0.804315534703983
+UK,2014,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.435793342057601,0.460004228363608
+UK,2014,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.338148912956926,0.349924826192159
+UK,2014,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.252244628703585,0.238492431878806
+UK,2014,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.256950083597684,0.269418144555607
+UK,2014,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.163167599049846,0.220502816785383
+UK,2014,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.156984393254243,0.216707990248261
+UK,2014,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0754167907603678,0.0636835735253435
+UK,2014,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0715454065794336,0.0619178058415476
+UK,2014,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0580188518306259,0.0464143151343674
+UK,2014,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0413995320031021,0.0502673567323371
+UK,2014,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0127728890681846,0.0116957011413488
+UK,2014,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.0021129653134084,0.0108468518306656
+UK,2014,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.210683838241976,0.19568446529601702
+UK,2014,All modifiable risk factors,Coronary Heart Disease (CHD),0.934988335166403,0.947817268285008
+UK,2014,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.47844954184851,0.503917405366059
+UK,2014,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.565472639784655,0.591488326780989
+UK,2014,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.349807250835191,0.335679963588454
+UK,2014,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.44239871930343,0.487300409482406
+UK,2014,High body-mass index (obesity),Coronary Heart Disease (CHD),0.204921299466188,0.262655834611314
+UK,2014,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.209019275449976,0.291942519151852
+UK,2014,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.125483552248235,0.104080605877203
+UK,2014,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0672879545104993,0.0647989843335806
+UK,2014,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0879992950428817,0.0743333432206975
+UK,2014,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0552882564069709,0.0689535981724425
+UK,2014,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0146682342398409,0.0134538666562325
+UK,2014,Alcohol misuse,Coronary Heart Disease (CHD),-0.0444364588292602,-0.0414135553482738
+UK,2014,Other risk factors/unknown,Coronary Heart Disease (CHD),0.065011664833597,0.05218273171499199
+UK,2014,All modifiable risk factors,Stroke (CBVD),0.792992146811343,0.826668100371774
+UK,2014,High systolic blood pressure (hypertension),Stroke (CBVD),0.425672187756458,0.464485351899692
+UK,2014,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.194087069114062,0.223566419590942
+UK,2014,High fasting plasma glucose (diabetes),Stroke (CBVD),0.27769399633153,0.283862218804659
+UK,2014,High LDL (bad) cholesterol ,Stroke (CBVD),0.139551316429951,0.130934915264672
+UK,2014,High body-mass index (obesity),Stroke (CBVD),0.137565945514604,0.241816169187304
+UK,2014,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.125559747100549,0.191826956027081
+UK,2014,Impaired kidney function (renal failure),Stroke (CBVD),0.0447079125076827,0.0471109488368121
+UK,2014,Non-optimal (low/high) temperature,Stroke (CBVD),0.133332073988984,0.112898136998221
+UK,2014,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0532492726177392,0.0409227541752529
+UK,2014,Air pollution (particulate matter),Stroke (CBVD),0.0516766569012019,0.0663933509003856
+UK,2014,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0124530387589027,0.0118615262487723
+UK,2014,Alcohol misuse,Stroke (CBVD),0.0313435221682349,0.0475006200820376
+UK,2014,Other risk factors/unknown,Stroke (CBVD),0.207007853188657,0.17333189962822604
+UK ,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.792010913995152,0.805377085761407
+UK,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.439928198615552,0.462481012733196
+UK,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.338756952126114,0.349501750198542
+UK,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.261753774056171,0.249920879613284
+UK,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.255314013333386,0.266205185853033
+UK,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.166238926688253,0.22212627231605
+UK,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.151930144159023,0.207303299342668
+UK,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0754636674846048,0.0640350224425578
+UK,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.072914680064339,0.0633020556555212
+UK,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0571298125667248,0.0458906145125899
+UK,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0378473817024933,0.0454566679222586
+UK,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0117072859923656,0.0104438417315717
+UK,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.00247693837405837,0.00986134531839636
+UK,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.207989086004848,0.19462291423859301
+UK,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.936350465430088,0.948096601751563
+UK,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.482263426507868,0.506029533895741
+UK,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.565625784004439,0.590378083255487
+UK,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.362155978295647,0.351685576089373
+UK,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.439351411004047,0.481087428842667
+UK,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.20827627953435,0.264363806548736
+UK,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.202033830433927,0.279780587955781
+UK,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.125012879483592,0.104440040122894
+UK,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0695156087953993,0.0669017093443777
+UK,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0867973183341229,0.0736885721538865
+UK,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0505657680562696,0.0624047574135013
+UK,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.013406469046875,0.0120227238943598
+UK,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0455094891451416,-0.0428071993262409
+UK,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.06364953456991196,0.05190339824843704
+UK,2019,All modifiable risk factors,Stroke (CBVD),0.797584572970691,0.828710397286623
+UK,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.430463979194149,0.466728160209413
+UK,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.194218786936109,0.223089078621484
+UK,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.289724442404126,0.29845797712054
+UK,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.137996307345183,0.129514962328181
+UK,2019,High body-mass index (obesity),Stroke (CBVD),0.141586350998364,0.243512624886885
+UK,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.120712335073731,0.181353212131869
+UK,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.0454417159418424,0.0477772221481773
+UK,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.134793129472658,0.114868712013375
+UK,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0521482074848201,0.0401762450880553
+UK,2019,Air pollution (particulate matter),Stroke (CBVD),0.0473304111084657,0.0602511752971898
+UK,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0114951170834814,0.0105972166966625
+UK,2019,Alcohol misuse,Stroke (CBVD),0.0322009418422096,0.0471823568954933
+UK,2019,Other risk factors/unknown,Stroke (CBVD),0.20241542702930904,0.171289602713377
+England,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.785282552380424,0.798556086797311
+England,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.428728211308939,0.452513535847366
+England,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.337468725086873,0.346661266135165
+England,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.264262355796797,0.253027605562899
+England,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.253160352773784,0.263146414845482
+England,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.163674841809487,0.218818906595331
+England,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.146949783646434,0.201001941217747
+England,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.074522722028936,0.0627742784350953
+England,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0718779977555453,0.0624269604053977
+England,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0530383080811979,0.0424786445305196
+England,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0404144172671993,0.0486705110381461
+England,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.00972208542402274,0.00843420832731583
+England,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.00285972421145183,0.0100898578850262
+England,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.214717447619576,0.20144391320268895
+England,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.93496800002435,0.946929889413562
+England,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.471173767545315,0.496705900687265
+England,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.567408643227882,0.591139633331502
+England,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.369962664380538,0.362039309439505
+England,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.439939739653793,0.481728826383221
+England,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.20539355746975,0.261150257757089
+England,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.195866794975755,0.272846708190769
+England,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.124938825871219,0.104097753101099
+England,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0696164083088179,0.0669250909269136
+England,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0818175459668373,0.0695128901717804
+England,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0544660299381751,0.0675850761284553
+England,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0111726816900671,0.00977597168500767
+England,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0467087829159663,-0.0438574825912008
+England,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.06503199997565001,0.05307011058643796
+England,2019,All modifiable risk factors,Stroke (CBVD),0.792528503409785,0.824556543132287
+England,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.417660308446594,0.455585064142099
+England,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.196368252650551,0.224824819240928
+England,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.294395615850807,0.304458599790969
+England,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.137425991089071,0.127979764733069
+England,2019,High body-mass index (obesity),Stroke (CBVD),0.13975595436385,0.242089664403136
+England,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.116986669355079,0.17646179192328
+England,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.0445300242692681,0.0464142058169592
+England,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.133856451595491,0.115266908806838
+England,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0481458159724581,0.0368753521280948
+England,2019,Air pollution (particulate matter),Stroke (CBVD),0.051375185750441,0.0659760804398751
+England,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.00945029451437668,0.00837863782844358
+England,2019,Alcohol misuse,Stroke (CBVD),0.0313339821261064,0.0466430072858063
+England,2019,Other risk factors/unknown,Stroke (CBVD),0.20747149659021502,0.175443456867713
+Scotland,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.831395144316892,0.84307789322278
+Scotland,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.490346572618844,0.50168928284793
+Scotland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.347247180299318,0.3648222744638
+Scotland,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.283285713865249,0.271017733368659
+Scotland,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.268002942980549,0.282974137167292
+Scotland,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.190882617898118,0.252021031547595
+Scotland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.184887468950115,0.24536541221789
+Scotland,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0817262290459636,0.0714385364410225
+Scotland,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0797005336525734,0.0686646532685507
+Scotland,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0593086161464876,0.0481962303023278
+Scotland,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0208731714526724,0.0252071959092479
+Scotland,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0200919228289261,0.0186569943557149
+Scotland,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,0.00356715522391508,0.012565289901605
+Scotland,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.168604855683108,0.15692210677721996
+Scotland,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.945034249937328,0.955453860711538
+Scotland,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.526886619893735,0.536267374904886
+Scotland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.561953199431618,0.59103449082241
+Scotland,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.366214925382963,0.348777188978498
+Scotland,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.436450161570742,0.478414269785628
+Scotland,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.23602748154309,0.294380309011832
+Scotland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.241127727179519,0.320334759318958
+Scotland,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.126901330835406,0.107079223372113
+Scotland,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0694405881385694,0.0675160417251834
+Scotland,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0837877517845023,0.0709643798364244
+Scotland,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0262752192214598,0.03207110752988
+Scotland,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0223076040009996,0.0205966617850431
+Scotland,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0358864617390865,-0.0342623496926628
+Scotland,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.054965750062672014,0.04454613928846196
+Scotland,2019,All modifiable risk factors,Stroke (CBVD),0.821850178876067,0.848523857719334
+Scotland,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.482157382415071,0.505135293707228
+Scotland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.179557989247212,0.211361545399486
+Scotland,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.299756402871377,0.308184078621845
+Scotland,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.142042488728416,0.138883015443958
+Scotland,2019,High body-mass index (obesity),Stroke (CBVD),0.156981515103566,0.258450664281947
+Scotland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.143401134396651,0.207461429942762
+Scotland,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.0502422533923023,0.0543874553788519
+Scotland,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.13900932790241,0.111639357670994
+Scotland,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0530368481550947,0.0416025400499242
+Scotland,2019,Air pollution (particulate matter),Stroke (CBVD),0.02408908910356,0.0303754484298719
+Scotland,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0193788769929132,0.0185724732312861
+Scotland,2019,Alcohol misuse,Stroke (CBVD),0.0417550969989195,0.0545295737222387
+Scotland,2019,Other risk factors/unknown,Stroke (CBVD),0.17814982112393296,0.15147614228066597
+Wales,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.803809231788406,0.819031035618049
+Wales,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.478244440685247,0.50006207481494
+Wales,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.335679104186935,0.354834130182439
+Wales,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.26746375299762,0.280207672141672
+Wales,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.19808801980907,0.182805457833365
+Wales,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.162674551656449,0.221909247305742
+Wales,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.155753018489631,0.208855525917545
+Wales,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0994712085979653,0.080151114707904
+Wales,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0769029755106141,0.0671642182290146
+Wales,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0732144897850494,0.0636175776049582
+Wales,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0347459510161693,0.0418041418003961
+Wales,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0243897525202637,0.022875225157519
+Wales,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.00814231967056162,0.00205883249116726
+Wales,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.19619076821159398,0.18096896438195098
+Wales,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.937959164351978,0.948870850501501
+Wales,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.521015689494797,0.542950382733476
+Wales,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.551673536801716,0.583622271556608
+Wales,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.451835905766623,0.490897503822374
+Wales,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.26989733841486,0.248252928641835
+Wales,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.216088753404741,0.296186649136183
+Wales,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.195642152463387,0.248269354631986
+Wales,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.146282251273509,0.1229626586535
+Wales,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.124679760711942,0.105778151986625
+Wales,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0683318115540405,0.065557575308414
+Wales,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0459132562208789,0.055980402441314
+Wales,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0276804983887623,0.025844450245348
+Wales,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0500568703538007,-0.0479682460958275
+Wales,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.062040835648021986,0.051129149498499005
+Wales,2019,All modifiable risk factors,Stroke (CBVD),0.80926001165368,0.835327191969307
+Wales,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.472687800657118,0.505103769191451
+Wales,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.189185374574493,0.222077364235914
+Wales,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.145237119212253,0.136887703641393
+Wales,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.220408599799181,0.219360533136714
+Wales,2019,High body-mass index (obesity),Stroke (CBVD),0.127493969068234,0.19042386467057
+Wales,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.134166850069786,0.22892484253932
+Wales,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.0951681813258314,0.0733221346073392
+Wales,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.0476685845079675,0.0511497623090602
+Wales,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.136880124638481,0.113782033352919
+Wales,2019,Air pollution (particulate matter),Stroke (CBVD),0.0430638255046336,0.0542149878554987
+Wales,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0235171167361847,0.0227037484684508
+Wales,2019,Alcohol misuse,Stroke (CBVD),0.025953600295074,0.0399470799854308
+Wales,2019,Other risk factors/unknown,Stroke (CBVD),0.19073998834632,0.16467280803069295
+Northern Ireland,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.821357468807585,0.831564717836152
+Northern Ireland,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.507786837466728,0.526854886769174
+Northern Ireland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.351983780776863,0.36268360415191
+Northern Ireland,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.24690682710659,0.262267904414362
+Northern Ireland,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.235871367401935,0.213086507349723
+Northern Ireland,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.171806217352309,0.230147354268535
+Northern Ireland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.15484729434971,0.214658864629709
+Northern Ireland,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.0849445343749823,0.0675451035173811
+Northern Ireland,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0777643414467301,0.067469557340031
+Northern Ireland,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0771115638098344,0.0659146308539846
+Northern Ireland,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0312026029717691,0.0371585367994664
+Northern Ireland,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0135189549366827,0.0121888522827327
+Northern Ireland,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,-0.00218536035855174,0.00849292104627143
+Northern Ireland,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.17864253119241502,0.16843528216384795
+Northern Ireland,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.940049091055242,0.950540858281601
+Northern Ireland,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.554714064455205,0.574928136601802
+Northern Ireland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.556467116179581,0.580151617013225
+Northern Ireland,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.407803271703301,0.453651014145754
+Northern Ireland,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.308756693612119,0.281795881819542
+Northern Ireland,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.211997319625509,0.269980284808072
+Northern Ireland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.203259418677963,0.282912719302938
+Northern Ireland,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.121187464668472,0.101822052455532
+Northern Ireland,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.0690412264774375,0.0663773087497673
+Northern Ireland,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.120610539994077,0.101023380128833
+Northern Ireland,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0395320789080019,0.0484151865240543
+Northern Ireland,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0151007761754683,0.0136339553745849
+Northern Ireland,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0382023997525105,-0.0363095815378393
+Northern Ireland,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.059950908944757964,0.04945914171839905
+Northern Ireland,2019,All modifiable risk factors,Stroke (CBVD),0.81749718508844,0.842277458736293
+Northern Ireland,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.495984288156695,0.526913634507084
+Northern Ireland,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.203568432949442,0.229079106586685
+Northern Ireland,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.123459507035764,0.115981888599178
+Northern Ireland,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.253119795471342,0.248491429290489
+Northern Ireland,2019,High body-mass index (obesity),Stroke (CBVD),0.144761109240532,0.245968241224631
+Northern Ireland,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.119506406750007,0.18278479078951
+Northern Ireland,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.0767116775137022,0.0584880055163495
+Northern Ireland,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.139697754233087,0.120105169857168
+Northern Ireland,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0470561402191287,0.0493678046408931
+Northern Ireland,2019,Air pollution (particulate matter),Stroke (CBVD),0.037098325906254,0.0466757170812691
+Northern Ireland,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0132315530953175,0.0123385129524482
+Northern Ireland,2019,Alcohol misuse,Stroke (CBVD),0.0298669656357515,0.0441043053615542
+Northern Ireland,2019,Other risk factors/unknown,Stroke (CBVD),0.18250281491155995,0.157722541263707
+Global,2019,All modifiable risk factors,Heart and Circulatory Diseases (CVD) ,0.86,0.85775327997319
+Global,2019,High systolic blood pressure (hypertension),Heart and Circulatory Diseases (CVD) ,0.536900735195479,0.544160772067845
+Global,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Heart and Circulatory Diseases (CVD) ,0.369441502374594,0.389679653999007
+Global,2019,High fasting plasma glucose (diabetes),Heart and Circulatory Diseases (CVD) ,0.236846702188099,0.250843180493251
+Global,2019,High LDL (bad) cholesterol ,Heart and Circulatory Diseases (CVD) ,0.202779970141955,0.184687129600546
+Global,2019,High body-mass index (obesity),Heart and Circulatory Diseases (CVD) ,0.19099419905765,0.225939470511746
+Global,2019,"Tobacco (cigarette smoking, second-hand smoke)",Heart and Circulatory Diseases (CVD) ,0.173855557418737,0.220570075369343
+Global,2019,Impaired kidney function (renal failure),Heart and Circulatory Diseases (CVD) ,0.172040945769178,0.210824113743453
+Global,2019,Non-optimal (low/high) temperature,Heart and Circulatory Diseases (CVD) ,0.0934468056456309,0.088320907613911
+Global,2019,"Low physical activity (inactivity, sedentary behaviour)",Heart and Circulatory Diseases (CVD) ,0.0643261600270685,0.0554547733989915
+Global,2019,Air pollution (particulate matter),Heart and Circulatory Diseases (CVD) ,0.0457181827192856,0.045105870377377
+Global,2019,Other environmental risks (e.g. lead exposure),Heart and Circulatory Diseases (CVD) ,0.0343929492589678,0.0254080018305107
+Global,2019,Alcohol misuse,Heart and Circulatory Diseases (CVD) ,0.0230534687931905,0.0299120323033383
+Global,2019,Other risk factors/unknown,Heart and Circulatory Diseases (CVD) ,0.14,0.142
+Global,2019,All modifiable risk factors,Coronary Heart Disease (CHD),0.934833011508687,0.945434787140228
+Global,2019,High systolic blood pressure (hypertension),Coronary Heart Disease (CHD),0.532027470216681,0.546022283405128
+Global,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Coronary Heart Disease (CHD),0.53375988377601,0.570585500685444
+Global,2019,High fasting plasma glucose (diabetes),Coronary Heart Disease (CHD),0.414072379359299,0.466431202500274
+Global,2019,High LDL (bad) cholesterol ,Coronary Heart Disease (CHD),0.257552049922537,0.237626922532806
+Global,2019,High body-mass index (obesity),Coronary Heart Disease (CHD),0.201712398074736,0.24910780990789
+Global,2019,"Tobacco (cigarette smoking, second-hand smoke)",Coronary Heart Disease (CHD),0.181900647995165,0.227215298695993
+Global,2019,Impaired kidney function (renal failure),Coronary Heart Disease (CHD),0.218734002358602,0.278671043373027
+Global,2019,Non-optimal (low/high) temperature,Coronary Heart Disease (CHD),0.133624294044633,0.123711344186733
+Global,2019,"Low physical activity (inactivity, sedentary behaviour)",Coronary Heart Disease (CHD),0.0652886542890526,0.0612248384359526
+Global,2019,Air pollution (particulate matter),Coronary Heart Disease (CHD),0.0451873470796,0.0459539364889357
+Global,2019,Other environmental risks (e.g. lead exposure),Coronary Heart Disease (CHD),0.0531912273370975,0.0416320576736027
+Global,2019,Alcohol misuse,Coronary Heart Disease (CHD),-0.0118151226715966,-0.0110073151864887
+Global,2019,Other risk factors/unknown,Coronary Heart Disease (CHD),0.065,0.055
+Global,2019,All modifiable risk factors,Stroke (CBVD),0.849593235110068,0.870259249543609
+Global,2019,High systolic blood pressure (hypertension),Stroke (CBVD),0.525667633809073,0.55544721093484
+Global,2019,"Dietary risks (lack of wholegrains, nuts, seeds, fruit, veg, etc; excess salt, sugar)",Stroke (CBVD),0.266030357921878,0.305864107969205
+Global,2019,High fasting plasma glucose (diabetes),Stroke (CBVD),0.0935031849958778,0.0956458632151946
+Global,2019,High LDL (bad) cholesterol ,Stroke (CBVD),0.212116951030345,0.201824813570351
+Global,2019,High body-mass index (obesity),Stroke (CBVD),0.25973993507987,0.303501935742858
+Global,2019,"Tobacco (cigarette smoking, second-hand smoke)",Stroke (CBVD),0.166473657758039,0.243467106248713
+Global,2019,Impaired kidney function (renal failure),Stroke (CBVD),0.168172275263684,0.206047887893578
+Global,2019,Non-optimal (low/high) temperature,Stroke (CBVD),0.0769283136924771,0.0834181685689367
+Global,2019,"Low physical activity (inactivity, sedentary behaviour)",Stroke (CBVD),0.0795133559038874,0.0657999674038648
+Global,2019,Air pollution (particulate matter),Stroke (CBVD),0.0465840948024956,0.0470461210534168
+Global,2019,Other environmental risks (e.g. lead exposure),Stroke (CBVD),0.0232600220618388,0.0168220139453052
+Global,2019,Alcohol misuse,Stroke (CBVD),0.0518368232863628,0.0595852786499598
+Global,2019,Other risk factors/unknown,Stroke (CBVD),0.15,0.13

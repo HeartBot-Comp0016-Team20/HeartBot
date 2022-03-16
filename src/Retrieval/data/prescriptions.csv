@@ -1,0 +1,561 @@
+nation,year_adjust,drug_type,prescriptions
+England,2006,Digoxin and other positive inotropic drugs,4125.71
+England,2007,Digoxin and other positive inotropic drugs,4140.757
+England,2008,Digoxin and other positive inotropic drugs,4148.8
+England,2009,Digoxin and other positive inotropic drugs,4119
+England,2010,Digoxin and other positive inotropic drugs,4088
+England,2011,Digoxin and other positive inotropic drugs,4006
+England,2012,Digoxin and other positive inotropic drugs,3900
+England,2013,Digoxin and other positive inotropic drugs,3769.881
+England,2014,Digoxin and other positive inotropic drugs,3634
+England,2015,Digoxin and other positive inotropic drugs,3460
+England,2016,Digoxin and other positive inotropic drugs,3297.4970000000003
+England,2017,Digoxin and other positive inotropic drugs,3147.636
+England,2018,Digoxin and other positive inotropic drugs,3025.087
+England,2019,Digoxin and other positive inotropic drugs,2906.664
+Wales,2006,Digoxin and other positive inotropic drugs,356.616
+Wales,2007,Digoxin and other positive inotropic drugs,336.941
+Wales,2008,Digoxin and other positive inotropic drugs,319.184
+Wales,2009,Digoxin and other positive inotropic drugs,306.943
+Wales,2010,Digoxin and other positive inotropic drugs,295.875
+Wales,2011,Digoxin and other positive inotropic drugs,283.792
+Wales,2012,Digoxin and other positive inotropic drugs,273.236
+Wales,2013,Digoxin and other positive inotropic drugs,260
+Wales,2014,Digoxin and other positive inotropic drugs,249
+Wales,2015,Digoxin and other positive inotropic drugs,235
+Wales,2016,Digoxin and other positive inotropic drugs,224.337
+Wales,2017,Digoxin and other positive inotropic drugs,215.436
+Wales,2018,Digoxin and other positive inotropic drugs,203.409
+Wales,2019,Digoxin and other positive inotropic drugs,202.882
+Northern Ireland,2006,Digoxin and other positive inotropic drugs,103.52
+Northern Ireland,2007,Digoxin and other positive inotropic drugs,101.116
+Northern Ireland,2008,Digoxin and other positive inotropic drugs,99.29
+Northern Ireland,2009,Digoxin and other positive inotropic drugs,96.01
+Northern Ireland,2010,Digoxin and other positive inotropic drugs,94.858
+Northern Ireland,2011,Digoxin and other positive inotropic drugs,93.385
+Northern Ireland,2012,Digoxin and other positive inotropic drugs,92.274
+Northern Ireland,2013,Digoxin and other positive inotropic drugs,90
+Northern Ireland,2014,Digoxin and other positive inotropic drugs,88
+Northern Ireland,2015,Digoxin and other positive inotropic drugs,82
+Northern Ireland,2016,Digoxin and other positive inotropic drugs,79.549
+Northern Ireland,2017,Digoxin and other positive inotropic drugs,75.4
+Northern Ireland,2018,Digoxin and other positive inotropic drugs,72.467
+Northern Ireland,2019,Digoxin and other positive inotropic drugs,69.957
+Scotland,2006,Digoxin and other positive inotropic drugs,314.532
+Scotland,2007,Digoxin and other positive inotropic drugs,304.722
+Scotland,2008,Digoxin and other positive inotropic drugs,295.833
+Scotland,2009,Digoxin and other positive inotropic drugs,291.416
+Scotland,2010,Digoxin and other positive inotropic drugs,283.201
+Scotland,2011,Digoxin and other positive inotropic drugs,276
+Scotland,2012,Digoxin and other positive inotropic drugs,268.79
+Scotland,2013,Digoxin and other positive inotropic drugs,259.869
+Scotland,2014,Digoxin and other positive inotropic drugs,252
+Scotland,2015,Digoxin and other positive inotropic drugs,246
+Scotland,2016,Digoxin and other positive inotropic drugs,240.984
+Scotland,2017,Digoxin and other positive inotropic drugs,236.069
+Scotland,2018,Digoxin and other positive inotropic drugs,227.52
+Scotland,2019,Digoxin and other positive inotropic drugs,227.806
+England,2006,Diuretics,37581.84
+England,2007,Diuretics,37354.653
+England,2008,Diuretics,37536.1
+England,2009,Diuretics,37511
+England,2010,Diuretics,37687
+England,2011,Diuretics,37563
+England,2012,Diuretics,37258
+England,2013,Diuretics,36650.249
+England,2014,Diuretics,36208
+England,2015,Diuretics,35327
+England,2016,Diuretics,34508.97000000002
+England,2017,Diuretics,33353.505
+England,2018,Diuretics,32353.379
+England,2019,Diuretics,31572.954
+Wales,2006,Diuretics,3090.966
+Wales,2007,Diuretics,3027.611
+Wales,2008,Diuretics,3000.448
+Wales,2009,Diuretics,2978.59
+Wales,2010,Diuretics,2970.531
+Wales,2011,Diuretics,2960.009
+Wales,2012,Diuretics,2939.695
+Wales,2013,Diuretics,2897
+Wales,2014,Diuretics,2866
+Wales,2015,Diuretics,2782
+Wales,2016,Diuretics,2704.27
+Wales,2017,Diuretics,2617.818
+Wales,2018,Diuretics,2508.693
+Wales,2019,Diuretics,2475.963
+Northern Ireland,2006,Diuretics,1009.112
+Northern Ireland,2007,Diuretics,992.366
+Northern Ireland,2008,Diuretics,982.946
+Northern Ireland,2009,Diuretics,983.391
+Northern Ireland,2010,Diuretics,991.683
+Northern Ireland,2011,Diuretics,1002.082
+Northern Ireland,2012,Diuretics,996.158
+Northern Ireland,2013,Diuretics,978
+Northern Ireland,2014,Diuretics,961
+Northern Ireland,2015,Diuretics,940
+Northern Ireland,2016,Diuretics,926.339
+Northern Ireland,2017,Diuretics,908.213
+Northern Ireland,2018,Diuretics,895.521
+Northern Ireland,2019,Diuretics,898.179
+Scotland,2006,Diuretics,3810.415
+Scotland,2007,Diuretics,3680.15
+Scotland,2008,Diuretics,3597.049
+Scotland,2009,Diuretics,3544.123
+Scotland,2010,Diuretics,3457.14
+Scotland,2011,Diuretics,3382
+Scotland,2012,Diuretics,3268.798
+Scotland,2013,Diuretics,3154.492
+Scotland,2014,Diuretics,3057
+Scotland,2015,Diuretics,2942
+Scotland,2016,Diuretics,2847.835
+Scotland,2017,Diuretics,2740.078
+Scotland,2018,Diuretics,2642.791
+Scotland,2019,Diuretics,2626.061
+England,2006,Anti-arrhythmic drugs,1265.3169999999993
+England,2007,Anti-arrhythmic drugs,1247.261
+England,2008,Anti-arrhythmic drugs,1226.2
+England,2009,Anti-arrhythmic drugs,1188
+England,2010,Anti-arrhythmic drugs,1174
+England,2011,Anti-arrhythmic drugs,1156
+England,2012,Anti-arrhythmic drugs,1129
+England,2013,Anti-arrhythmic drugs,1107.243
+England,2014,Anti-arrhythmic drugs,1088
+England,2015,Anti-arrhythmic drugs,1061
+England,2016,Anti-arrhythmic drugs,1047.5739999999998
+England,2017,Anti-arrhythmic drugs,1009.29
+England,2018,Anti-arrhythmic drugs,987.196
+England,2019,Anti-arrhythmic drugs,971.117
+Wales,2006,Anti-arrhythmic drugs,93.938
+Wales,2007,Anti-arrhythmic drugs,87.248
+Wales,2008,Anti-arrhythmic drugs,81.146
+Wales,2009,Anti-arrhythmic drugs,74.591
+Wales,2010,Anti-arrhythmic drugs,68.295
+Wales,2011,Anti-arrhythmic drugs,64.077
+Wales,2012,Anti-arrhythmic drugs,62.076
+Wales,2013,Anti-arrhythmic drugs,61
+Wales,2014,Anti-arrhythmic drugs,61
+Wales,2015,Anti-arrhythmic drugs,60
+Wales,2016,Anti-arrhythmic drugs,59.21
+Wales,2017,Anti-arrhythmic drugs,58.105
+Wales,2018,Anti-arrhythmic drugs,56.468
+Wales,2019,Anti-arrhythmic drugs,57.389
+Northern Ireland,2006,Anti-arrhythmic drugs,36.101
+Northern Ireland,2007,Anti-arrhythmic drugs,34.793
+Northern Ireland,2008,Anti-arrhythmic drugs,33.936
+Northern Ireland,2009,Anti-arrhythmic drugs,32.37
+Northern Ireland,2010,Anti-arrhythmic drugs,30.656
+Northern Ireland,2011,Anti-arrhythmic drugs,31.753
+Northern Ireland,2012,Anti-arrhythmic drugs,31.003
+Northern Ireland,2013,Anti-arrhythmic drugs,30
+Northern Ireland,2014,Anti-arrhythmic drugs,29
+Northern Ireland,2015,Anti-arrhythmic drugs,28
+Northern Ireland,2016,Anti-arrhythmic drugs,27.546
+Northern Ireland,2017,Anti-arrhythmic drugs,26.686
+Northern Ireland,2018,Anti-arrhythmic drugs,26.367
+Northern Ireland,2019,Anti-arrhythmic drugs,25.493
+Scotland,2006,Anti-arrhythmic drugs,85.312
+Scotland,2007,Anti-arrhythmic drugs,80.76
+Scotland,2008,Anti-arrhythmic drugs,77.448
+Scotland,2009,Anti-arrhythmic drugs,72.708
+Scotland,2010,Anti-arrhythmic drugs,70.491
+Scotland,2011,Anti-arrhythmic drugs,71
+Scotland,2012,Anti-arrhythmic drugs,68.62
+Scotland,2013,Anti-arrhythmic drugs,68.043
+Scotland,2014,Anti-arrhythmic drugs,67
+Scotland,2015,Anti-arrhythmic drugs,66
+Scotland,2016,Anti-arrhythmic drugs,66.335
+Scotland,2017,Anti-arrhythmic drugs,65.448
+Scotland,2018,Anti-arrhythmic drugs,65.006
+Scotland,2019,Anti-arrhythmic drugs,66.499
+England,2006,Beta-adrenoreceptor blocking drugs,27378.03
+England,2007,Beta-adrenoreceptor blocking drugs,26809.638
+England,2008,Beta-adrenoreceptor blocking drugs,27634.1
+England,2009,Beta-adrenoreceptor blocking drugs,28529
+England,2010,Beta-adrenoreceptor blocking drugs,29686
+England,2011,Beta-adrenoreceptor blocking drugs,30924
+England,2012,Beta-adrenoreceptor blocking drugs,32355
+England,2013,Beta-adrenoreceptor blocking drugs,33597.44299999999
+England,2014,Beta-adrenoreceptor blocking drugs,34860
+England,2015,Beta-adrenoreceptor blocking drugs,35948
+England,2016,Beta-adrenoreceptor blocking drugs,37038.28599999999
+England,2017,Beta-adrenoreceptor blocking drugs,37816.701
+England,2018,Beta-adrenoreceptor blocking drugs,38617.728
+England,2019,Beta-adrenoreceptor blocking drugs,39563.948
+Wales,2006,Beta-adrenoreceptor blocking drugs,2110.414
+Wales,2007,Beta-adrenoreceptor blocking drugs,2070.777
+Wales,2008,Beta-adrenoreceptor blocking drugs,2116.222
+Wales,2009,Beta-adrenoreceptor blocking drugs,2164.731
+Wales,2010,Beta-adrenoreceptor blocking drugs,2236.746
+Wales,2011,Beta-adrenoreceptor blocking drugs,2322.227
+Wales,2012,Beta-adrenoreceptor blocking drugs,2424.147
+Wales,2013,Beta-adrenoreceptor blocking drugs,2505
+Wales,2014,Beta-adrenoreceptor blocking drugs,2584
+Wales,2015,Beta-adrenoreceptor blocking drugs,2643
+Wales,2016,Beta-adrenoreceptor blocking drugs,2691.396
+Wales,2017,Beta-adrenoreceptor blocking drugs,2736.463
+Wales,2018,Beta-adrenoreceptor blocking drugs,2775.256
+Wales,2019,Beta-adrenoreceptor blocking drugs,2871.17
+Northern Ireland,2006,Beta-adrenoreceptor blocking drugs,918.428
+Northern Ireland,2007,Beta-adrenoreceptor blocking drugs,914.885
+Northern Ireland,2008,Beta-adrenoreceptor blocking drugs,937.379
+Northern Ireland,2009,Beta-adrenoreceptor blocking drugs,967.091
+Northern Ireland,2010,Beta-adrenoreceptor blocking drugs,1019.623
+Northern Ireland,2011,Beta-adrenoreceptor blocking drugs,1059.095
+Northern Ireland,2012,Beta-adrenoreceptor blocking drugs,1107.683
+Northern Ireland,2013,Beta-adrenoreceptor blocking drugs,1150
+Northern Ireland,2014,Beta-adrenoreceptor blocking drugs,1190
+Northern Ireland,2015,Beta-adrenoreceptor blocking drugs,1230
+Northern Ireland,2016,Beta-adrenoreceptor blocking drugs,1276.939
+Northern Ireland,2017,Beta-adrenoreceptor blocking drugs,1311.772
+Northern Ireland,2018,Beta-adrenoreceptor blocking drugs,1351.165
+Northern Ireland,2019,Beta-adrenoreceptor blocking drugs,1394.763
+Scotland,2006,Beta-adrenoreceptor blocking drugs,2939.732
+Scotland,2007,Beta-adrenoreceptor blocking drugs,2853.192
+Scotland,2008,Beta-adrenoreceptor blocking drugs,2850.162
+Scotland,2009,Beta-adrenoreceptor blocking drugs,2883.466
+Scotland,2010,Beta-adrenoreceptor blocking drugs,2908.891
+Scotland,2011,Beta-adrenoreceptor blocking drugs,2957
+Scotland,2012,Beta-adrenoreceptor blocking drugs,2997.725
+Scotland,2013,Beta-adrenoreceptor blocking drugs,3048.171
+Scotland,2014,Beta-adrenoreceptor blocking drugs,3102
+Scotland,2015,Beta-adrenoreceptor blocking drugs,3150
+Scotland,2016,Beta-adrenoreceptor blocking drugs,3197.23
+Scotland,2017,Beta-adrenoreceptor blocking drugs,3234.662
+Scotland,2018,Beta-adrenoreceptor blocking drugs,3276.754
+Scotland,2019,Beta-adrenoreceptor blocking drugs,3413.895
+England,2006,Antihypertensive and heart failure drugs,47741.746999999974
+England,2007,Antihypertensive and heart failure drugs,53634.123
+England,2008,Antihypertensive and heart failure drugs,57822.5
+England,2009,Antihypertensive and heart failure drugs,60838
+England,2010,Antihypertensive and heart failure drugs,63571
+England,2011,Antihypertensive and heart failure drugs,65449
+England,2012,Antihypertensive and heart failure drugs,67184
+England,2013,Antihypertensive and heart failure drugs,68651.85100000005
+England,2014,Antihypertensive and heart failure drugs,70072
+England,2015,Antihypertensive and heart failure drugs,70774
+England,2016,Antihypertensive and heart failure drugs,71453.31699999997
+England,2017,Antihypertensive and heart failure drugs,71531.003
+England,2018,Antihypertensive and heart failure drugs,72128.23719999999
+England,2019,Antihypertensive and heart failure drugs,72985.74
+Wales,2006,Antihypertensive and heart failure drugs,3774.003
+Wales,2007,Antihypertensive and heart failure drugs,4124.34
+Wales,2008,Antihypertensive and heart failure drugs,4402.495
+Wales,2009,Antihypertensive and heart failure drugs,4600.935
+Wales,2010,Antihypertensive and heart failure drugs,4781.167
+Wales,2011,Antihypertensive and heart failure drugs,4920.129
+Wales,2012,Antihypertensive and heart failure drugs,5063.176
+Wales,2013,Antihypertensive and heart failure drugs,5173
+Wales,2014,Antihypertensive and heart failure drugs,5290
+Wales,2015,Antihypertensive and heart failure drugs,5324
+Wales,2016,Antihypertensive and heart failure drugs,5359.647
+Wales,2017,Antihypertensive and heart failure drugs,5364.812
+Wales,2018,Antihypertensive and heart failure drugs,5361.976
+Wales,2019,Antihypertensive and heart failure drugs,5488.88
+Northern Ireland,2006,Antihypertensive and heart failure drugs,1247.187
+Northern Ireland,2007,Antihypertensive and heart failure drugs,1363.525
+Northern Ireland,2008,Antihypertensive and heart failure drugs,1444.633
+Northern Ireland,2009,Antihypertensive and heart failure drugs,1516.524
+Northern Ireland,2010,Antihypertensive and heart failure drugs,1594.948
+Northern Ireland,2011,Antihypertensive and heart failure drugs,1640.468
+Northern Ireland,2012,Antihypertensive and heart failure drugs,1689.156
+Northern Ireland,2013,Antihypertensive and heart failure drugs,1728
+Northern Ireland,2014,Antihypertensive and heart failure drugs,1770
+Northern Ireland,2015,Antihypertensive and heart failure drugs,1799
+Northern Ireland,2016,Antihypertensive and heart failure drugs,1833.523
+Northern Ireland,2017,Antihypertensive and heart failure drugs,1853.923
+Northern Ireland,2018,Antihypertensive and heart failure drugs,1897.824
+Northern Ireland,2019,Antihypertensive and heart failure drugs,1957.445
+Scotland,2006,Antihypertensive and heart failure drugs,4126.551
+Scotland,2007,Antihypertensive and heart failure drugs,4461.864
+Scotland,2008,Antihypertensive and heart failure drugs,4693.27
+Scotland,2009,Antihypertensive and heart failure drugs,4874.505
+Scotland,2010,Antihypertensive and heart failure drugs,4964.623
+Scotland,2011,Antihypertensive and heart failure drugs,5045
+Scotland,2012,Antihypertensive and heart failure drugs,5095.183
+Scotland,2013,Antihypertensive and heart failure drugs,5160.135
+Scotland,2014,Antihypertensive and heart failure drugs,5220
+Scotland,2015,Antihypertensive and heart failure drugs,5223
+Scotland,2016,Antihypertensive and heart failure drugs,5218.241
+Scotland,2017,Antihypertensive and heart failure drugs,5186.728
+Scotland,2018,Antihypertensive and heart failure drugs,5184.696
+Scotland,2019,Antihypertensive and heart failure drugs,5354.989
+England,2006,"Nitrates, calcium blockers & other antianginal drugs",34707.335000000014
+England,2007,"Nitrates, calcium blockers & other antianginal drugs",37213.525
+England,2008,"Nitrates, calcium blockers & other antianginal drugs",39100.1
+England,2009,"Nitrates, calcium blockers & other antianginal drugs",40575
+England,2010,"Nitrates, calcium blockers & other antianginal drugs",42043
+England,2011,"Nitrates, calcium blockers & other antianginal drugs",43086
+England,2012,"Nitrates, calcium blockers & other antianginal drugs",44675
+England,2013,"Nitrates, calcium blockers & other antianginal drugs",45868.23199999999
+England,2014,"Nitrates, calcium blockers & other antianginal drugs",46992
+England,2015,"Nitrates, calcium blockers & other antianginal drugs",47812
+England,2016,"Nitrates, calcium blockers & other antianginal drugs",48740.261999999966
+England,2017,"Nitrates, calcium blockers & other antianginal drugs",49365.164
+England,2018,"Nitrates, calcium blockers & other antianginal drugs",50201.34909999999
+England,2019,"Nitrates, calcium blockers & other antianginal drugs",51431.324
+Wales,2006,"Nitrates, calcium blockers & other antianginal drugs",2891.515
+Wales,2007,"Nitrates, calcium blockers & other antianginal drugs",3031.506
+Wales,2008,"Nitrates, calcium blockers & other antianginal drugs",3134.718
+Wales,2009,"Nitrates, calcium blockers & other antianginal drugs",3204.586
+Wales,2010,"Nitrates, calcium blockers & other antianginal drugs",3262.652
+Wales,2011,"Nitrates, calcium blockers & other antianginal drugs",3314.414
+Wales,2012,"Nitrates, calcium blockers & other antianginal drugs",3389.669
+Wales,2013,"Nitrates, calcium blockers & other antianginal drugs",3438
+Wales,2014,"Nitrates, calcium blockers & other antianginal drugs",3489
+Wales,2015,"Nitrates, calcium blockers & other antianginal drugs",3506
+Wales,2016,"Nitrates, calcium blockers & other antianginal drugs",3538.346
+Wales,2017,"Nitrates, calcium blockers & other antianginal drugs",3544.192
+Wales,2018,"Nitrates, calcium blockers & other antianginal drugs",3560.496
+Wales,2019,"Nitrates, calcium blockers & other antianginal drugs",3668.017
+Northern Ireland,2006,"Nitrates, calcium blockers & other antianginal drugs",1039.206
+Northern Ireland,2007,"Nitrates, calcium blockers & other antianginal drugs",1079.605
+Northern Ireland,2008,"Nitrates, calcium blockers & other antianginal drugs",1088.539
+Northern Ireland,2009,"Nitrates, calcium blockers & other antianginal drugs",1097.418
+Northern Ireland,2010,"Nitrates, calcium blockers & other antianginal drugs",1124.058
+Northern Ireland,2011,"Nitrates, calcium blockers & other antianginal drugs",1154.144
+Northern Ireland,2012,"Nitrates, calcium blockers & other antianginal drugs",1187.657
+Northern Ireland,2013,"Nitrates, calcium blockers & other antianginal drugs",1218
+Northern Ireland,2014,"Nitrates, calcium blockers & other antianginal drugs",1234
+Northern Ireland,2015,"Nitrates, calcium blockers & other antianginal drugs",1255
+Northern Ireland,2016,"Nitrates, calcium blockers & other antianginal drugs",1285.802
+Northern Ireland,2017,"Nitrates, calcium blockers & other antianginal drugs",1304.221
+Northern Ireland,2018,"Nitrates, calcium blockers & other antianginal drugs",1339.715
+Northern Ireland,2019,"Nitrates, calcium blockers & other antianginal drugs",1386.919
+Scotland,2006,"Nitrates, calcium blockers & other antianginal drugs",3625.076
+Scotland,2007,"Nitrates, calcium blockers & other antianginal drugs",3665.736
+Scotland,2008,"Nitrates, calcium blockers & other antianginal drugs",3682.578
+Scotland,2009,"Nitrates, calcium blockers & other antianginal drugs",3713.966
+Scotland,2010,"Nitrates, calcium blockers & other antianginal drugs",3697.113
+Scotland,2011,"Nitrates, calcium blockers & other antianginal drugs",3699
+Scotland,2012,"Nitrates, calcium blockers & other antianginal drugs",3716.242
+Scotland,2013,"Nitrates, calcium blockers & other antianginal drugs",3735.012
+Scotland,2014,"Nitrates, calcium blockers & other antianginal drugs",3738
+Scotland,2015,"Nitrates, calcium blockers & other antianginal drugs",3750
+Scotland,2016,"Nitrates, calcium blockers & other antianginal drugs",3739.853
+Scotland,2017,"Nitrates, calcium blockers & other antianginal drugs",3721.904
+Scotland,2018,"Nitrates, calcium blockers & other antianginal drugs",3718.49
+Scotland,2019,"Nitrates, calcium blockers & other antianginal drugs",3842.146
+England,2006,Anticoagulants and protamine,6789.847999999999
+England,2007,Anticoagulants and protamine,7308.81
+England,2008,Anticoagulants and protamine,7991.2
+England,2009,Anticoagulants and protamine,8546
+England,2010,Anticoagulants and protamine,9157
+England,2011,Anticoagulants and protamine,9773
+England,2012,Anticoagulants and protamine,10723
+England,2013,Anticoagulants and protamine,11905.515000000001
+England,2014,Anticoagulants and protamine,13173
+England,2015,Anticoagulants and protamine,14647
+England,2016,Anticoagulants and protamine,15937.792000000001
+England,2017,Anticoagulants and protamine,16999.802
+England,2018,Anticoagulants and protamine,17991.505199999996
+England,2019,Anticoagulants and protamine,18871.027
+Wales,2006,Anticoagulants and protamine,611.722
+Wales,2007,Anticoagulants and protamine,649.778
+Wales,2008,Anticoagulants and protamine,689.277
+Wales,2009,Anticoagulants and protamine,722.675
+Wales,2010,Anticoagulants and protamine,764.047
+Wales,2011,Anticoagulants and protamine,808.113
+Wales,2012,Anticoagulants and protamine,873.615
+Wales,2013,Anticoagulants and protamine,944
+Wales,2014,Anticoagulants and protamine,1030
+Wales,2015,Anticoagulants and protamine,1125
+Wales,2016,Anticoagulants and protamine,1195.859
+Wales,2017,Anticoagulants and protamine,1240.752
+Wales,2018,Anticoagulants and protamine,1290.786
+Wales,2019,Anticoagulants and protamine,1351.539
+Northern Ireland,2006,Anticoagulants and protamine,193.876
+Northern Ireland,2007,Anticoagulants and protamine,207.31
+Northern Ireland,2008,Anticoagulants and protamine,220.112
+Northern Ireland,2009,Anticoagulants and protamine,232.986
+Northern Ireland,2010,Anticoagulants and protamine,249.446
+Northern Ireland,2011,Anticoagulants and protamine,273.633
+Northern Ireland,2012,Anticoagulants and protamine,299.842
+Northern Ireland,2013,Anticoagulants and protamine,334
+Northern Ireland,2014,Anticoagulants and protamine,366
+Northern Ireland,2015,Anticoagulants and protamine,394
+Northern Ireland,2016,Anticoagulants and protamine,427.199
+Northern Ireland,2017,Anticoagulants and protamine,453.89
+Northern Ireland,2018,Anticoagulants and protamine,477.363
+Northern Ireland,2019,Anticoagulants and protamine,502.002
+Scotland,2006,Anticoagulants and protamine,645.58
+Scotland,2007,Anticoagulants and protamine,676.259
+Scotland,2008,Anticoagulants and protamine,706.604
+Scotland,2009,Anticoagulants and protamine,743.13
+Scotland,2010,Anticoagulants and protamine,773.285
+Scotland,2011,Anticoagulants and protamine,819
+Scotland,2012,Anticoagulants and protamine,883.857
+Scotland,2013,Anticoagulants and protamine,957.977
+Scotland,2014,Anticoagulants and protamine,1035
+Scotland,2015,Anticoagulants and protamine,1108
+Scotland,2016,Anticoagulants and protamine,1158.588
+Scotland,2017,Anticoagulants and protamine,1197.471
+Scotland,2018,Anticoagulants and protamine,1230.845
+Scotland,2019,Anticoagulants and protamine,1290.025
+England,2006,Antiplatelet drugs,32778.904
+England,2007,Antiplatelet drugs,35382.419
+England,2008,Antiplatelet drugs,38124
+England,2009,Antiplatelet drugs,39107
+England,2010,Antiplatelet drugs,38182
+England,2011,Antiplatelet drugs,38351
+England,2012,Antiplatelet drugs,38603
+England,2013,Antiplatelet drugs,38661.309
+England,2014,Antiplatelet drugs,38444
+England,2015,Antiplatelet drugs,37312
+England,2016,Antiplatelet drugs,36297.18200000001
+England,2017,Antiplatelet drugs,35082.373
+England,2018,Antiplatelet drugs,34139.8431
+England,2019,Antiplatelet drugs,33346.371
+Wales,2006,Antiplatelet drugs,2716.355
+Wales,2007,Antiplatelet drugs,2846.16
+Wales,2008,Antiplatelet drugs,3010.893
+Wales,2009,Antiplatelet drugs,3045.419
+Wales,2010,Antiplatelet drugs,2933.186
+Wales,2011,Antiplatelet drugs,2904.815
+Wales,2012,Antiplatelet drugs,2889.62
+Wales,2013,Antiplatelet drugs,2860
+Wales,2014,Antiplatelet drugs,2816
+Wales,2015,Antiplatelet drugs,2696
+Wales,2016,Antiplatelet drugs,2587.18
+Wales,2017,Antiplatelet drugs,2481.023
+Wales,2018,Antiplatelet drugs,2353.51
+Wales,2019,Antiplatelet drugs,2311.886
+Northern Ireland,2006,Antiplatelet drugs,1025.835
+Northern Ireland,2007,Antiplatelet drugs,1095.047
+Northern Ireland,2008,Antiplatelet drugs,1151.082
+Northern Ireland,2009,Antiplatelet drugs,1177.36
+Northern Ireland,2010,Antiplatelet drugs,1191.816
+Northern Ireland,2011,Antiplatelet drugs,1222.804
+Northern Ireland,2012,Antiplatelet drugs,1239.085
+Northern Ireland,2013,Antiplatelet drugs,1239
+Northern Ireland,2014,Antiplatelet drugs,1229
+Northern Ireland,2015,Antiplatelet drugs,1202
+Northern Ireland,2016,Antiplatelet drugs,1179.272
+Northern Ireland,2017,Antiplatelet drugs,1152.903
+Northern Ireland,2018,Antiplatelet drugs,1136.982
+Northern Ireland,2019,Antiplatelet drugs,1123.805
+Scotland,2006,Antiplatelet drugs,3545.434
+Scotland,2007,Antiplatelet drugs,3651.941
+Scotland,2008,Antiplatelet drugs,3743.41
+Scotland,2009,Antiplatelet drugs,3723.682
+Scotland,2010,Antiplatelet drugs,3576.505
+Scotland,2011,Antiplatelet drugs,3506
+Scotland,2012,Antiplatelet drugs,3404.272
+Scotland,2013,Antiplatelet drugs,3295.404
+Scotland,2014,Antiplatelet drugs,3218
+Scotland,2015,Antiplatelet drugs,3108
+Scotland,2016,Antiplatelet drugs,3029.794
+Scotland,2017,Antiplatelet drugs,2926.06
+Scotland,2018,Antiplatelet drugs,2845.276
+Scotland,2019,Antiplatelet drugs,2847.336
+England,2006,Anti-fibrinolytic drugs and haemostatics,326.826
+England,2007,Anti-fibrinolytic drugs and haemostatics,352.323
+England,2008,Anti-fibrinolytic drugs and haemostatics,357.6
+England,2009,Anti-fibrinolytic drugs and haemostatics,363
+England,2010,Anti-fibrinolytic drugs and haemostatics,373
+England,2011,Anti-fibrinolytic drugs and haemostatics,392
+England,2012,Anti-fibrinolytic drugs and haemostatics,396
+England,2013,Anti-fibrinolytic drugs and haemostatics,392.9549999999999
+England,2014,Anti-fibrinolytic drugs and haemostatics,408
+England,2015,Anti-fibrinolytic drugs and haemostatics,416
+England,2016,Anti-fibrinolytic drugs and haemostatics,408.86499999999995
+England,2017,Anti-fibrinolytic drugs and haemostatics,402.151
+England,2018,Anti-fibrinolytic drugs and haemostatics,414.195
+England,2019,Anti-fibrinolytic drugs and haemostatics,437.662
+Wales,2006,Anti-fibrinolytic drugs and haemostatics,24.439
+Wales,2007,Anti-fibrinolytic drugs and haemostatics,28.235
+Wales,2008,Anti-fibrinolytic drugs and haemostatics,29.875
+Wales,2009,Anti-fibrinolytic drugs and haemostatics,30.087
+Wales,2010,Anti-fibrinolytic drugs and haemostatics,30.727
+Wales,2011,Anti-fibrinolytic drugs and haemostatics,33.06
+Wales,2012,Anti-fibrinolytic drugs and haemostatics,33.54
+Wales,2013,Anti-fibrinolytic drugs and haemostatics,33
+Wales,2014,Anti-fibrinolytic drugs and haemostatics,34
+Wales,2015,Anti-fibrinolytic drugs and haemostatics,34
+Wales,2016,Anti-fibrinolytic drugs and haemostatics,33.293
+Wales,2017,Anti-fibrinolytic drugs and haemostatics,33.077
+Wales,2018,Anti-fibrinolytic drugs and haemostatics,32.967
+Wales,2019,Anti-fibrinolytic drugs and haemostatics,34.02
+Northern Ireland,2006,Anti-fibrinolytic drugs and haemostatics,12.183
+Northern Ireland,2007,Anti-fibrinolytic drugs and haemostatics,13.187
+Northern Ireland,2008,Anti-fibrinolytic drugs and haemostatics,12.986
+Northern Ireland,2009,Anti-fibrinolytic drugs and haemostatics,13.548
+Northern Ireland,2010,Anti-fibrinolytic drugs and haemostatics,14.422
+Northern Ireland,2011,Anti-fibrinolytic drugs and haemostatics,15.556
+Northern Ireland,2012,Anti-fibrinolytic drugs and haemostatics,16.553
+Northern Ireland,2013,Anti-fibrinolytic drugs and haemostatics,16
+Northern Ireland,2014,Anti-fibrinolytic drugs and haemostatics,16
+Northern Ireland,2015,Anti-fibrinolytic drugs and haemostatics,16
+Northern Ireland,2016,Anti-fibrinolytic drugs and haemostatics,16.025
+Northern Ireland,2017,Anti-fibrinolytic drugs and haemostatics,16.139
+Northern Ireland,2018,Anti-fibrinolytic drugs and haemostatics,17.089
+Northern Ireland,2019,Anti-fibrinolytic drugs and haemostatics,18.283
+Scotland,2006,Anti-fibrinolytic drugs and haemostatics,37.877
+Scotland,2007,Anti-fibrinolytic drugs and haemostatics,39.454
+Scotland,2008,Anti-fibrinolytic drugs and haemostatics,41.098
+Scotland,2009,Anti-fibrinolytic drugs and haemostatics,42.139
+Scotland,2010,Anti-fibrinolytic drugs and haemostatics,42.762
+Scotland,2011,Anti-fibrinolytic drugs and haemostatics,44
+Scotland,2012,Anti-fibrinolytic drugs and haemostatics,46.67
+Scotland,2013,Anti-fibrinolytic drugs and haemostatics,46.818
+Scotland,2014,Anti-fibrinolytic drugs and haemostatics,47
+Scotland,2015,Anti-fibrinolytic drugs and haemostatics,48
+Scotland,2016,Anti-fibrinolytic drugs and haemostatics,47.472
+Scotland,2017,Anti-fibrinolytic drugs and haemostatics,46.803
+Scotland,2018,Anti-fibrinolytic drugs and haemostatics,48.692
+Scotland,2019,Anti-fibrinolytic drugs and haemostatics,51.027
+England,2006,Lipid-lowering drugs,42097.751
+England,2007,Lipid-lowering drugs,47411.666
+England,2008,Lipid-lowering drugs,52189.5
+England,2009,Lipid-lowering drugs,56452
+England,2010,Lipid-lowering drugs,59550
+England,2011,Lipid-lowering drugs,61649
+England,2012,Lipid-lowering drugs,64399
+England,2013,Lipid-lowering drugs,66795.43699999999
+England,2014,Lipid-lowering drugs,68437
+England,2015,Lipid-lowering drugs,69731
+England,2016,Lipid-lowering drugs,70957.11099999999
+England,2017,Lipid-lowering drugs,72612.423
+England,2018,Lipid-lowering drugs,74289.246
+England,2019,Lipid-lowering drugs,76044.298
+Wales,2006,Lipid-lowering drugs,3626.038
+Wales,2007,Lipid-lowering drugs,3984.704
+Wales,2008,Lipid-lowering drugs,4297.272
+Wales,2009,Lipid-lowering drugs,4561.957
+Wales,2010,Lipid-lowering drugs,4693.213
+Wales,2011,Lipid-lowering drugs,4787.763
+Wales,2012,Lipid-lowering drugs,4955.99
+Wales,2013,Lipid-lowering drugs,5076
+Wales,2014,Lipid-lowering drugs,5150
+Wales,2015,Lipid-lowering drugs,5129
+Wales,2016,Lipid-lowering drugs,5112.39
+Wales,2017,Lipid-lowering drugs,5140.285
+Wales,2018,Lipid-lowering drugs,5158.818
+Wales,2019,Lipid-lowering drugs,5306.25
+Northern Ireland,2006,Lipid-lowering drugs,1227.005
+Northern Ireland,2007,Lipid-lowering drugs,1393.151
+Northern Ireland,2008,Lipid-lowering drugs,1533.576
+Northern Ireland,2009,Lipid-lowering drugs,1652.093
+Northern Ireland,2010,Lipid-lowering drugs,1761.303
+Northern Ireland,2011,Lipid-lowering drugs,1837.652
+Northern Ireland,2012,Lipid-lowering drugs,1900.886
+Northern Ireland,2013,Lipid-lowering drugs,1954
+Northern Ireland,2014,Lipid-lowering drugs,1988
+Northern Ireland,2015,Lipid-lowering drugs,2035
+Northern Ireland,2016,Lipid-lowering drugs,2083.123
+Northern Ireland,2017,Lipid-lowering drugs,2130.435
+Northern Ireland,2018,Lipid-lowering drugs,2179.828
+Northern Ireland,2019,Lipid-lowering drugs,2237.168
+Scotland,2006,Lipid-lowering drugs,4080.935
+Scotland,2007,Lipid-lowering drugs,4376.477
+Scotland,2008,Lipid-lowering drugs,4623.578
+Scotland,2009,Lipid-lowering drugs,4826.463
+Scotland,2010,Lipid-lowering drugs,4874.704
+Scotland,2011,Lipid-lowering drugs,4861
+Scotland,2012,Lipid-lowering drugs,4906.524
+Scotland,2013,Lipid-lowering drugs,4976.701
+Scotland,2014,Lipid-lowering drugs,5024
+Scotland,2015,Lipid-lowering drugs,5002
+Scotland,2016,Lipid-lowering drugs,4988.695
+Scotland,2017,Lipid-lowering drugs,5003.1
+Scotland,2018,Lipid-lowering drugs,5008.695
+Scotland,2019,Lipid-lowering drugs,5172.515

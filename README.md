@@ -44,8 +44,8 @@ python app.py
 8) test_questions.txt - A text file that contains a list of example questions that can be used to test the chatbot
 
 ## Copyright & Licensing Information
-1) HeartBOT’s source code is licensed under GNU General Public License v3.0
-2) GNU GPLv3 - https://www.gnu.org/licenses/gpl-3.0.en.html
+1) HeartBOT’s source code is licensed under Creative Commons Attribution-NonCommercial 4.0 International License.
+2) Link to license: https://creativecommons.org/licenses/by-nc/4.0/
 3) See projects legal statement for further information
 
 ## Contact Information

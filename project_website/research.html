@@ -77,34 +77,90 @@
 
             <!-- Related Projects Review -->
             <section class="page-section bg-light" id="start">
-                <div class="container">
+                <div class="container" style="width: 80%;">
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">Related Projects Review</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quae eos suscipit asperiores dolorem nostrum. Assumenda, ex similique. Fugiat maiores illum repudiandae quo aliquam ullam deserunt aperiam exercitationem? Vel, quos.</p>
+                        <div class="container text-start">
+                            <p>
+                                <b>Project Name: </b>AvaBot for Avanade
+                            </p>
+                            <p>
+                                <b>Main Features: </b>image processing (featured for common designs like business cards), 
+                                document analysis (extracts and summarizes key information), answers FAQs about policies and regulations
+                            </p>
+                            <p>
+                                <b>What could we learn from this application?: </b>The biggest selling point of AvaBot 
+                                is its simplicity and user-friendliness. It is a sophisticated and extremely functional 
+                                application, yet it is made easy to utilise even for users with little technical 
+                                experience and knowledge. Furthermore, AvaBot is deployed using AzureCloud, which allows 
+                                it to be easily integrated into web-chat applications like Microsoft Teams, Skype, etc. 
+                                The chatbot also stands out with a comprehensive testing suite that is composed of 
+                                advanced, yet flexible software engineering tools like Mocha and Chai, which allow for 
+                                extensive unit testing, and the generation of coverage reports.
+                            </p>
+                            <p>
+                                <b>Website Link: </b>https://students.cs.ucl.ac.uk/2020/group8/index.html
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Project Research & Tech Review -->
             <section class="page-section" id="tech_rev">
-                <div class="container">
+                <div class="container" style="width: 80%;">
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">Project Research & Technology Review</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quae eos suscipit asperiores dolorem nostrum. Assumenda, ex similique. Fugiat maiores illum repudiandae quo aliquam ullam deserunt aperiam exercitationem? Vel, quos.</p>
+                        <div class="container text-start">
+                            <p>
+                                <b>Possible solutions, what we chose, and why?: </b>For our project, we had to choose from an array of 
+                                different implementation options, as there exist three main types of chatbots, namely: rule-based, machine 
+                                learning, and hybrid [4]. We settled for a task-based (rule-based) solution that utilizes natural language 
+                                processing to extract the key information from a user's query and answer it appropriately. It does that by 
+                                either recognizing the question as an FAQ or by utilizing its data retrieval and filtering capabilities. 
+                                HeartBot is straightforward as it allows researchers and policy-makers to cherry-pick information from the 
+                                BHF compendium, which saves them a lot of time and effort. We chose that solution because it is much easier 
+                                to maintain than Machine learning alternatives, which require a bigger investment in both money and time [5]. 
+                                Like all other software systems, HearBot has its limitations. That is why we decided to make it future-proof, 
+                                by adding algorithms that allow the client to add more data whenever they need to, thus ensuring HeartBot can 
+                                become 'smarter' on demand. There are also a number of auxiliary functions left in the source code to make the 
+                                project extendable because we recognize that the company's needs may shift in the future, and other developers 
+                                may decide to further our efforts.
+                            </p>
+                            <p>
+                                <b>Possible programming languages, frameworks, APIs, what we chose and why?: </b>To complete the project we explored 
+                                different libraries like AIML in Java, Chatterbot in Python, and web-based alternatives like Botpress and Botkit [3]. 
+                                After extensive research, we realized that Chatterbot comes closest to what we want to achieve, and since Python was 
+                                our mutual language of choice, we set out to write our chatbot code using Chatterbot with the idea to deploy a web 
+                                app in Flask afterward. As the development process went on, however, we soon realized that Chatterbot wasn't a good 
+                                match for our purposes. It was limited to logic adapters that weren't applicable to the data retrieval functionalities 
+                                we needed to implement. Also, the machine learning engine required an enormous amount of dependencies and was running 
+                                only on older versions of Python, which in turn meant that our project is going to become hard to maintain [2]. To fix 
+                                that issue, we adapted our chatbot algorithm to work with a natural language processing toolkit from Python's nltk module. 
+                                Nltk helped us develop the different components of HeartBot and compose a solution that first checks if the user question 
+                                is an FAQ, and if not, creates a pandas query to extract the relevant data from the compendium in a filtered table. The 
+                                query itself is constructed with the help of a python library called fuzzywuzzy, which utilizes the Levenshtein Distance 
+                                to aid string matching [1]. The natural language processing toolkit and fuzzywuzzy were essential to properly categorizing 
+                                user queries, and according to our research, were the only Python libraries that could meet all of the client's needs and 
+                                allow room for future development. Lastly, we deployed our code to a web app using Flask. There is an alternative to Flask 
+                                in Python, called Django, but Flask is much more lightweight and flexible. The learning curve for people who are new to web 
+                                development is steeper in Django, so we settled on Flask because we knew we could utilize more functionalities with fewer 
+                                lines of code [6].
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Technical Decisions -->
             <section class="page-section bg-light" id="tech_dec">
-                <div class="container">
+                <div class="container" style="width: 80%;">
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">Technical Decisions</h2>
-                        <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
                         <!-- Bootstrap Table -->
                         <table class="table table-sm table-hover table-bordered caption-top border-dark">
                             <!-- Caption for the table -->
-                            <caption>Info about the table</caption>
+                            <caption>Summary of our techinal decisions</caption>
                             <thead>
                             <tr>
                                 <!-- Column names of the table -->
@@ -115,18 +171,28 @@
                             <tbody>
                             <tr>
                                 <!-- Row 1 values -->
-                                <th scope="row">1</th>
-                                <td>a</td>
+                                <th scope="row">Languages</th>
+                                <td>Python, JavaScript, HTML, CSS</td>
                             </tr>
                             <tr>
                                 <!-- Row 2 values -->
-                                <th scope="row">2</th>
-                                <td>a</td>
+                                <th scope="row">Natural Language Processing Toolkit</th>
+                                <td>nltk</td>
                             </tr>
                             <tr>
                                 <!-- Row 3 values -->
-                                <th scope="row">3</th>
-                                <td>a</td>
+                                <th scope="row">String Matching</th>
+                                <td>fuzzywuzzy</td>
+                            </tr>
+                            <tr>
+                                <!-- Row 4 values -->
+                                <th scope="row">Data Analysis & Manipulation Toolkit</th>
+                                <td>pandas</td>
+                            </tr>
+                            <tr>
+                                <!-- Row 5 values -->
+                                <th scope="row">WebApp Framework</th>
+                                <td>Flask</td>
                             </tr>
                             </tbody>
                         </table>
@@ -136,10 +202,29 @@
 
             <!-- References -->
             <section class="page-section" id="ref">
-            <div class="container">
+            <div class="container" style="width: 80%;">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">References</h2>
-                    <p class="text-center p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sed quia laudantium quisquam porro ab mollitia doloremque illo, officiis quidem nisi perspiciatis iure nesciunt sunt earum. Obcaecati nam minus deserunt?</p>
+                    <div class="container text-start">
+                        <p>
+                            [1] Cohen, A., 2022. fuzzywuzzy. [online] PyPI. Available at: <https://pypi.org/project/fuzzywuzzy/> [Accessed 8 March 2022]. 
+                        </p>
+                        <p>
+                            [2]	Cox, G., 2022. About ChatterBot — ChatterBot 1.0.8 documentation. [online] Chatterbot.readthedocs.io. Available at: <https://chatterbot.readthedocs.io/en/stable/> [Accessed 8 March 2022]. 
+                        </p>
+                        <p>
+                            [3]	Patel, R., 2022. 10 Best AI Chatbot Development Frameworks [Pros + Cons + Integration +Pricing].[online]Space.Available At: <https://www.spaceo.ca/blog/top-ai-chatbot-frameworks/> [Accessed 8 March 2022]. 
+                        </p>
+                        <p>
+                            [4]	Team, F., 2022. 3 Types of chatbots you wish you knew sooner | Freshworks. [online]Freshworks.com.Available At: <https://www.freshworks.com/live-chat-software/chatbots/three-types-of-chatbots/> [Accessed 8 March 2022]. 
+                        </p>
+                        <p>
+                            [5]	Morozova, A., 2022. The cost of chatbot development — Jasoren. [online] Jasoren.com. Available at:<https://jasoren.com/from-diy-to-deep-learning-5-types-of-chatbots-and-how-much-will-it-cost-to-develop-them/> [Accessed 8 March 2022]. 
+                        </p>
+                        <p>
+                            [6]	Singh, V., 2022. Flask vs Django in 2022: Which Framework to Choose?. [online] Hackr.io. Available at: <https://hackr.io/blog/flask-vs-django> [Accessed 8 March 2022]. 
+                        </p>
+                    </div>
                 </div>
             </div>
             </section>

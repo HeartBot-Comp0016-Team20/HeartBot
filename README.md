@@ -52,7 +52,14 @@ python app.py
 UCL - COMP0016 Team 20
 
 ## Known Bugs
-There are currently no known bugs
+A data retrieval question may get mapped to an FAQ, if it is of the same string length
+
+Bug Description: This would happen when a user presents a question that is too vague, 
+doesn’t contain enough keywords to get recognized as a data-retrieval question,
+and has a lot of similar words to a question from the FAQ database. In practice, 
+this is highly unlikely to happen because FAQs contain few keywords that are similar 
+to row/column names from the BHF compendium. Furthermore, users of the app are knowledgeable
+of the compendium and are going to ask targeted specific questions.
 
 ## Troubleshooting Instructions
 1) Sometimes you may need to use ```python3``` instead of ```python```

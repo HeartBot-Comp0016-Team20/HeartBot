@@ -46,14 +46,27 @@ Portfolio Website:
         https://icons.getbootstrap.com/icons/file-earmark-text/
         https://icons.getbootstrap.com/icons/card-checklist/
         https://icons.getbootstrap.com/icons/camera-video/
+        https://icons.getbootstrap.com/icons/lock/
 
     Images Used:
-        https://www.clipartmax.com/max/m2i8b1N4Z5A0A0A0/
-        Background image used for intro video section - background1.jpg - Picture from Microsoft Powerpoint Design Ideas
-        Background image used for intro video section - background2.png - https://media.istockphoto.com/photos/red-felt-plush-carpet-or-velvet-background-picture-id155144417?b=1&k=20&m=155144417&s=170667a&w=0&h=L2OgczceuXHyi1ZGNgh-JgYd8GlZKRHqfu1jQ0U57lM=
-        bhf.png - 2021. BHF logo. [image] Available at: <https://www.dpag.ox.ac.uk/images/logos/bhf-logo/view> [Accessed 6 November 2021].
+        Preloader Image - load.png - https://www.clipartmax.com/max/m2i8b1N4Z5A0A0A0/
+        background1.jpg - Picture from Microsoft Powerpoint Design Ideas
+        background2.png - https://media.istockphoto.com/photos/red-felt-plush-carpet-or-velvet-background-picture-id155144417?b=1&k=20&m=155144417&s=170667a&w=0&h=L2OgczceuXHyi1ZGNgh-JgYd8GlZKRHqfu1jQ0U57lM=
+        bhf.png - https://www.dpag.ox.ac.uk/images/logos/bhf-logo/view
         ucl.jpeg - https://www.ucl.ac.uk/academic-manual/sites/academic_manual/files/chapter-1-button.jpg
         red-hearbeat.png - https://clipart.world/wp-content/uploads/2020/08/red-heartbeat-line-transparent.png
+        pandas.png - https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png
+        nltk.png - https://miro.medium.com/max/592/0*zKRz1UgqpOZ4bvuA
+        fuzzywuzzy.png - https://miro.medium.com/max/1024/0*BIyEP9t5_sn9aXVI.png
+        flask.png - https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png
+        test_scope.png - https://www.qable.io/wp-content/uploads/2020/12/What-is-the-scope-of-software-testing_.png
+        test_method.png - https://www.inflectra.com/GraphicsViewer.aspx?url=~/Ideas/Topics/Testing-Methodologies.doc&name=wordml://0300000B.png
+        goal.png - https://projectriskcoach.com/wp-content/uploads/2014/07/bulls_eye_target_400_clr_1502.png
+        avanade.png - https://images.squarespace-cdn.com/content/v1/56e2e0c520c6472a2586add2/1556705914676-11R0E6USQG3E6EXEXV4Z/avanade-137812.png
+
+    Documentation:
+        EULA Generator - https://www.termsfeed.com/eula-generator/
+        GDPR Generator - https://www.gdprprivacynotice.com/
 
 Libraries: 
     Flask==2.0.3

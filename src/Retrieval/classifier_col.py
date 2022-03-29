@@ -1,3 +1,5 @@
+#COMP0016-Team20-Ivan Varbanov, Neil Badal, Maheem Imran
+
 from collections import defaultdict
 from fuzzywuzzy import process
 from nltk.corpus import wordnet

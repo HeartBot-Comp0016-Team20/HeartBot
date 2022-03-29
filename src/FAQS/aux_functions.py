@@ -1,3 +1,5 @@
+#COMP0016-Team20-Ivan Varbanov, Neil Badal, Maheem Imran
+
 # Take the list of FAQs provided by the BHF and create question-answer pairs
 def append_data (pairs, filename='FAQS/FAQs.txt'):
     with open(filename) as f:

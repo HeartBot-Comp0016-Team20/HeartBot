@@ -1,3 +1,5 @@
+#COMP0016-Team20-Ivan Varbanov, Neil Badal, Maheem Imran
+
 import nltk as N
 from nltk.corpus import stopwords
 import re
